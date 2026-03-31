@@ -1,7 +1,7 @@
 :root {
-    --vermelho-emergencia: #C8102E;
-    --verde-sucesso: #1F6D2C;
-    --fundo: #f4f6f8;
+    --cor-iftm-vermelho: #C8102E;
+    --cor-iftm-verde: #1F6D2C;
+    --fundo: #eef2f5;
     --texto: #333333;
 }
 
@@ -19,17 +19,34 @@ body {
 .app-container {
     background: white;
     width: 100%;
-    max-width: 500px;
+    max-width: 500px; 
     border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
     padding: 30px 20px;
     text-align: center;
     box-sizing: border-box;
 }
 
+.banner-cabecalho {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; 
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
 .app-container h1 {
-    color: var(--vermelho-emergencia);
-    margin-top: 0;
+    color: var(--cor-iftm-vermelho);
+    margin-top: 10px;
+    font-size: 1.6em;
+}
+
+.app-container p {
+    color: #555;
+    font-size: 1.05em;
+    line-height: 1.5;
 }
 
 .menu-grid {
@@ -47,16 +64,24 @@ body {
     background-color: white;
     color: var(--texto);
     text-decoration: none;
-    padding: 15px;
-    border: 2px solid #ddd;
+    padding: 16px;
+    border: 2px solid #e0e0e0;
     border-radius: 8px;
     font-size: 1.1em;
     font-weight: bold;
     transition: all 0.3s ease;
 }
 
-.btn-menu:hover {
-    border-color: var(--vermelho-emergencia);
-    background-color: #fff5f5;
+.btn-menu.btn-estudo:hover {
+    border-color: var(--cor-iftm-verde);
+    background-color: #f2f9f3; 
+    color: var(--cor-iftm-verde);
+    transform: translateY(-2px);
+}
+
+.btn-menu.btn-acao:hover {
+    border-color: var(--cor-iftm-vermelho);
+    background-color: #fdf3f4; 
+    color: var(--cor-iftm-vermelho);
     transform: translateY(-2px);
 }
