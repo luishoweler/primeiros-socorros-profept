@@ -3,30 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primeiros Socorros - ProfEPT</title>
+    <title>Hub Educacional de Primeiros Socorros</title>
     <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
 
     <div class="app-container">
-        <img src="banner.png" alt="Cabeçalho do Projeto ProfEPT IFTM" class="banner-cabecalho">
+        <img src="banner.jpg" alt="Cabeçalho do Projeto ProfEPT IFTM" class="banner-cabecalho">
 
-        <h1>Guia de Primeiros Socorros</h1>
-        <p>Aprenda, simule e teste seus conhecimentos para salvar vidas.</p>
+        <h1>Portal Interativo de Primeiros Socorros</h1>
+        <p>Acesse fundamentos, simule ocorrências e teste suas decisões em emergências.</p>
 
         <div class="menu-grid">
-            <a href="teoria.html" class="btn-menu btn-estudo">📖 Módulo Teórico</a>
+            <a href="teoria.html" class="btn-menu btn-estudo">📖 Fundamentos e Protocolos</a>
             
-            <a href="simulador.html" class="btn-menu btn-acao">🚨 Simulador de Casos</a>
-            <a href="quiz.html" class="btn-menu btn-acao">📝 Teste de Conhecimento</a>
+            <a href="simulador.html" class="btn-menu btn-acao">🚨 Simulador de Ocorrências</a>
+            <a href="quiz.html" class="btn-menu btn-acao">📝 Teste de Conhecimento e Tomada de Decisão</a>
             
-            <a href="referencias.html" class="btn-menu btn-estudo">🔗 Certificações e Links</a>
+            <a href="referencias.html" class="btn-menu btn-estudo">🔗 Links Úteis e Cursos Oficiais</a>
         </div>
         
-        <p style="margin-top: 35px; font-size: 0.85em; color: #888; border-top: 1px solid #eee; padding-top: 15px;">
-            Produto Educacional desenvolvido para o ProfEPT/IFTM por Luis Fernando Howeler. Orientador: Prof. Dr. Geraldo Gonçalves de Lima.
-        </p>
+        <div style="margin-top: 35px; font-size: 0.85em; color: #888; border-top: 1px solid #eee; padding-top: 15px; line-height: 1.6;">
+            <strong>&copy; <span id="ano-atual"></span> Instituto Federal do Triângulo Mineiro (IFTM).</strong><br>
+            Produto Educacional desenvolvido para o ProfEPT por <strong>Luis Fernando Howeler</strong>.<br>
+            Orientador: <strong>Prof. Dr. Geraldo Gonçalves de Lima</strong>.
+        </div>
     </div>
+
+    <script>
+        document.getElementById('ano-atual').textContent = new Date().getFullYear();
+    </script>
 
 </body>
 </html>
