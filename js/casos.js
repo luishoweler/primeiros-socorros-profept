@@ -15580,5 +15580,5032 @@ id: "cenario_16",
         ]
       }
     ]
+  },
+  {
+    "id": "cenario_81",
+    "titulo": "Mal Súbito na Praça de Alimentação",
+    "tag_visual_cenario": "cenario_publico_fechado",
+    "descricao_inicial": "Você está almoçando em um shopping movimentado. Subitamente, um homem na mesa ao lado emite um gemido gutural, cai da cadeira para o chão e começa a se debater violentamente. Seus olhos estão virados para cima e há contrações musculares por todo o corpo.",
+    "etapas": [
+      {
+        "id": "etapa_1",
+        "pergunta": "Qual é a sua primeira ação ao se aproximar do homem no chão?",
+        "tag_visual_detalhe": "estado_espasmo_muscular",
+        "opcoes": [
+          {
+            "id": "A",
+            "texto": "Segurar firmemente os braços e pernas dele para evitar que os tremores piorem a condição do cérebro.",
+            "correta": false,
+            "feedback": "Conter os movimentos de uma vítima em convulsão pode causar fraturas ósseas graves e lesões articulares."
+          },
+          {
+            "id": "B",
+            "texto": "Jogar um copo de água fria no rosto dele para que o susto interrompa o curto-circuito neurológico.",
+            "correta": false,
+            "feedback": "Água não interrompe convulsões e gera alto risco de aspiração (afogamento) enquanto a vítima respira de forma irregular."
+          },
+          {
+            "id": "C",
+            "texto": "Afastar as cadeiras, mesas e objetos perigosos de perto dele para criar um perímetro de segurança.",
+            "correta": true,
+            "feedback": "Perfeito. O foco inicial é evitar o trauma secundário. Ao afastar objetos, você garante que ele não se machuque durante os espasmos."
+          },
+          {
+            "id": "D",
+            "texto": "Fazer compressões torácicas no ritmo da convulsão para manter o fluxo de sangue para a cabeça.",
+            "correta": false,
+            "feedback": "Ele não está em Parada Cardiorrespiratória. Fazer RCP em alguém que está respirando e se debatendo causará lesões no tórax."
+          }
+        ]
+      },
+      {
+        "id": "etapa_2",
+        "pergunta": "Você afastou as cadeiras, mas nota que a cabeça dele está batendo com força no piso frio. Como você protege a cabeça dele na prática?",
+        "tag_visual_detalhe": "acao_controle_cena",
+        "opcoes": [
+          {
+            "id": "A",
+            "texto": "Levanto a cabeça dele do chão e a apoio no meu colo, segurando-a firmemente com as duas mãos.",
+            "correta": false,
+            "feedback": "Segurar a cabeça com firmeza restringe o movimento e pode causar lesão na coluna cervical durante as fortes contrações."
+          },
+          {
+            "id": "B",
+            "texto": "Dobro meu casaco ou pego uma almofada e coloco suavemente embaixo da cabeça dele, sem imobilizar.",
+            "correta": true,
+            "feedback": "Correto! Um anteparo macio amortece os impactos no chão sem restringir os espasmos, protegendo o crânio contra traumatismos."
+          },
+          {
+            "id": "C",
+            "texto": "Peço para alguém pisar na ponta dos cabelos dele para manter a cabeça esticada e colada ao chão.",
+            "correta": false,
+            "feedback": "Ação absurda e lesiva. Pode arrancar o cabelo e lesionar o pescoço da vítima."
+          },
+          {
+            "id": "D",
+            "texto": "Coloco minhas duas mãos abertas embaixo da cabeça dele para que ele bata nas minhas palmas.",
+            "correta": false,
+            "feedback": "Isso machucará gravemente suas mãos e pulsos com a força das batidas repetidas."
+          }
+        ]
+      },
+      {
+        "id": "etapa_3",
+        "pergunta": "Um segurança do shopping se desespera, saca uma caneta do bolso e grita: 'A língua dele vai enrolar! Preciso colocar isso na boca dele!'. Como você reage?",
+        "tag_visual_detalhe": "risco_interferencia_terceiros",
+        "opcoes": [
+          {
+            "id": "A",
+            "texto": "Ajudo o segurança a abrir a mandíbula da vítima à força para colocar a caneta.",
+            "correta": false,
+            "feedback": "Forçar a abertura da boca quebrará os dentes da vítima e a caneta pode ser engolida, causando asfixia letal."
+          },
+          {
+            "id": "B",
+            "texto": "Bloqueio a ação do segurança, explico que a língua não enrola e peço que ele ligue para o 192.",
+            "correta": true,
+            "feedback": "Exatamente! O mito de 'enrolar a língua' causa lesões frequentes. Redirecionar a energia do segurança para acionar o SAMU salva a vítima de lesões iatrogênicas."
+          },
+          {
+            "id": "C",
+            "texto": "Digo para o segurança usar os próprios dedos ao invés da caneta, pois é mais macio.",
+            "correta": false,
+            "feedback": "O segurança terá os dedos amputados ou gravemente dilacerados pela força da mandíbula em espasmo."
+          },
+          {
+            "id": "D",
+            "texto": "Ignoro o segurança, pois cada um deve tentar ajudar da forma que achar melhor na emergência.",
+            "correta": false,
+            "feedback": "A omissão permite que um terceiro cause dano irreversível (obstrução de via aérea ou quebra de dentes) ao paciente."
+          }
+        ]
+      },
+      {
+        "id": "etapa_4",
+        "pergunta": "Após cerca de 2 minutos, os tremores cessam completamente. O homem fica mole e de olhos fechados. Como você verifica se ele está respirando (semiótica leiga)?",
+        "tag_visual_detalhe": "estado_recuperacao_consciencia",
+        "opcoes": [
+          {
+            "id": "A",
+            "texto": "Aproximo um espelho da boca e do nariz dele para ver se embaça com a respiração.",
+            "correta": false,
+            "feedback": "Método de filme obsoleto. Custa tempo precioso e falha em ambientes abertos ou com vento."
+          },
+          {
+            "id": "B",
+            "texto": "Procuro a veia do pescoço com o meu polegar para sentir o batimento cardíaco.",
+            "correta": false,
+            "feedback": "Leigos não devem checar pulso. Além disso, o polegar tem pulsação própria e você sentirá seu próprio batimento."
+          },
+          {
+            "id": "C",
+            "texto": "Observo o tórax e o abdome dele para ver se estão subindo e descendo de forma regular.",
+            "correta": true,
+            "feedback": "Correto! A inspeção visual do movimento torácico é a forma recomendada pela AHA para leigos avaliarem a respiração de forma rápida."
+          },
+          {
+            "id": "D",
+            "texto": "Levanto os braços dele repetidamente para forçar a entrada de ar nos pulmões.",
+            "correta": false,
+            "feedback": "Isso não avalia a respiração e a manobra de bombear os braços é um mito antigo e ineficaz."
+          }
+        ]
+      },
+      {
+        "id": "etapa_5",
+        "pergunta": "REVIRAVOLTA: O peito dele sobe e desce indicando respiração, mas subitamente ele começa a expelir uma grande quantidade de vômito e saliva espessa. Ele ainda está inconsciente de barriga para cima. O que você faz imediatamente?",
+        "tag_visual_detalhe": "estado_vomito_ativo",
+        "opcoes": [
+          {
+            "id": "A",
+            "texto": "Coloco a mão dentro da boca dele e tento varrer o vômito com os dedos para fora.",
+            "correta": false,
+            "feedback": "Fazer varredura com o dedo empurrará o líquido para os pulmões (aspiração) ou causará mordida reflexa."
+          },
+          {
+            "id": "B",
+            "texto": "Puxo o braço e a perna dele do mesmo lado, rolando o corpo dele em bloco para a lateral (Posição Lateral de Segurança).",
+            "correta": true,
+            "feedback": "Excelente! A Posição Lateral de Segurança (PLS) usa a gravidade para drenar fluidos, evitando a broncoaspiração e a queda da língua para trás."
+          },
+          {
+            "id": "C",
+            "texto": "Sento a vítima no chão e dou tapinhas nas costas para ajudar a desengasgar.",
+            "correta": false,
+            "feedback": "Sentar uma vítima inconsciente fará com que ela desabe, dobrando o pescoço e fechando a via aérea por completo."
+          },
+          {
+            "id": "D",
+            "texto": "Deixo como está, o corpo humano tem reflexos naturais para lidar com o próprio vômito.",
+            "correta": false,
+            "feedback": "Vítimas inconscientes perdem o reflexo de tosse e engolir. O vômito descerá para os pulmões, causando pneumonia química letal."
+          }
+        ]
+      },
+      {
+        "id": "etapa_6",
+        "pergunta": "A equipe do SAMU 192 chega ao local. O paciente está na posição lateral e começando a resmungar confusamente (fase pós-ictal). Como você realiza a transição de cuidados?",
+        "tag_visual_detalhe": "desfecho_chegada_socorro",
+        "opcoes": [
+          {
+            "id": "A",
+            "texto": "Me afasto rapidamente antes que me façam perguntas e vou embora, pois meu dever moral foi cumprido.",
+            "correta": false,
+            "feedback": "O abandono da cena sem repassar o histórico priva a equipe médica de informações cruciais sobre o tempo da crise."
+          },
+          {
+            "id": "B",
+            "texto": "Peço para o médico me dar uma receita de calmante para a vítima antes deles a levarem.",
+            "correta": false,
+            "feedback": "Leigos não solicitam ou administram medicações prescritas para a vítima."
+          },
+          {
+            "id": "C",
+            "texto": "Informo ao socorrista: 'Ele teve uma convulsão de uns 2 minutos, bateu um pouco a cabeça, mas protegi com o casaco. Ele vomitou, então o coloquei de lado. Ele já respira bem'.",
+            "correta": true,
+            "feedback": "Handover perfeito. Você informou o mecanismo, a duração, as condutas preventivas tomadas e o status respiratório. O SAMU assume com segurança."
+          },
+          {
+            "id": "D",
+            "texto": "Insisto para entrar na ambulância com ele, pois como primeiro socorrista a lei me dá esse direito.",
+            "correta": false,
+            "feedback": "Apenas familiares diretos ou responsáveis têm direito a acompanhar (e a critério da equipe). Socorristas leigos não acompanham no transporte."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cenario_82",
+    "titulo": "Queda no Andaime da Obra",
+    "tag_visual_cenario": "cenario_externo_servico",
+    "descricao_inicial": "Caminhando perto de uma construção, você escuta um grito e um estrondo. Um pintor despencou de um andaime a cerca de 3 metros de altura. Ele aterrissou de costas e bateu fortemente a parte de trás da cabeça no cimento áspero da calçada. Ele está imóvel.",
+    "etapas": [
+      {
+        "id": "etapa_1",
+        "pergunta": "Você verifica que a rua é segura e não há mais risco de queda de materiais. Como você avalia o estado de consciência do pintor de forma segura?",
+        "tag_visual_detalhe": "estado_caida_inconsciente",
+        "opcoes": [
+          {
+            "id": "A",
+            "texto": "Agacho, seguro os dois ombros dele e dou fortes solavancos enquanto grito no rosto dele.",
+            "correta": false,
+            "feedback": "Solavancos vigorosos em vítimas de queda (trauma de alta energia) podem seccionar a medula espinhal caso haja fratura cervical."
+          },
+          {
+            "id": "B",
+            "texto": "Ajoelho ao lado da cabeça dele e grito em voz alta batendo palmas fortes, sem tocar no corpo dele.",
+            "correta": true,
+            "feedback": "Correto! O estímulo verbal forte seguido de estímulo tátil leve (sem mover o tronco ou pescoço) é o protocolo do PHTLS para trauma grave."
+          },
+          {
+            "id": "C",
+            "texto": "Levanto a cabeça dele pela nuca para ver os olhos e checar se a pupila reage à luz do sol.",
+            "correta": false,
+            "feedback": "A elevação da nuca flete a coluna cervical, podendo paralisar a vítima do pescoço para baixo irreversivelmente."
+          },
+          {
+            "id": "D",
+            "texto": "Belisco o rosto dele até ele reclamar de dor, para testar a resposta neurológica.",
+            "correta": false,
+            "feedback": "Método desnecessário, causa lesões no tecido e não substitui o chamado verbal padronizado."
+          }
+        ]
+      },
+      {
+        "id": "etapa_2",
+        "pergunta": "Ele não responde ao chamado verbal. Mestre de obras corre na sua direção com um copo d'água e tenta erguer as costas da vítima para fazê-lo beber. Qual a sua postura?",
+        "tag_visual_detalhe": "risco_pratica_incorreta",
+        "opcoes": [
+          {
+            "id": "A",
+            "texto": "Ajudo o mestre a sentar a vítima, pois a água ajuda a recuperar a pressão arterial e despertar o cérebro.",
+            "correta": false,
+            "feedback": "Dar líquidos para pessoa inconsciente causa asfixia imediata. Movê-lo deforma a coluna."
+          },
+          {
+            "id": "B",
+            "texto": "Bato no copo para derrubar a água e mando o mestre de obras ir embora da cena aos gritos.",
+            "correta": false,
+            "feedback": "Violência escala a crise e você perde um potencial ajudante para ligar para a emergência."
+          },
+          {
+            "id": "C",
+            "texto": "Intervenho firmemente segurando os braços do mestre, ordenando: 'Não mova ele! Pode quebrar a coluna! Ligue 193 para os Bombeiros imediatamente!'.",
+            "correta": true,
+            "feedback": "Excelente. Você barrou a iatrogenia (dano causado por terceiro), explicou o risco da coluna de forma compreensível e delegou a ligação ao serviço correto de resgate (193 - Bombeiros)."
+          },
+          {
+            "id": "D",
+            "texto": "Permito que ele jogue um pouco de água apenas no rosto, enquanto eu mesmo o puxo pelas pernas.",
+            "correta": false,
+            "feedback": "Tracionar as pernas desalinhadamente movimenta toda a cadeia da coluna vertebral, agravando lesões medulares."
+          }
+        ]
+      },
+      {
+        "id": "etapa_3",
+        "pergunta": "Você precisa proteger a coluna cervical até o socorro chegar. Como realizar a 'estabilização manual' da cabeça de forma correta (técnica)?",
+        "tag_visual_detalhe": "acao_estabilizacao_cervical",
+        "opcoes": [
+          {
+            "id": "A",
+            "texto": "Ajoelho atrás da cabeça dele, posiciono minhas mãos espalmadas nas laterais da cabeça e do rosto dele, mantendo-a firme na posição em que a encontrei.",
+            "correta": true,
+            "feedback": "Isso mesmo! É a estabilização manual neutra. Mãos como 'conchas' ao lado da cabeça impedem movimentos laterais e flexão, sem forçar o alinhamento e sem puxar."
+          },
+          {
+            "id": "B",
+            "texto": "Puxo a cabeça dele com força na minha direção até o pescoço estalar e ficar bem reto.",
+            "correta": false,
+            "feedback": "Tracionar a coluna sem treinamento e equipamentos agrava compressões e secções de medula."
+          },
+          {
+            "id": "C",
+            "texto": "Cruzo os braços da vítima em formato de X na frente do pescoço dela para formar um colar cervical natural.",
+            "correta": false,
+            "feedback": "Manobra inventada e inútil que pode até obstruir a respiração se os braços pesarem sobre a traqueia."
+          },
+          {
+            "id": "D",
+            "texto": "Enrolo minha própria jaqueta no formato de uma corda e amarro firmemente em volta do pescoço.",
+            "correta": false,
+            "feedback": "Risco absurdo de asfixia mecânica (estrangulamento) e compressão das veias jugulares e artérias carótidas."
+          }
+        ]
+      },
+      {
+        "id": "etapa_4",
+        "pergunta": "O mestre de obras diz que os Bombeiros (193) estão a caminho. Enquanto você segura a cabeça, como você sabe se o pintor ainda está vivo e respirando?",
+        "tag_visual_detalhe": "estado_caida_inconsciente",
+        "opcoes": [
+          {
+            "id": "A",
+            "texto": "Solto a cabeça dele por 10 segundos, coloco meu ouvido no nariz dele e depois volto a segurar a cabeça.",
+            "correta": false,
+            "feedback": "A estabilização manual da cabeça, uma vez iniciada, nunca deve ser interrompida, pois a vítima pode ter um espasmo e mover a coluna."
+          },
+          {
+            "id": "B",
+            "texto": "Mantenho minhas mãos estabilizando a cabeça, fixo meu olhar no peito e barriga dele e observo se há movimento de expansão e retração regular.",
+            "correta": true,
+            "feedback": "Correto! A avaliação respiratória puramente visual no tórax garante a identificação da respiração sem o risco de soltar a restrição de movimento da coluna."
+          },
+          {
+            "id": "C",
+            "texto": "Peço para o mestre de obras colocar um espelho embaixo do nariz da vítima enquanto seguro a cabeça.",
+            "correta": false,
+            "feedback": "Depender de espelhos perde tempo e é um método obsoleto no Atendimento Pré-Hospitalar moderno."
+          },
+          {
+            "id": "D",
+            "texto": "Se ele tem sangue na cabeça, presumo que o coração ainda está batendo, então não preciso checar a respiração.",
+            "correta": false,
+            "feedback": "Sangramento passivo não indica respiração ativa nem coração batendo adequadamente."
+          }
+        ]
+      },
+      {
+        "id": "etapa_5",
+        "pergunta": "O tórax sobe e desce, confirmando que respira. Mas você percebe sangue escorrendo pela orelha direita do pintor, o que sugere um Trauma Craniano grave. O que fazer?",
+        "tag_visual_detalhe": "estado_hemorragia_ativa",
+        "opcoes": [
+          {
+            "id": "A",
+            "texto": "Enfio um chumaço de algodão látex bem fundo no ouvido dele para estancar o sangue.",
+            "correta": false,
+            "feedback": "Bloquear o sangramento no canal auditivo em caso de TCE grave aumenta a pressão dentro do cérebro (Pressão Intracraniana), podendo ser fatal."
+          },
+          {
+            "id": "B",
+            "texto": "Deixo o sangue fluir livremente, mantenho a cabeça alinhada na posição que encontrei e aguardo o resgate.",
+            "correta": true,
+            "feedback": "Exatamente. O líquor ou sangue do ouvido por trauma não deve ser ocluído (tamponado). O foco absoluto do leigo é proteger a via aérea e a coluna."
+          },
+          {
+            "id": "C",
+            "texto": "Viro a cabeça dele agressivamente para o lado para que o sangue escorra mais rápido para o chão.",
+            "correta": false,
+            "feedback": "Torcer o pescoço violaria a regra de ouro de não movimentação em traumas espinhais."
+          },
+          {
+            "id": "D",
+            "texto": "Jogo água oxigenada dentro da orelha para desinfetar, evitando meningite pós-trauma.",
+            "correta": false,
+            "feedback": "Colocar líquidos em um ouvido com suspeita de fratura de base de crânio carrega bactérias diretamente para dentro do cérebro."
+          }
+        ]
+      },
+      {
+        "id": "etapa_6",
+        "pergunta": "REVIRAVOLTA: O pintor de repente abre os olhos com um susto. A adrenalina mascara a dor, ele parece confuso (choque neurogênico) e faz força para tentar se levantar e ir embora. Como contê-lo?",
+        "tag_visual_detalhe": "estado_recuperacao_consciencia",
+        "opcoes": [
+          {
+            "id": "A",
+            "texto": "Solto a cabeça, empurro o peito dele com toda minha força e sento em cima do abdome dele para lutar.",
+            "correta": false,
+            "feedback": "Luta corporal pode agravar fraturas em costelas ou baço machucado, e soltar a cabeça expõe a cervical."
+          },
+          {
+            "id": "B",
+            "texto": "Peço ajuda em voz firme: 'Mestre, segure os braços dele no chão suavemente! Moço, fique parado! Você caiu, estamos cuidando de você, fique calmo!'.",
+            "correta": true,
+            "feedback": "Correto. O uso de comandos verbais tranquilizadores combinado com restrição física leve das extremidades, sem soltar a cabeça, impede que a vítima piore o quadro até retomar a clareza mental."
+          },
+          {
+            "id": "C",
+            "texto": "Aviso a ele: 'Pode se levantar com cuidado, mas apoie em mim porque seu pescoço pode estar quebrado'.",
+            "correta": false,
+            "feedback": "Levantar anula tudo o que você fez e permite a compressão vertical da coluna possivelmente fraturada."
+          },
+          {
+            "id": "D",
+            "texto": "Dou um tapa de mão aberta no rosto dele para que ele acorde do estado de choque e raciocine direito.",
+            "correta": false,
+            "feedback": "Agressão, mesmo com boas intenções, piora a agitação motora, e a vítima pode reagir com mais violência."
+          }
+        ]
+      },
+      {
+        "id": "etapa_7",
+        "pergunta": "O ASU (Ambulância Auto Socorro de Urgência) dos Bombeiros chega. O socorrista traz o colar cervical e se abaixa na sua frente. Como é feita a troca de mãos da cabeça?",
+        "tag_visual_detalhe": "desfecho_chegada_socorro",
+        "opcoes": [
+          {
+            "id": "A",
+            "texto": "Solto imediatamente a cabeça e levanto para dar espaço ao bombeiro trabalhar.",
+            "correta": false,
+            "feedback": "Se você soltar a cabeça antes dele segurar, ela cairá abruptamente, causando o 'efeito chicote'."
+          },
+          {
+            "id": "B",
+            "texto": "Continuo segurando com toda a força e não deixo o bombeiro colocar as mãos para mostrar meu controle.",
+            "correta": false,
+            "feedback": "Impedir o profissional treinado de assumir atrasa a colocação do colar e transporte adequado."
+          },
+          {
+            "id": "C",
+            "texto": "Mantenho a estabilização até o socorrista posicionar as mãos dele nas laterais do pescoço da vítima e dizer: 'Assumi a cervical'. Só então solto.",
+            "correta": true,
+            "feedback": "Trabalho em equipe perfeito! A comunicação clara em circuito fechado ('Assumi') garante que em nenhum segundo a cabeça ficou solta. O leigo fez o trabalho de manter a vítima em condições de resgate seguro."
+          },
+          {
+            "id": "D",
+            "texto": "Levanto a cabeça em um ângulo de 45 graus para facilitar o encaixe do colar por baixo do pescoço.",
+            "correta": false,
+            "feedback": "Nunca movimente ou angule a cabeça por conta própria. A manobra para alocação do colar é técnica e deve ser feita apenas pelo profissional paramédico."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cenario_83",
+    "titulo": "Sufoco no Restaurante",
+    "tag_visual_cenario": "cenario_publico_fechado",
+    "descricao_inicial": "Você está em uma churrascaria com amigos. Na mesa ao lado, uma mulher de aproximadamente 40 anos para de comer subitamente. Ela arregala os olhos em desespero, leva as duas mãos ao pescoço (Sinal de Angústia Universal) e seu rosto começa a ficar ligeiramente avermelhado.",
+    "etapas": [
+      {
+        "id": "etapa_1",
+        "pergunta": "Como você identifica rapidamente se trata-se de um engasgo leve (parcial) ou um engasgo grave (obstrução total da via aérea)?",
+        "tag_visual_detalhe": "estado_engasgo_adulto",
+        "opcoes": [
+          {
+            "id": "A",
+            "texto": "Ofereço um pedaço de pão seco; se ela não conseguir mastigar, é grave.",
+            "correta": false,
+            "feedback": "Dar comida ou líquidos durante um evento de engasgo aumenta o volume da obstrução e pode causar afogamento interno."
+          },
+          {
+            "id": "B",
+            "texto": "Pergunto firmemente: 'Você está engasgada? Consegue tossir?'. Se ela tossir forte e falar, é leve. Se não emitir nenhum som ou tosse fraca, é grave.",
+            "correta": true,
+            "feedback": "A semiótica leiga do engasgo baseia-se na troca de ar. Ausência de tosse sonora e de fala indicam obstrução total, caracterizando emergência letal."
+          },
+          {
+            "id": "C",
+            "texto": "Sento a vítima, coloco os dedos no pulso radial dela. Se estiver acelerado acima de 100, a obstrução é total.",
+            "correta": false,
+            "feedback": "Aceleração do pulso ocorrerá pela ansiedade em qualquer engasgo, não sendo parâmetro confiável."
+          },
+          {
+            "id": "D",
+            "texto": "Bato forte nas costas cinco vezes. Se o pedaço de carne voar, era engasgo grave.",
+            "correta": false,
+            "feedback": "Bater nas costas de adulto em pé pode piorar o alojamento do corpo estranho. Deve-se avaliar antes de intervir."
+          }
+        ]
+      },
+      {
+        "id": "etapa_2",
+        "pergunta": "A vítima balança a cabeça afirmando que sim, mas apenas emite um chiado agudo ao tentar inspirar e a pele ao redor da boca fica arroxeada (cianose). É engasgo grave. Qual a ação física correta?",
+        "tag_visual_detalhe": "acao_manobra_heimlich",
+        "opcoes": [
+          {
+            "id": "A",
+            "texto": "Tentar pescar a carne enfiando meu dedo indicador na garganta dela.",
+            "correta": false,
+            "feedback": "A 'varredura às cegas' empurrará a carne além das cordas vocais, piorando a obstrução de forma irreversível."
+          },
+          {
+            "id": "B",
+            "texto": "Virar a vítima de cabeça para baixo e balançá-la pelos pés.",
+            "correta": false,
+            "feedback": "Isso é inviável pelo peso do adulto e causará queda grave com risco de fratura craniana."
+          },
+          {
+            "id": "C",
+            "texto": "Posicionar-se atrás dela e iniciar compressões abdominais vigorosas (Manobra de Heimlich).",
+            "correta": true,
+            "feedback": "Correto! A compressão abdominal aumenta subitamente a pressão nos pulmões, forçando o ar a expulsar a obstrução como uma rolha de champanhe."
+          },
+          {
+            "id": "D",
+            "texto": "Correr para o balcão, pegar um garfo comprido e tentar puxar a comida usando-o como pinça.",
+            "correta": false,
+            "feedback": "Instrumentalização leiga causará perfuração de faringe e sangramento severo na via aérea."
+          }
+        ]
+      },
+      {
+        "id": "etapa_3",
+        "pergunta": "Como posicionar as mãos exatamente para executar a Manobra de Heimlich no adulto consciente?",
+        "tag_visual_detalhe": "acao_manobra_heimlich",
+        "opcoes": [
+          {
+            "id": "A",
+            "texto": "Abraçar o peito dela por trás, colocando as mãos sobre as costelas inferiores e espremendo.",
+            "correta": false,
+            "feedback": "Compressão em costelas causa fraturas e não direciona o ar para o diafragma de forma eficaz."
+          },
+          {
+            "id": "B",
+            "texto": "Colocar uma mão espalmada sobre a boca do estômago e dar socos rápidos nas costas com a outra mão.",
+            "correta": false,
+            "feedback": "A força não é espalmada, e a técnica AHA recomenda focos exclusivos em compressões abdominais em adultos conscientes."
+          },
+          {
+            "id": "C",
+            "texto": "Abraçar por trás, fechar uma mão em punho (com o polegar para dentro), posicionar dois dedos acima do umbigo, cobrir o punho com a outra mão e puxar para dentro e para cima repetidas vezes.",
+            "correta": true,
+            "feedback": "Essa é a mecânica perfeita do movimento em 'J'. A pressão é direcionada exatamente no músculo diafragma, criando o máximo de pressão pulmonar."
+          },
+          {
+            "id": "D",
+            "texto": "Pressionar as pontas dos dedos indicador e médio fortemente no meio do peito, no osso esterno.",
+            "correta": false,
+            "feedback": "Essa é a posição e mão (dedos) para RCP em bebês, e não se usa em adultos conscientes."
+          }
+        ]
+      },
+      {
+        "id": "etapa_4",
+        "pergunta": "REVIRAVOLTA: Você faz 10 compressões abdominais, mas não tem sucesso. Repentinamente, a força da vítima acaba, o corpo amolece, o olhar fica perdido e ela desaba inconsciente em seus braços. Como você reage imediatamente?",
+        "tag_visual_detalhe": "estado_caida_inconsciente",
+        "opcoes": [
+          {
+            "id": "A",
+            "texto": "Amparo a queda para não bater a cabeça, deito a vítima de barriga para cima no chão rígido e grito: 'Liguem para o 192, traga um DEA!'.",
+            "correta": true,
+            "feedback": "Conduta irretocável! Vítima de engasgo inconsciente é presumida em Parada Cardiorrespiratória. O protocolo manda amparar e mudar tática para Reanimação no chão (AHA)."
+          },
+          {
+            "id": "B",
+            "texto": "Mantenho a pessoa de pé, escorada na parede, e continuo aplicando Heimlich no ar.",
+            "correta": false,
+            "feedback": "A pessoa cairá e se machucará. Heimlich em paciente em pé requer tônus muscular dele para fazer resistência contra a força."
+          },
+          {
+            "id": "C",
+            "texto": "Coloco a pessoa de lado no chão e aguardo 5 minutos para ver se o desmaio relaxa a musculatura e o pedaço desce.",
+            "correta": false,
+            "feedback": "O relaxamento agrava a hipóxia. Após 4 minutos sem oxigênio, o cérebro entra em morte celular irreversível."
+          },
+          {
+            "id": "D",
+            "texto": "Sento em cima da barriga da vítima caída e realizo Heimlich deitado repetindo o puxão 20 vezes.",
+            "correta": false,
+            "feedback": "O protocolo antigo era este, mas as novas diretrizes mandam iniciar compressões torácicas puras em vítima inconsciente."
+          }
+        ]
+      },
+      {
+        "id": "etapa_5",
+        "pergunta": "Ela está no chão duro e a emergência (192) foi acionada. Onde exatamente você apoia as mãos para iniciar as compressões torácicas (Massagem Cardíaca) da RCP?",
+        "tag_visual_detalhe": "acao_rcp_adulto",
+        "opcoes": [
+          {
+            "id": "A",
+            "texto": "Sobre a barriga dela, pouco acima do umbigo, pois o foco ainda é o corpo estranho na garganta.",
+            "correta": false,
+            "feedback": "Compressões no abdome de vítimas inconscientes não geram o fluxo sanguíneo necessário para manter o cérebro vivo."
+          },
+          {
+            "id": "B",
+            "texto": "No lado esquerdo do peito, em cima do coração, para forçar o sangue para fora e oxigenar os órgãos.",
+            "correta": false,
+            "feedback": "O coração não fica exatamente no lado esquerdo, e pressionar nas costelas laterais causará múltiplas fraturas."
+          },
+          {
+            "id": "C",
+            "texto": "No centro exato do tórax, no terço inferior do osso esterno, entre os mamilos.",
+            "correta": true,
+            "feedback": "Essa é a região anatômica correta que comprime as cavidades do coração contra a coluna vertebral, garantindo perfusão. Além disso, no engasgo, a compressão no peito cria ainda mais pressão pulmonar que o Heimlich."
+          },
+          {
+            "id": "D",
+            "texto": "No pescoço dela, fazendo pressão ao redor da traqueia para tentar deslocar o pedaço de carne.",
+            "correta": false,
+            "feedback": "Isso apenas esmagaria a cartilagem da via aérea e destruiria a laringe da vítima."
+          }
+        ]
+      },
+      {
+        "id": "etapa_6",
+        "pergunta": "Qual deve ser a intensidade (profundidade e velocidade) dessas compressões torácicas?",
+        "tag_visual_detalhe": "acao_rcp_adulto",
+        "opcoes": [
+          {
+            "id": "A",
+            "texto": "Profundidade de no mínimo 5 centímetros. Velocidade acelerada: entre 100 e 120 compressões por minuto.",
+            "correta": true,
+            "feedback": "As diretrizes AHA estipulam o ritmo 'Stayin' Alive' de alta qualidade: 5 a 6cm de profundidade para bombear sangue de verdade e 100 a 120 por minuto para manter a pressão cerebral."
+          },
+          {
+            "id": "B",
+            "texto": "Profundidade suave, de 2 a 3 centímetros para não machucar costelas. Velocidade lenta, de 60 por minuto para dar tempo do pulmão encher.",
+            "correta": false,
+            "feedback": "Compressões fracas e lentas não perfundem o cérebro. É melhor uma costela fissurada do que óbito por hipóxia cerebral."
+          },
+          {
+            "id": "C",
+            "texto": "Afundar com todo o peso do corpo, chegando a 10cm, na velocidade máxima que os braços aguentarem (150+ por minuto).",
+            "correta": false,
+            "feedback": "Velocidade muito rápida não permite que o coração se encha de sangue novamente entre cada apertão, tornando a RCP inútil."
+          },
+          {
+            "id": "D",
+            "texto": "Pressionar lentamente a cada 3 segundos, combinando com o ato de sacudir o pescoço da vítima.",
+            "correta": false,
+            "feedback": "Frequência baixíssima, ritmo errado e risco de traumatismo. Não gera pressão sanguínea."
+          }
+        ]
+      },
+      {
+        "id": "etapa_7",
+        "pergunta": "Após o primeiro ciclo de 30 compressões ininterruptas, você olha para a boca dela e percebe que o pedaço de carne subiu, soltou-se das cordas vocais e está visível próximo aos dentes. Como proceder?",
+        "tag_visual_detalhe": "estado_vomito_ativo",
+        "opcoes": [
+          {
+            "id": "A",
+            "texto": "Toco na carne com um garfo para não sujar os dedos e puxo lentamente.",
+            "correta": false,
+            "feedback": "Riscos com talheres e objetos pontiagudos ainda valem. Use as próprias mãos na visão direta."
+          },
+          {
+            "id": "B",
+            "texto": "Coloco minha própria boca sobre a dela com muita força para tentar sugar o pedaço para o meu lado.",
+            "correta": false,
+            "feedback": "Você pode acabar engolindo o objeto ou contraindo infecções no contato com fluidos gástricos e saliva, além da técnica ineficaz."
+          },
+          {
+            "id": "C",
+            "texto": "Uso meu dedo indicador em formato de gancho para varrer o objeto pelas laterais da boca e retirá-lo, pois está visível.",
+            "correta": true,
+            "feedback": "Perfeito. O único momento em que a varredura com dedo é permitida é na 'Visualização Direta'. Como a pressão torácica soltou a obstrução, remover o objeto salva a via aérea."
+          },
+          {
+            "id": "D",
+            "texto": "Fecho a boca dela e comprimo a barriga novamente para engolir a carne para o estômago.",
+            "correta": false,
+            "feedback": "Forçar a carne a descer empurra-a para a traqueia novamente e agrava o fechamento total das cordas vocais."
+          }
+        ]
+      },
+      {
+        "id": "etapa_8",
+        "pergunta": "O objeto foi retirado. Imediatamente a mulher solta um forte 'ahhh' reflexo e começa a puxar o ar engasgadamente, revirando os olhos, agora voltando à vida. A equipe avançada do SAMU (USA) entra no restaurante. Como passar o caso?",
+        "tag_visual_detalhe": "desfecho_chegada_socorro",
+        "opcoes": [
+          {
+            "id": "A",
+            "texto": "Corro para abraçar os paramédicos e comemoro emocionado o meu sucesso.",
+            "correta": false,
+            "feedback": "Desvio de foco. O paciente ainda é prioridade e necessita de avaliação, pois sofreu parada cardiorrespiratória por hipóxia severa e reverteu precariamente."
+          },
+          {
+            "id": "B",
+            "texto": "Entrego o pedaço de carne na mão do médico para análise forense.",
+            "correta": false,
+            "feedback": "O médico não necessita analisar o objeto, mas sim os sinais vitais da paciente."
+          },
+          {
+            "id": "C",
+            "texto": "Ajoelho do lado dela e relato: 'Médico, ela engasgou, entrou em parada cardíaca, fiz RCP por cerca de 2 minutos. O pedaço de carne subiu, eu retirei. Ela voltou a respirar agora mesmo e está confusa.'",
+            "correta": true,
+            "feedback": "Handover focado, resumindo a causa base (engasgo), a gravidade gerada (parada respiratória/cardíaca), o tempo da intervenção vital (2 minutos de RCP) e a resolução e sintoma atual."
+          },
+          {
+            "id": "D",
+            "texto": "Fico em silêncio para que a equipe não perca tempo me ouvindo e vá avaliar a vítima.",
+            "correta": false,
+            "feedback": "Os médicos dependem do relato para saber quanto tempo o cérebro ficou sem oxigênio e qual era o gatilho, guiando os exames de desdobramento (se farão reanimação medicamentosa ou avaliação de sequelas)."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cenario_84",
+    "titulo": "A Queda do Palanque",
+    "tag_visual_cenario": "cenario_publico_aberto",
+    "descricao_inicial": "Festa da cidade. Você está a uns 15 metros do palco de madeira onde 8 vereadores discursavam. A base estrutural do palco central estala fortemente e desaba. Pessoas caem, há muita poeira, gritaria e sangue. Um cenário complexo de Múltiplas Vítimas (Incidente com Vítimas em Massa - IVM).",
+    "etapas": [
+      {
+        "id": "etapa_1",
+        "pergunta": "Em um cenário caótico de desabamento com várias vítimas e poeira, qual a primeira regra antes de correr para tentar salvar alguém?",
+        "tag_visual_detalhe": "risco_sindrome_esmagamento",
+        "opcoes": [
+          {
+            "id": "A",
+            "texto": "Tapar a respiração para não inalar poeira e socorrer a criança ou mulher que estiver gritando mais alto no entulho.",
+            "correta": false,
+            "feedback": "Ir na direção de quem grita mais alto cega você aos riscos do ambiente, além de focar na menor prioridade de triagem."
+          },
+          {
+            "id": "B",
+            "texto": "Parar, não entrar imediatamente, avaliar a estabilidade do telhado do palco que restou em pé (Segurança de Cena).",
+            "correta": true,
+            "feedback": "Regra número 1 de Primeiros Socorros: Não se torne a próxima vítima. Avaliar se vai cair mais estrutura salva sua própria vida e possibilita qualquer socorro subsequente."
+          },
+          {
+            "id": "C",
+            "texto": "Entrar correndo com o celular gravando um vídeo, para a polícia analisar a culpa depois.",
+            "correta": false,
+            "feedback": "Ato de grave omissão de socorro, prejudicando tempo ouro em incidente com múltiplas vítimas."
+          },
+          {
+            "id": "D",
+            "texto": "Puxar a primeira viga grossa pesada para libertar quem estiver debaixo.",
+            "correta": false,
+            "feedback": "Remover viga sem controle pode gerar desabamento secundário, matando outros feridos em baixo."
+          }
+        ]
+      },
+      {
+        "id": "etapa_2",
+        "pergunta": "O telhado parece estabilizado nos pilares de aço. Você precisa acionar o resgate apropriado. A quem ligar e com qual informação crucial?",
+        "tag_visual_detalhe": "acao_ligando_emergencia",
+        "opcoes": [
+          {
+            "id": "A",
+            "texto": "Ligar para a prefeitura e pedir o caminhão de limpeza.",
+            "correta": false,
+            "feedback": "Obviamente, serviço não médico em situação de risco de morte por trauma grave falha."
+          },
+          {
+            "id": "B",
+            "texto": "Ligar 190 (Polícia Militar) e pedir viaturas comuns para levar o pessoal mais rápido no banco de trás.",
+            "correta": false,
+            "feedback": "Transportar vítimas de trauma grave dezenas em banco de trás de viaturas sem imobilização cervical leva à letalidade."
+          },
+          {
+            "id": "C",
+            "texto": "Ligar 193 e 192, declarar 'Incidente de Múltiplas Vítimas' e desabamento de palco, ativando plano de desastre do município.",
+            "correta": true,
+            "feedback": "Ao proferir 'Múltiplas Vítimas', as centrais do CBMSC e SAMU disparam um protocolo diferente, enviando ambulâncias avançadas, caminhão de resgate pesado e ativando plantões dos hospitais."
+          },
+          {
+            "id": "D",
+            "texto": "Ligar para 199 e aguardar a triagem passiva da Defesa Civil do Estado.",
+            "correta": false,
+            "feedback": "A Defesa Civil foca na desmobilização do local em médio prazo, e não na emergência APH em minutos."
+          }
+        ]
+      },
+      {
+        "id": "etapa_3",
+        "pergunta": "Você inicia um princípio rápido de Triagem START. Oito pessoas estão no meio das madeiras. Como isolar os feridos leves dos graves em segundos?",
+        "tag_visual_detalhe": "acao_triagem_start",
+        "opcoes": [
+          {
+            "id": "A",
+            "texto": "Gritar em voz muito alta: 'Atenção! Quem consegue se levantar e andar, venha para cá, perto do chafariz, seguro e espere!'",
+            "correta": true,
+            "feedback": "A base do START. As pessoas que conseguem se levantar sozinhas são classificadas na fita 'VERDE'. Ao ordenar isso, as 4 que andam saem do cenário, deixando você focado nos 4 graves do chão."
+          },
+          {
+            "id": "B",
+            "texto": "Gritar: 'Quem está sangrando levanta o braço para eu atender primeiro!'.",
+            "correta": false,
+            "feedback": "Pessoas com sangramento pequeno levantarão a mão, mas pessoas em choque/parada não levantarão e serão negligenciadas."
+          },
+          {
+            "id": "C",
+            "texto": "Gritar: 'Fiquem onde estão e eu vou preencher o nome de cada um com cuidado.'",
+            "correta": false,
+            "feedback": "Perda de tempo inadmissível. Em desastres não se recolhe dados administrativos antes de classificar risco de morte."
+          },
+          {
+            "id": "D",
+            "texto": "Gritar: 'Tragam baldes d'água para jogarmos e baixar a poeira!'",
+            "correta": false,
+            "feedback": "Água em excesso na madeira pode torná-la escorregadia ou abalar condutividade e gerar deslizamento das vigas cortadas."
+          }
+        ]
+      },
+      {
+        "id": "etapa_4",
+        "pergunta": "Quatro pessoas (pacientes V1, V2, V3 e V4) ficaram deitadas sem levantar após o seu grito. Você chega na paciente V1: ela tem um prego enorme cravado na coxa e um esguicho ritmado (pulsátil) de sangue vivo inundando a perna dela. Qual sua técnica de leigo?",
+        "tag_visual_detalhe": "estado_hemorragia_ativa",
+        "opcoes": [
+          {
+            "id": "A",
+            "texto": "Uso um pano limpo e a palma da minha mão para exercer muita pressão direta e contínua em cima do ferimento/sangramento.",
+            "correta": true,
+            "feedback": "Exsanguinação (VERMELHO). É a principal causa de morte evitável no trauma de múltiplas vítimas. A compressão mecânica na base da artéria fechada estanca. Você pede a alguém verde para manter o pano com força enquanto avalia os outros."
+          },
+          {
+            "id": "B",
+            "texto": "Arranco o prego rapidamente com a mão, afinal, o corpo estranho está rasgando a musculatura dela.",
+            "correta": false,
+            "feedback": "O prego inserido age como um 'tampão'. Se retirá-lo, o furo da artéria fica aberto e ela sangrará até a morte em 3 minutos."
+          },
+          {
+            "id": "C",
+            "texto": "Boto minha própria meia acima do joelho e amarro fraco, apenas para diminuir.",
+            "correta": false,
+            "feedback": "Torniquetes improvisados sem tensão adequada costumam piorar sangramento pois represam o sangue na perna, piorando a artéria rasgada."
+          },
+          {
+            "id": "D",
+            "texto": "Tiro uma foto e classifico como 'Preto' (óbito certo), e avanço rápido para V2.",
+            "correta": false,
+            "feedback": "Choque hipovolêmico por hemorragia visível e com consciência não é óbito inevitável, tem tratamento mecânico (compressão e torniquetes) viável."
+          }
+        ]
+      },
+      {
+        "id": "etapa_5",
+        "pergunta": "Você delegou a compressão da V1 para um civil. Agora chega no V2. Ele é idoso e está de olhos fechados, sem se mover e não parece respirar. Como liberar a via aérea e reavaliá-lo rápido?",
+        "tag_visual_detalhe": "acao_triagem_start",
+        "opcoes": [
+          {
+            "id": "A",
+            "texto": "Girar com muita força o pescoço do idoso para a direita, estalando e liberando espaço.",
+            "correta": false,
+            "feedback": "Haverá seccionamento letal da medula do idoso traumatizado, e vias aéreas não são tratadas com giro violento."
+          },
+          {
+            "id": "B",
+            "texto": "Abrir o maxilar dele com as mãos (elevação de mandíbula leve) e observar se o ar passa e o tórax sobe e desce.",
+            "correta": true,
+            "feedback": "Na triagem, você deve usar a manobra mandibular para ver se, ao alinhar a via aérea, ele volta a ventilar ar nos pulmões de forma primária (Passo START)."
+          },
+          {
+            "id": "C",
+            "texto": "Levantar imediatamente a cabeça por trás (flexão do queixo no peito).",
+            "correta": false,
+            "feedback": "Flexionar as vias dobra a traqueia e aumenta o bloqueio, além de ser gravíssimo no trauma de pescoço."
+          },
+          {
+            "id": "D",
+            "texto": "Enfiar meus dedos até o fundo da laringe para puxar as cordas vocais para frente.",
+            "correta": false,
+            "feedback": "Isso machucará gravemente seus dedos (reflexo da mordida) e lesa estruturas delicadas do fundo."
+          }
+        ]
+      },
+      {
+        "id": "etapa_6",
+        "pergunta": "Você fez a manobra no idoso V2, abriu a via, mas o tórax não se move em nada. Você avalia por 10 segundos, ausência total de respiração. Qual atitude tomar perante a doutrina de Triagem IVM?",
+        "tag_visual_detalhe": "acao_triagem_start",
+        "opcoes": [
+          {
+            "id": "A",
+            "texto": "Monto rapidamente sobre ele, inicio 30 compressões contínuas e dou 2 ventilações boca a boca, ficando até a ambulância chegar.",
+            "correta": false,
+            "feedback": "Em evento 'norma' sem outras vítimas, este é o correto. Porém em Múltiplas Vítimas, você não foca recursos de RCP numa vítima morta, condenando outras 2 vivas sangrando que necessitam de auxílio prioritário."
+          },
+          {
+            "id": "B",
+            "texto": "Entendo que é um evento catastrófico. Como ele não respirou após liberar via, classifico como ÓBITO (Cartão Preto) e me desloco depressa para a vítima V3.",
+            "correta": true,
+            "feedback": "Esta é a regra mais amarga e fundamental da Triagem START: Vítima em PCR após abertura e tentativa rápida não recebe RCP massiva em desastres, para garantir as maiores chances pro maior número de pacientes graves recuperáveis."
+          },
+          {
+            "id": "C",
+            "texto": "Jogo água gelada aos montes em cima dele com o balde, na chance da adrenalina reanimar sem RCP.",
+            "correta": false,
+            "feedback": "Método charlatão que condena a hipotermia acelerada, e ignora as vítimas vivas nos escombros."
+          },
+          {
+            "id": "D",
+            "texto": "Me sinto mal por desistir, sento do lado e faço uma prece de conforto demorada.",
+            "correta": false,
+            "feedback": "Tempo crucial perdido. Múltiplas vidas viáveis ainda estão no ambiente dependendo da agilidade de categorização."
+          }
+        ]
+      },
+      {
+        "id": "etapa_7",
+        "pergunta": "Você avança depressa e encontra a paciente V3. Jovem, acordada, olhando assustada. Ela não sangra visivelmente, mas está muito pálida, com suor frio na testa, e o peito sobe e desce mais de 35 vezes por minuto (frenética). O que indica essa investigação visual?",
+        "tag_visual_detalhe": "estado_choque_palidez",
+        "opcoes": [
+          {
+            "id": "A",
+            "texto": "Indica 'Apenas Ansiedade ou Ataque de Pânico'. Dou tapinhas no rosto dela com carinho. Classifico como VERDE e digo a ela para levantar quando quiser.",
+            "correta": false,
+            "feedback": "Erro clássico de mascarar perfusão reduzida como fator puramente emocional. Ela tem lesões perigosas internamente."
+          },
+          {
+            "id": "B",
+            "texto": "Ofereço 2 copos grandes de suco ou refrigerante, porque ela precisa elevar a taxa de glicose com rapidez.",
+            "correta": false,
+            "feedback": "Contraindicado absolutamente pela possível broncoaspiração de conteúdo em vítima confusa/trauma, e atrasa procedimentos cirúrgicos de urgência."
+          },
+          {
+            "id": "C",
+            "texto": "Indica 'Choque Hipovolêmico grave' por possível hemorragia interna escondida (bacia, tórax ou baço). É urgência de vida ou morte (VERMELHO). Mantenho ela calma e deitada no chão.",
+            "correta": true,
+            "feedback": "Exatamente! Pele fria e suada com respiração muito acelerada é o indicativo do colapso de circulação sistêmica e baixa perfusão após a queda livre. Precisa de sala de choque em hospital urgência."
+          },
+          {
+            "id": "D",
+            "texto": "Ela precisa do ar extra circulando nos pulmões, então a ponho de cabeça para baixo e levanto no colo pela perna.",
+            "correta": false,
+            "feedback": "Gerará ruptura nos órgãos que estão hemorragiando, elevando risco grave de hipóxia do cérebro descompensada."
+          }
+        ]
+      },
+      {
+        "id": "etapa_8",
+        "pergunta": "REVIRAVOLTA: Repentinamente as armações metálicas do telhado do palco rangem ruidosamente, e a estrutura toda se enclina pesadamente sobre o setor onde você e os graves (V1, V3 e V4) estão. A queda da tenda total na cabeça de todos será em cerca de 40 segundos. Como fica a doutrina tática?",
+        "tag_visual_detalhe": "acao_evacuacao_extrema",
+        "opcoes": [
+          {
+            "id": "A",
+            "texto": "Mudo minha tática de APH e faço o arraste rápido de evacuação de todas elas puxando-as pelos ombros deslizando os corpos da zona de morte para trás do chafariz, longe dos destroços.",
+            "correta": true,
+            "feedback": "Perfeito. O princípio primordial (Cena Insegura letal subitamente sobrepõe Triagem APH estática) impera. Essa evacuação chama-se Extração Rápida sob fogo/risco extremo. Vida antes de colunas cervicais ou talas."
+          },
+          {
+            "id": "B",
+            "texto": "Coloco minhas duas mãos no ar e peço ajuda para tentar manter a estrutura de metal do telhado estável, como colunas de hércules.",
+            "correta": false,
+            "feedback": "Centenas de quilos de impacto não serão segurados pelo suporte do seu corpo. Torna você a última vítima fatal do incidente."
+          },
+          {
+            "id": "C",
+            "texto": "Uso os minutos extras correndo para montar colares cervicais provisórios com jornais antes de mexer nelas, preservando o trauma ortopédico.",
+            "correta": false,
+            "feedback": "Não restam minutos, apenas segundos. Qualquer minuto em APH prolongado sob colapso dinâmico custa a vida integral de todas lá abaixo."
+          },
+          {
+            "id": "D",
+            "texto": "Abandono todos os pacientes graves por priorizar meu ego de socorrista intacto, sem tentar mover as vítimas para a zona fria.",
+            "correta": false,
+            "feedback": "Cena insegura dita recuo, mas como os civis estão viáveis a serem arrastados pelos membros aos chafarizes com auxílio da triagem VERDE próxima, a inação total é erro por não tentar a técnica 'Extricação Urgente'."
+          }
+        ]
+      },
+      {
+        "id": "etapa_9",
+        "pergunta": "Desfecho: Todos extraídos em tempo hábil para área limpa. Comboio gigante de resgate chega. Ao ver o Chefe de Operações (Comandante Oficial do Corpo de Bombeiros, de capacete e prancheta), como a transição APH leigo funciona e brilha?",
+        "tag_visual_detalhe": "desfecho_chegada_socorro",
+        "opcoes": [
+          {
+            "id": "A",
+            "texto": "Exijo que todos assinem uma nota atestando meu heroísmo perante a imprensa.",
+            "correta": false,
+            "feedback": "Rompimento com fluxo e ego, quebrando comunicação no incidente do SCI."
+          },
+          {
+            "id": "B",
+            "texto": "Passo imediatamente as informações macro: 'Comandante! Cerca de 8 vítimas do palco. Quatro verdes ilesos aguardando lá atrás. Três pacientes críticos vermelhos aqui: uma mulher segurando hemorragia pela artéria perna e outra mulher no chão muito pálida do choque interno. Deixamos um óbito (preto) entre as madeiras sem via respirável. A tenda rachou e desabou!'.",
+            "correta": true,
+            "feedback": "Absolutamente magistral. O comandante usa seu dimensionamento situacional claro e preciso para designar leitos cirúrgicos, macas rígidas com prioridades corretas, orientando viaturas sem duplicidade ou cegueira."
+          },
+          {
+            "id": "C",
+            "texto": "Corro até o comandante e o questiono ríspido: 'Aonde os senhores estavam? A demora da segurança pública na capital vai gerar processo!'.",
+            "correta": false,
+            "feedback": "Hostilidade emocional quebra a cadeia em ocorrência crítica de stress coletivo extremo, paralisando os repasses precisos."
+          },
+          {
+            "id": "D",
+            "texto": "Omito que há óbito nos escombros e peço que a tenda rachada não seja mais tocada, pois todos já foram para as viaturas.",
+            "correta": false,
+            "feedback": "Ocultação de mortes na área central compromete trabalhos de Defesa Civil (e possível investigação de homicídio/acidente na via)."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cenario_85",
+    "titulo": "Cheiro de Ácido no Almoxarifado",
+    "tag_visual_cenario": "cenario_incidente_quimico",
+    "descricao_inicial": "Você atua em uma indústria de baterias. O alarme de contenção ambiental soa no almoxarifado isolado. Ao chegar perto do portão de grade, você nota uma névoa densa verde-amarelada no piso, com forte odor cáustico e pungente, que arde narinas até a distância.",
+    "etapas": [
+      {
+        "id": "etapa_1",
+        "pergunta": "Dentro da sala confinada cheia de fumaça, você divisa uma silhueta caída. Diante do gás denso cáustico, qual é o princípio da 'Avaliação de Risco' APH Inicial?",
+        "tag_visual_detalhe": "risco_quimico_inalacao",
+        "opcoes": [
+          {
+            "id": "A",
+            "texto": "Vestir apenas uma máscara cirúrgica de papel pano N95 ou algodão e correr prender a respiração para arrastá-lo em menos de 10 segundos.",
+            "correta": false,
+            "feedback": "Máscaras comuns hospitalares/civis ou pano não filtram compostos voláteis e vapores corrosivos industriais, não oferecem proteção do O2 do ar. Você inspirará gás cáustico."
+          },
+          {
+            "id": "B",
+            "texto": "Recuar e manter distanciamento severo (na direção oposta ao vento do exaustor), e NÃO pisar ou entrar na nuvem tóxica do Produto Perigoso (HazMat).",
+            "correta": true,
+            "feedback": "Produtos químicos em espaço confinado destroem o aparelho respiratório de imediato. A cena insegura não deve ser violada por socorrista comum, sem Equipamento de Proteção Individual tipo Encapsulado de cilindro O2 (Nível A)."
+          },
+          {
+            "id": "C",
+            "texto": "Acionar o sistema de splinkers automáticos de combate de incêndio por fogo.",
+            "correta": false,
+            "feedback": "Se jogar água reativa do teto sem saber qual químico formou a poça, haverá exalações tóxicas de fervura ácida."
+          },
+          {
+            "id": "D",
+            "texto": "Aproximar o rosto de uma amostra vazada do ácido próximo da maçaneta da porta para cheirar com profundidade e entender o que é.",
+            "correta": false,
+            "feedback": "O teste olfativo ou 'provador químico' leva a lesão epitelial do trato ou parada cardíaca reflexiva por gases mortais."
+          }
+        ]
+      },
+      {
+        "id": "etapa_2",
+        "pergunta": "Seu superior imediato ignora o risco isolado, não sabe como tratar o ácido, mas corre desesperado, entra no quarto tomado por névoa e arrasta um galão grande com a mão para abrir caminho.",
+        "tag_visual_detalhe": "risco_pratica_incorreta",
+        "opcoes": [
+          {
+            "id": "A",
+            "texto": "Devo adentrar junto da ocorrência como escudeiro dele, visto que hierarquicamente na empresa eu não defino riscos.",
+            "correta": false,
+            "feedback": "Em biossegurança, vida individual suplanta hierarquias administrativas cegas."
+          },
+          {
+            "id": "B",
+            "texto": "Toco a buzina para encorajá-lo enquanto filmo.",
+            "correta": false,
+            "feedback": "O encorajamento do erro gera responsabilidade penal passiva (negligência compartilhada)."
+          },
+          {
+            "id": "C",
+            "texto": "Aciono alarme central de contenção total e interfonema a equipe tática 193 Bombeiros e ambulância comunicando especificamente 'Emergência com Vazamento Químico HazMat'.",
+            "correta": true,
+            "feedback": "Acionamento tático direto a autoridade competente (Bombeiros do COBOM 193) declarando o evento HAZMAT salva sua centralidade de contenção e despacha técnicos em trajes."
+          },
+          {
+            "id": "D",
+            "texto": "Abro janelas de todo o prédio administrativo puxando a ventilação do almoxarifado aos refeitórios.",
+            "correta": false,
+            "feedback": "Direcionar névoas com ventilações descontroladas intoxica andares inteiros da empresa ativamente."
+          }
+        ]
+      },
+      {
+        "id": "etapa_3",
+        "pergunta": "REVIRAVOLTA: O seu chefe sai tossindo fortemente sangue por intoxicação, e arrastou junto para fora das portas o homem que estava caído na poça ácida, com toda a roupa encharcada de ácido industrial. O homem trazido está vivo na calçada externa, mas urrando de dor das queimaduras que fumegam pelas calças.",
+        "tag_visual_detalhe": "estado_lesao_pele",
+        "opcoes": [
+          {
+            "id": "A",
+            "texto": "Deito com força uma cobertura de gaze limpa e seca com esparadrapos firmes e pesados em cima da pele que sofre da poça ácida por cima da calça e aplico pressão forte.",
+            "correta": false,
+            "feedback": "Curativos sobre tecidos em processo químico ativo absorvem e potencializam/friccionam a corrosão para os tendões, e pressão acelera lesão em queimaduras."
+          },
+          {
+            "id": "B",
+            "texto": "Não faço nada, pois na poça de ácido a descontaminação prévia só é para socorristas habilitados do Corpo de Bombeiros.",
+            "correta": false,
+            "feedback": "Embora perigoso, o processo mecânico simples é ação de APH primário, quando a pessoa encontra fonte segura."
+          },
+          {
+            "id": "C",
+            "texto": "Uso a mangueira industrial longa e calço grossas luvas de amianto e óculos para acionar jatos de água em grande volume para enxágue corporal imediato ao ar livre, banhando a roupa afetada para diluição do ácido sem contato pele com pele.",
+            "correta": true,
+            "feedback": "Banho de Expurgo maciço. Descontaminação de emergência base para produtos que suportam água, é a inundação aquática por tempo contínuo (até 20 min) que remove mecânica e termicamente as moléculas corrosivas, parando a cauterização celular visível."
+          },
+          {
+            "id": "D",
+            "texto": "Rebolo pó de bicarbonato puro no olho e nariz do queimado, acreditando que bases sempre neutralizam sem risco tecidos.",
+            "correta": false,
+            "feedback": "O ato da neutralização do pó gera reação exotérmica violenta sobre a pele em bolha, que cozinhará as fáscias musculares."
+          }
+        ]
+      },
+      {
+        "id": "etapa_4",
+        "pergunta": "Depois de jorrar muita água removendo o grande volume químico diluído da calça por cima. O homem perde a lucidez, os olhos fecham e a voz dele para. Ao observar sem tocar perigosamente com as mãos nuas pelo tronco, você checa os sinais vitais leigos essenciais.",
+        "tag_visual_detalhe": "estado_caida_inconsciente",
+        "opcoes": [
+          {
+            "id": "A",
+            "texto": "Verifico a ausência de movimento de expansão do diafragma visualmente e grito forte para seu rosto distante: o peito e barriga pararam imóveis completamente.",
+            "correta": true,
+            "feedback": "Perfeito. Visualizando o colapso diafragmático/torácico em trauma intoxicação atesta que os comandos nervosos entraram em Apneia severa e PCR associada secundária."
+          },
+          {
+            "id": "B",
+            "texto": "Checo se as palmas dele tremem, pois o choque de dor acelera tremores elétricos na inervação residual química.",
+            "correta": false,
+            "feedback": "Checagem morta e imprecisa de neurologia."
+          },
+          {
+            "id": "C",
+            "texto": "Dou murros na barriga verificando flexibilidade de costelas de pulmão e se ele expele gás.",
+            "correta": false,
+            "feedback": "Prática bárbara de agressão."
+          },
+          {
+            "id": "D",
+            "texto": "Vejo nas unhas do paciente se tem cor do sangue com teste de recheio capilar prolongado de meia hora.",
+            "correta": false,
+            "feedback": "Extensão inútil perante urgência de ausência de movimentos respiratórios."
+          }
+        ]
+      },
+      {
+        "id": "etapa_5",
+        "pergunta": "Constata Parada Cardiorrespiratória por inalação do químico (Asfixia secundária). Qual ação limitante é exigida nessa técnica de RCP específica sobre contaminação exalatória de vítimas químicas?",
+        "tag_visual_detalhe": "acao_rcp_adulto",
+        "opcoes": [
+          {
+            "id": "A",
+            "texto": "Assobro ar na boca da vítima colando os lábios fortemente (Boca a Boca de Emergência Químico).",
+            "correta": false,
+            "feedback": "Ao ventilar o contaminado químico boca a boca sem barreira tática (Pocket Mask/Ambu ressuscitador manual), o gás residual nos alvéolos sairá, atingirá seus pulmões em cheio como veneno direto."
+          },
+          {
+            "id": "B",
+            "texto": "Uso um aspirador de pó invertido ou mangueira grossa na via do operário em força bruta.",
+            "correta": false,
+            "feedback": "Apressura excessiva barométrica explode os lobos do pulmão de imediato."
+          },
+          {
+            "id": "C",
+            "texto": "Realizo exclusivamente técnica Hands-Only (Compressões Torácicas Apenas), mantendo distância segura da face, sem intervir pela boca em resgate livre na atmosfera limpa do portão externo.",
+            "correta": true,
+            "feedback": "Exata medida AHA do socorrista sem recursos na rua de cena contaminada. Mãos-Só previne re-envenenamento, fornecendo pressão intratorácica suficiente do residual circundante."
+          },
+          {
+            "id": "D",
+            "texto": "Faço apenas respiração no nariz tapado do peito na região de trauma de fumaça tóxica.",
+            "correta": false,
+            "feedback": "É letal colocar boca ou respirar exalação nasal do paciente sem purificador de circuito avançado."
+          }
+        ]
+      },
+      {
+        "id": "etapa_6",
+        "pergunta": "Como você mantém sua compressão mecânica na altura com o calcanhar (região hipotenar) da mão inferior posicionada sobre a linha do osso esterno, mantendo ritmo no paciente da fábrica acidentado?",
+        "tag_visual_detalhe": "acao_rcp_adulto",
+        "opcoes": [
+          {
+            "id": "A",
+            "texto": "Traciono a mão na garganta ou no osso xifóide inferior do começo mole do osso gástrico de forma a balançar fraco as compressões com movimento de pulso.",
+            "correta": false,
+            "feedback": "Empurra o xifóide (osso agudo) perfurando saco do estômago gerando lesões ou não bombeando com os punhos soltos."
+          },
+          {
+            "id": "B",
+            "texto": "Avanço apenas batidinhas percutindo o tórax com punhos duros laterais da costela.",
+            "correta": false,
+            "feedback": "Sem ritmo contínuo. Perca total de técnica de força de peso superior gravidade."
+          },
+          {
+            "id": "C",
+            "texto": "Mantenho meus cotovelos eretos em ângulo fixo vertical ao ombro de cima, com apoio exato da força peso vindo das minhas costas em ciclos de alta intensidade ritmada pela profundidade contínua torácica.",
+            "correta": true,
+            "feedback": "Ergonomia da Reanimação Cardiopulmonar (RCP) base ideal. Braços em haste reta com peso tronco mantêm 100-120bpm para bombear efetivamente sem esgotamento do socorrista precoce."
+          },
+          {
+            "id": "D",
+            "texto": "Pressiono lateralmente e faço a mão escorregar aleatoriamente sem se preocupar em retorno no peito total ao fim.",
+            "correta": false,
+            "feedback": "As escorregadias do retorno passivo da expansão inviabilizam captação sistêmica e perfusão coronária."
+          }
+        ]
+      },
+      {
+        "id": "etapa_7",
+        "pergunta": "Desfecho: A guarnição de Salvamento Tático Auto-Bomba e o Suporte Avançado médico com trajes chegam em 10 minutos (chegando do chamado 193). Qual encerramento primário com equipe médica avançada ocorre, onde você repassa a prioridade que atuou sem ser contaminado e garantiu chance clínica?",
+        "tag_visual_detalhe": "desfecho_chegada_socorro",
+        "opcoes": [
+          {
+            "id": "A",
+            "texto": "Exijo banho de hospital para tirar fuligem das minhas botas da emergência sem repassar sintomas e o tipo de fumaça que atacou as vias deles.",
+            "correta": false,
+            "feedback": "Desatenção à passagem de casos priorizados graves das vítimas por contaminação de ácido."
+          },
+          {
+            "id": "B",
+            "texto": "Entrego as duas vidas (vítima asfixiada parada limpa já e chefe que puxou ele) à equipe médica do comandante relatando que 'ambos tiveram intoxicação química respiratória. Foi descontaminado o resíduo primário externo com água da mangueira longa. Vítima um parou em Apneia grave por mais de cinco minutos no chão; Vítima dois vomitou mas tá de pé'.",
+            "correta": true,
+            "feedback": "O relatório limpo e técnico. A identificação dos procedimentos iniciais, tempos decorridos precisos (5 min apneia) e intervenções (mão-só e lavagem de água massiva) possibilita a inserção das toxinas pelo centro toxicológico adequado da UPA Tática."
+          },
+          {
+            "id": "C",
+            "texto": "Ordeno a guarnição que faça curativos grandes secos para esconder lesão nas pernas da vítima grave primeiro do que ventilar ela.",
+            "correta": false,
+            "feedback": "A inversão de ordem dos paramédicos prioriza C.A.B - primeiro oxigena parada grave, depois tampa as bolhas visíveis secundárias nas calças diluídas."
+          },
+          {
+            "id": "D",
+            "texto": "Aviso a ambulância sem importância a equipe avançada e desligo meu interfone tático no sistema geral das chaves.",
+            "correta": false,
+            "feedback": "Fuga e quebra da ocorrência abandonada da equipe técnica socorro perito em cena tática."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cenario_86",
+    titulo: "Susto no Supermercado",
+    tag_visual_cenario: "cenario_publico_fechado",
+    descricao_inicial: "Você está no corredor de um supermercado quando um homem de aproximadamente 40 anos grita, cai rigidamente no chão e começa a apresentar tremores generalizados intensos. Algumas pessoas ao redor entram em pânico.",
+    etapas: [
+      {
+        id: "etapa_1",
+        pergunta: "A cena é segura, mas a vítima está se debatendo próximo a prateleiras de vidro. Qual a sua primeira ação?",
+        tag_visual_detalhe: "estado_espasmo_muscular",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Segurar firmemente os braços da vítima.",
+            correta: false,
+            feedback: "Restringir os movimentos durante uma convulsão pode causar fraturas ou luxações musculares."
+          },
+          {
+            id: "B",
+            texto: "Colocar um pano na boca da vítima.",
+            correta: false,
+            feedback: "Nunca insira objetos na boca de alguém convulsionando. Há risco grave de asfixia e lesão dentária."
+          },
+          {
+            id: "C",
+            texto: "Afastar objetos próximos e proteger a cabeça.",
+            correta: true,
+            feedback: "O foco inicial na convulsão é evitar traumas secundários. Afaste perigos e apoie a cabeça com algo macio."
+          },
+          {
+            id: "D",
+            texto: "Jogar água fria no rosto da vítima.",
+            correta: false,
+            feedback: "Estímulos térmicos ou dolorosos não interrompem crises convulsivas e expõem a vítima a riscos."
+          }
+        ]
+      },
+      {
+        id: "etapa_2",
+        pergunta: "Como você realiza a proteção da cabeça da vítima de forma correta e segura?",
+        tag_visual_detalhe: "acao_posicionamento",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Eleva o pescoço e traciona a nuca.",
+            correta: false,
+            feedback: "Tracionar o pescoço de uma vítima em crise tônico-clônica pode causar graves lesões cervicais."
+          },
+          {
+            id: "B",
+            texto: "Imobiliza o maxilar com as mãos.",
+            correta: false,
+            feedback: "Tentar controlar o maxilar é ineficaz e arriscado tanto para você quanto para a vítima."
+          },
+          {
+            id: "C",
+            texto: "Posiciona um casaco macio sob a nuca.",
+            correta: true,
+            feedback: "Um apoio macio amortece os impactos da cabeça contra o piso duro, prevenindo traumatismo craniano."
+          },
+          {
+            id: "D",
+            texto: "Prende a cabeça entre os seus joelhos.",
+            correta: false,
+            feedback: "Prender a cabeça bloqueia o movimento natural da crise e pode causar lesões na coluna da vítima."
+          }
+        ]
+      },
+      {
+        id: "etapa_3",
+        pergunta: "Uma senhora se aproxima correndo com uma colher, dizendo: 'Temos que desenrolar a língua dele!'. Como você reage?",
+        tag_visual_detalhe: "risco_interferencia_terceiros",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Permite que ela tente com a colher.",
+            correta: false,
+            feedback: "Introduzir objetos metálicos quebra dentes e pode obstruir a via aérea ou ferir a língua gravemente."
+          },
+          {
+            id: "B",
+            texto: "Pede para ela usar o próprio dedo.",
+            correta: false,
+            feedback: "Colocar dedos na boca de quem convulsiona pode resultar em amputação traumática do seu dedo."
+          },
+          {
+            id: "C",
+            texto: "Pede para ela abrir a boca segurando o queixo.",
+            correta: false,
+            feedback: "Tentar forçar a abertura da mandíbula (trismo) durante a crise causa lesões articulares."
+          },
+          {
+            id: "D",
+            texto: "Impede a ação e explica o perigo.",
+            correta: true,
+            feedback: "A lenda de 'enrolar a língua' é falsa. Você deve proteger a vítima de intervenções incorretas de terceiros."
+          }
+        ]
+      },
+      {
+        id: "etapa_4",
+        pergunta: "Após 2 minutos, os tremores cessam. A vítima está flácida, com os olhos fechados. Como você avalia a respiração?",
+        tag_visual_detalhe: "estado_caida_inconsciente",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Checa o pulso no pescoço e no pulso.",
+            correta: false,
+            feedback: "Leigos devem focar na avaliação visual da respiração, pois a checagem de pulso é frequentemente falha."
+          },
+          {
+            id: "B",
+            texto: "Procura expansão no peito por 10 segundos.",
+            correta: true,
+            feedback: "A observação do tórax e abdômen (ver, ouvir, sentir) por no máximo 10 segundos é o padrão para leigos."
+          },
+          {
+            id: "C",
+            texto: "Coloca um espelho próximo ao nariz.",
+            correta: false,
+            feedback: "Métodos caseiros como usar espelhos ou penas não são recomendados pelos protocolos de APH."
+          },
+          {
+            id: "D",
+            texto: "Faz uma compressão torácica de teste.",
+            correta: false,
+            feedback: "Compressões torácicas são exclusivas para suspeita de Parada Cardiorrespiratória (vítima que não respira)."
+          }
+        ]
+      },
+      {
+        id: "etapa_5",
+        pergunta: "Você nota que o tórax dele sobe e desce ritmicamente, ele respira. Ele expulsa um pouco de saliva espumosa. Qual a técnica de posicionamento agora?",
+        tag_visual_detalhe: "acao_posicao_lateral",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Gira o corpo todo para o lado esquerdo.",
+            correta: true,
+            feedback: "A Posição Lateral de Segurança (PLS) mantém as vias aéreas abertas e facilita a drenagem de fluidos."
+          },
+          {
+            id: "B",
+            texto: "Coloca a vítima de barriga para baixo.",
+            correta: false,
+            feedback: "A posição de bruços comprime o tórax e dificulta a ventilaação adequada do paciente."
+          },
+          {
+            id: "C",
+            texto: "Deixa de barriga para cima e eleva a cabeça.",
+            correta: false,
+            feedback: "Deixar de barriga para cima com saliva abundante gera risco altíssimo de broncoaspiração."
+          },
+          {
+            id: "D",
+            texto: "Senta a vítima escorada na prateleira.",
+            correta: false,
+            feedback: "Vítimas em período pós-ictal (inconscientes/sonolentas) não têm tônus para ficar sentadas e podem asfixiar."
+          }
+        ]
+      },
+      {
+        id: "etapa_6",
+        pergunta: "Alguém pergunta para qual número deve ligar enquanto você o mantém em posição lateral. Qual é a instrução?",
+        tag_visual_detalhe: "desfecho_chegada_socorro",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Ligue 190, pois foi uma emergência súbita.",
+            correta: false,
+            feedback: "O 190 (Polícia Militar) é para segurança pública, não emergências médicas primárias."
+          },
+          {
+            id: "B",
+            texto: "Ligue 199, pois ocorreu em local público.",
+            correta: false,
+            feedback: "O 199 é da Defesa Civil, voltado para desastres e riscos estruturais ambientais."
+          },
+          {
+            id: "C",
+            texto: "Ligue 192 e avise sobre uma convulsão.",
+            correta: true,
+            feedback: "O SAMU (192) é o serviço ideal para emergências clínicas e proverá suporte médico via regulação telefônica."
+          },
+          {
+            id: "D",
+            texto: "Ligue 191 para solicitar transporte rápido.",
+            correta: false,
+            feedback: "O 191 atende a Polícia Rodoviária Federal, focado em ocorrências de trânsito em rodovias federais."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cenario_87",
+    titulo: "Queda no Canteiro de Obras",
+    tag_visual_cenario: "cenario_externo_servico",
+    descricao_inicial: "Um pintor cai de uma escada (cerca de 2,5 metros de altura) enquanto trabalhava na fachada de uma casa. Ele atinge o solo de terra batida com as costas e a cabeça. Você é o primeiro a chegar.",
+    etapas: [
+      {
+        id: "etapa_1",
+        pergunta: "Antes de se aproximar do pintor, o que você deve fazer obrigatoriamente?",
+        tag_visual_detalhe: "acao_controle_cena",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Correr para segurar a cabeça dele.",
+            correta: false,
+            feedback: "Nunca corra sem antes avaliar os riscos. Você pode se tornar a segunda vítima."
+          },
+          {
+            id: "B",
+            texto: "Avaliar os riscos ao redor da escada.",
+            correta: true,
+            feedback: "A segurança da cena (360 graus) é o primeiro passo. Verifique fios, instabilidade da escada ou derramamento de tintas."
+          },
+          {
+            id: "C",
+            texto: "Gritar pedindo água para acordá-lo.",
+            correta: false,
+            feedback: "Nunca ofereça líquidos para vítimas de trauma ou com nível de consciência rebaixado."
+          },
+          {
+            id: "D",
+            texto: "Ligar 192 sem olhar os detalhes.",
+            correta: false,
+            feedback: "Você deve olhar a cena para passar informações precisas ao atendente sobre os riscos do local."
+          }
+        ]
+      },
+      {
+        id: "etapa_2",
+        pergunta: "A cena está limpa. A vítima está de barriga para cima e com os olhos fechados. Como você checa a responsividade técnica?",
+        tag_visual_detalhe: "estado_caida_inconsciente",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Belisca a bochecha do paciente.",
+            correta: false,
+            feedback: "O estímulo doloroso no rosto não é recomendado para leigos e não é a abordagem inicial padrão."
+          },
+          {
+            id: "B",
+            texto: "Balança o pescoço vigorosamente.",
+            correta: false,
+            feedback: "Balançar o pescoço de vítima de trauma pode seccionar a medula espinhal. Proibido."
+          },
+          {
+            id: "C",
+            texto: "Toca nos ombros e chama em voz alta.",
+            correta: true,
+            feedback: "Tocar firmemente (sem sacudir a coluna) nos dois ombros e chamar em voz alta é o método AHA/PHTLS."
+          },
+          {
+            id: "D",
+            texto: "Verifica a luz nas pupilas da vítima.",
+            correta: false,
+            feedback: "Avaliação pupilar é um detalhe neurológico secundário, a prioridade inicial é checar a responsividade geral."
+          }
+        ]
+      },
+      {
+        id: "etapa_3",
+        pergunta: "Ele não responde e está inconsciente. Você aponta para um colega de obra e dá uma ordem. Qual é a diretriz mais adequada?",
+        tag_visual_detalhe: "acao_ligando_emergencia",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Ligue para 190 e peça a polícia militar.",
+            correta: false,
+            feedback: "A polícia não é a equipe primária para resgate médico de trauma em acidentes de trabalho."
+          },
+          {
+            id: "B",
+            texto: "Chame a chefia para nos levar de carro.",
+            correta: false,
+            feedback: "Transportar vítimas de trauma sem maca rígida causa lesões modulares irreversíveis."
+          },
+          {
+            id: "C",
+            texto: "Ligue 193 e avise sobre queda de altura.",
+            correta: true,
+            feedback: "Os Bombeiros (193) ou SAMU (192) são essenciais em trauma. O aviso sobre o mecanismo (queda de altura) prepara o socorro."
+          },
+          {
+            id: "D",
+            texto: "Vá buscar uma maca flexível na obra.",
+            correta: false,
+            feedback: "Deixar de acionar o socorro profissional imediatamente é o erro mais grave no APH inicial."
+          }
+        ]
+      },
+      {
+        id: "etapa_4",
+        pergunta: "Enquanto o colega liga, você precisa estabilizar a coluna cervical. Como posicionar suas mãos?",
+        tag_visual_detalhe: "acao_estabilizacao_cervical",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Segura os ombros empurrando contra o chão.",
+            correta: false,
+            feedback: "Isso não impede a cabeça de rolar para os lados, mantendo o pescoço desprotegido."
+          },
+          {
+            id: "B",
+            texto: "Coloca uma mão na testa e outra no queixo.",
+            correta: false,
+            feedback: "Essa manobra manipula a cabeça e não estabiliza a base do crânio adequadamente."
+          },
+          {
+            id: "C",
+            texto: "Agarra firmemente pela nuca e suspende.",
+            correta: false,
+            feedback: "Suspender a nuca angula a coluna cervical e pode causar paralisia instantânea."
+          },
+          {
+            id: "D",
+            texto: "Apoia lateralmente a cabeça e as orelhas.",
+            correta: true,
+            feedback: "Ajoelhe-se atrás da cabeça, coloque as mãos nas laterais do crânio, imobilizando sem forçar movimento."
+          }
+        ]
+      },
+      {
+        id: "etapa_5",
+        pergunta: "O tórax dele sobe e desce devagar, ele respira. Contudo, você nota um líquido claro e sanguinolento saindo do ouvido dele. O que isso indica e como agir?",
+        tag_visual_detalhe: "estado_lesao_pele",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Lavar o ouvido e tapar com algodão.",
+            correta: false,
+            feedback: "Não se deve tamponar fluidos que saem de orifícios após trauma. Isso aumenta a pressão intracraniana."
+          },
+          {
+            id: "B",
+            texto: "Elevar as pernas para melhorar a pressão.",
+            correta: false,
+            feedback: "Elevar pernas em TCE suspeito piora drasticamente a pressão e o sangramento cerebral."
+          },
+          {
+            id: "C",
+            texto: "Traumatismo craniano. Manter estabilização.",
+            correta: true,
+            feedback: "A saída de líquor/sangue pelo ouvido é forte sinal de fratura de base de crânio. Mantenha a cabeça perfeitamente alinhada e imóvel."
+          },
+          {
+            id: "D",
+            texto: "Lentidão mental. Girar a cabeça para o lado.",
+            correta: false,
+            feedback: "Qualquer rotação ativa no pescoço pode ser letal diante de um Traumatismo Cranioencefálico (TCE)."
+          }
+        ]
+      },
+      {
+        id: "etapa_6",
+        pergunta: "De repente, a vítima começa a fazer sons de engasgo e o abdômen se contrai fortemente (movimento de vômito). Qual a sua reação imediata?",
+        tag_visual_detalhe: "estado_vomito_ativo",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Abrir a boca e varrer com o dedo.",
+            correta: false,
+            feedback: "Em paciente vomitando e com espasmo, varredura digital pode empurrar o vômito para a traqueia."
+          },
+          {
+            id: "B",
+            texto: "Girar todo o corpo dele em bloco (rolamento).",
+            correta: true,
+            feedback: "Para prevenir aspiração de vômito sem torcer a coluna, deve-se girar o corpo todo (cabeça, tronco e pernas) junto."
+          },
+          {
+            id: "C",
+            texto: "Levantar os ombros e a cabeça rapidamente.",
+            correta: false,
+            feedback: "Dobrar a coluna torácica e cervical rompe o protocolo de restrição de movimento espinhal."
+          },
+          {
+            id: "D",
+            texto: "Aguardar passar mantendo de barriga para cima.",
+            correta: false,
+            feedback: "Manter em decúbito dorsal durante o vômito garante uma broncoaspiração fatal imediata."
+          }
+        ]
+      },
+      {
+        id: "etapa_7",
+        pergunta: "Os bombeiros chegam. A vítima esvaziou o estômago e você a manteve de lado segurando a cabeça. Como você entrega a ocorrência (handoff)?",
+        tag_visual_detalhe: "desfecho_chegada_socorro",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Relata a queda, o sangramento e o vômito.",
+            correta: true,
+            feedback: "Um relatório limpo do mecanismo do trauma e intercorrências (sangramento/vômito) acelera o protocolo avançado."
+          },
+          {
+            id: "B",
+            texto: "Solta a cabeça e se afasta rapidamente.",
+            correta: false,
+            feedback: "Só solte a estabilização cervical quando o socorrista assumir fisicamente o seu lugar."
+          },
+          {
+            id: "C",
+            texto: "Exige que eles apliquem soro imediatamente.",
+            correta: false,
+            feedback: "Interferir nas decisões clínicas da equipe de resgate atrasa o atendimento."
+          },
+          {
+            id: "D",
+            texto: "Diz apenas os dados pessoais e rg da vítima.",
+            correta: false,
+            feedback: "Dados pessoais são secundários; a cinemática do trauma (como ocorreu) é a prioridade médica."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cenario_88",
+    titulo: "Mal Súbito na Caminhada",
+    tag_visual_cenario: "cenario_publico_aberto",
+    descricao_inicial: "Você caminha no parque. À sua frente, um senhor de cerca de 60 anos leva as mãos ao peito, faz uma expressão de dor intensa e desaba no chão pavimentado. Ele não tenta se apoiar na queda.",
+    etapas: [
+      {
+        id: "etapa_1",
+        pergunta: "O local não apresenta trânsito ou perigos visíveis. Qual a primeira coisa que você faz ao se ajoelhar ao lado dele?",
+        tag_visual_detalhe: "estado_caida_inconsciente",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Mede o pulso no pescoço por um minuto.",
+            correta: false,
+            feedback: "Checar pulso demora demais e leigos erram frequentemente. Não gaste 1 minuto nisso."
+          },
+          {
+            id: "B",
+            texto: "Toca nos ombros e chama: 'Senhor, você me ouve?'.",
+            correta: true,
+            feedback: "Avaliar a responsividade com tapinhas fortes nos ombros e chamado em voz alta é o primeiro elo da cadeia de sobrevivência."
+          },
+          {
+            id: "C",
+            texto: "Inicia compressões no peito imediatamente.",
+            correta: false,
+            feedback: "Você deve confirmar a inconsciência antes de começar manobras físicas intensas."
+          },
+          {
+            id: "D",
+            texto: "Abre a camisa e joga água no rosto dele.",
+            correta: false,
+            feedback: "Água no rosto é mito popular e não reverte inconsciência, apenas retarda o salvamento."
+          }
+        ]
+      },
+      {
+        id: "etapa_2",
+        pergunta: "Ele não responde a nenhum estímulo. Há outras pessoas parando para olhar. Qual a ordem verbal correta que você deve dar?",
+        tag_visual_detalhe: "acao_ligando_emergencia",
+        opcoes: [
+          {
+            id: "A",
+            texto: "'Liguem para qualquer hospital e peçam um médico!'",
+            correta: false,
+            feedback: "Pedidos vagos geram o 'efeito espectador', onde ninguém age achando que o outro fará."
+          },
+          {
+            id: "B",
+            texto: "'Ei, liguem 190 para a polícia vir logo!'",
+            correta: false,
+            feedback: "A emergência é clínica, a PM (190) não dispõe de ambulâncias de suporte avançado para PCR."
+          },
+          {
+            id: "C",
+            texto: "'Você de vermelho, ligue 192 e traga um DEA!'",
+            correta: true,
+            feedback: "Direcionamento específico quebra a inércia, aciona o SAMU (192) e exige o Desfibrilador (DEA)."
+          },
+          {
+            id: "D",
+            texto: "'Socorro, alguém faça alguma coisa por favor!'",
+            correta: false,
+            feedback: "Desespero e falta de liderança não ajudam. O socorrista deve assumir o controle delegando tarefas."
+          }
+        ]
+      },
+      {
+        id: "etapa_3",
+        pergunta: "Agora você precisa avaliar a respiração. Como você observa o padrão ventilatório e o que procura?",
+        tag_visual_detalhe: "estado_angustia_respiratoria",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Procura movimentos amplos no peito e barriga.",
+            correta: true,
+            feedback: "Olhe para o tórax e abdômen por até 10 seg. Se não houver elevação normal ou houver respiração agônica (gasping), assuma PCR."
+          },
+          {
+            id: "B",
+            texto: "Usa os dedos para sentir o ar saindo do nariz.",
+            correta: false,
+            feedback: "Sentir o fluxo de ar nasal é difícil em ambientes abertos e ventosos, a observação do tórax é superior."
+          },
+          {
+            id: "C",
+            texto: "Encosta o ouvido no peito dele para ouvir o coração.",
+            correta: false,
+            feedback: "Ouvir o peito não substitui a avaliação visual da respiração e perde tempo crítico."
+          },
+          {
+            id: "D",
+            texto: "Abre a boca dele procurando algum engasgo.",
+            correta: false,
+            feedback: "Se ele levou a mão ao peito e caiu, a suspeita primária é cardíaca, foque na respiração pulmonar."
+          }
+        ]
+      },
+      {
+        id: "etapa_4",
+        pergunta: "Você nota que ele dá suspiros fracos, espaçados e puxando o ar como um peixe fora d'água (Gasping). O que isso significa e qual a conduta?",
+        tag_visual_detalhe: "acao_rcp_adulto",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Ele está engasgado. Iniciar Manobra de Heimlich.",
+            correta: false,
+            feedback: "Gasping não é engasgo. Fazer Heimlich em vítima deitada sem engasgo causa lesões abdominais."
+          },
+          {
+            id: "B",
+            texto: "É uma asma. Sentar a vítima e esperar o SAMU.",
+            correta: false,
+            feedback: "Sentar um paciente em parada cardiorrespiratória reduz o sangue cerebral a zero instantaneamente."
+          },
+          {
+            id: "C",
+            texto: "Ele respira com dificuldade. Fazer Posição Lateral.",
+            correta: false,
+            feedback: "Gasping (respiração agônica) é sinal de que o coração parou. Não é respiração eficaz."
+          },
+          {
+            id: "D",
+            texto: "É uma Parada Cardíaca. Iniciar compressões.",
+            correta: true,
+            feedback: "A respiração agônica (gasping) não é respiração normal. Trate como PCR e inicie RCP imediatamente."
+          }
+        ]
+      },
+      {
+        id: "etapa_5",
+        pergunta: "Como você posiciona suas mãos e seu corpo para iniciar a Reanimação Cardiopulmonar (RCP)?",
+        tag_visual_detalhe: "acao_posicionamento",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Dedos cruzados sobre a barriga, cotovelos soltos.",
+            correta: false,
+            feedback: "Compressão na barriga machuca órgãos internos e não bombeia sangue do coração."
+          },
+          {
+            id: "B",
+            texto: "No meio do peito, braços retos, peso do corpo.",
+            correta: true,
+            feedback: "Mãos sobrepostas no centro do tórax (esterno), braços esticados, usando o peso do tronco."
+          },
+          {
+            id: "C",
+            texto: "Na direção do mamilo esquerdo, pulsos dobrados.",
+            correta: false,
+            feedback: "Comprimir torto ou do lado esquerdo quebra costelas e reduz a eficiência da massagem cardíaca."
+          },
+          {
+            id: "D",
+            texto: "Uma mão no peito, outra nas costas apertando.",
+            correta: false,
+            feedback: "A técnica requer a vítima em superfície dura, empurrando o esterno contra a coluna."
+          }
+        ]
+      },
+      {
+        id: "etapa_6",
+        pergunta: "Qual deve ser a profundidade e o ritmo das compressões de acordo com as diretrizes da AHA (American Heart Association)?",
+        tag_visual_detalhe: "acao_rcp_adulto",
+        opcoes: [
+          {
+            id: "A",
+            texto: "De 2 a 3 cm, a uma velocidade de 80 por minuto.",
+            correta: false,
+            feedback: "Profundidade muito rasa e velocidade lenta não geram pressão suficiente para circular o sangue."
+          },
+          {
+            id: "B",
+            texto: "O mais profundo possível, sem limite de ritmo.",
+            correta: false,
+            feedback: "Força excessiva causa danos irreparáveis aos pulmões e coração."
+          },
+          {
+            id: "C",
+            texto: "Entre 5 e 6 cm, ritmo de 100 a 120 por minuto.",
+            correta: true,
+            feedback: "Padrão de ouro: comprimir 5-6cm (adultos) a 100-120x/minuto, permitindo o retorno total do tórax."
+          },
+          {
+            id: "D",
+            texto: "Dar soquinhos leves e rápidos a 150 por minuto.",
+            correta: false,
+            feedback: "Ritmo rápido demais impede que as câmaras do coração se encham de sangue."
+          }
+        ]
+      },
+      {
+        id: "etapa_7",
+        pergunta: "O homem de vermelho chega ofegante com um DEA (Desfibrilador Externo Automático). Como aplicar os eletrodos (pás) adesivos?",
+        tag_visual_detalhe: "acao_uso_dea",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Uma no meio da testa e outra no pescoço.",
+            correta: false,
+            feedback: "Nunca coloque os eletrodos na cabeça ou pescoço. O foco é a passagem de corrente pelo coração."
+          },
+          {
+            id: "B",
+            texto: "Ambas as pás lado a lado, sobre a barriga.",
+            correta: false,
+            feedback: "Isso anula o trajeto elétrico até o miocárdio, tornando o aparelho inútil."
+          },
+          {
+            id: "C",
+            texto: "Peito superior direito e costelas lado esquerdo.",
+            correta: true,
+            feedback: "A posição ântero-lateral cruza o eixo elétrico do coração para que a leitura e choque sejam efetivos."
+          },
+          {
+            id: "D",
+            texto: "Uma na frente no peito e outra nas costas.",
+            correta: false,
+            feedback: "Posição ântero-posterior é exceção pediátrica ou quando as pás encostariam uma na outra, não o padrão adulto."
+          }
+        ]
+      },
+      {
+        id: "etapa_8",
+        pergunta: "O DEA analisa, dá um choque e orienta 'Inicie RCP'. O SAMU acaba de estacionar. O que você faz neste momento?",
+        tag_visual_detalhe: "desfecho_chegada_socorro",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Tira o DEA e se levanta para limpar as mãos.",
+            correta: false,
+            feedback: "Nunca desconecte o DEA. A equipe avançada assumirá a partir dele."
+          },
+          {
+            id: "B",
+            texto: "Senta e espera a equipe trazer o equipamento.",
+            correta: false,
+            feedback: "Interromper as compressões antes da equipe estar pronta perde as chances criadas pelo choque."
+          },
+          {
+            id: "C",
+            texto: "Reinicia as compressões até a equipe assumir.",
+            correta: true,
+            feedback: "A RCP imediata pós-choque é crucial. Você só para quando o socorrista tocar em você e mandar parar."
+          },
+          {
+            id: "D",
+            texto: "Pede para que choquem ele novamente pelo DEA.",
+            correta: false,
+            feedback: "O DEA atua de forma automática, não é o operador que escolhe chocar seguidas vezes sem análise."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cenario_89",
+    titulo: "Caos no Ponto de Ônibus",
+    tag_visual_cenario: "cenario_via_transito",
+    descricao_inicial: "Você escuta um estrondo. Um carro desgovernado invadiu um ponto de ônibus lotado. Há gritos, poeira e peças no chão. Você vê quatro vítimas visíveis espalhadas pelo calçamento.",
+    etapas: [
+      {
+        id: "etapa_1",
+        pergunta: "É um Incidente com Múltiplas Vítimas (IVM). A avenida está caótica e outros carros desviam rápido. Qual o primeiro passo?",
+        tag_visual_detalhe: "risco_transito_perigo",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Correr para retirar as pessoas debaixo do carro.",
+            correta: false,
+            feedback: "Ação heróica sem segurança resulta em você sendo atropelado também."
+          },
+          {
+            id: "B",
+            texto: "Ligar 192 e 193, garantir sinalização da via.",
+            correta: true,
+            feedback: "Acionar socorro imediato, com dimensionamento, e proteger a cena com triângulo e carros cruzados são a prioridade absoluta."
+          },
+          {
+            id: "C",
+            texto: "Fazer RCP na primeira pessoa que encontrar.",
+            correta: false,
+            feedback: "Em múltiplas vítimas (START), PCR recebe prioridade preta (óbito). Fazer RCP exaure socorristas."
+          },
+          {
+            id: "D",
+            texto: "Gritar para o motorista do carro dar ré.",
+            correta: false,
+            feedback: "Mover o carro pode re-esmagar vítimas presas sob as rodas. O veículo deve ser desligado."
+          }
+        ]
+      },
+      {
+        id: "etapa_2",
+        pergunta: "Com a via parcialmente sinalizada por populares, você inicia a Triagem START (método para leigos e socorristas). Qual a primeira ordem verbal em um cenário de múltiplas vítimas?",
+        tag_visual_detalhe: "acao_triagem_start",
+        opcoes: [
+          {
+            id: "A",
+            texto: "'Quem não estiver respirando levante a mão!'",
+            correta: false,
+            feedback: "Instrução ilógica; se alguém não respira, não pode interagir ou mover-se."
+          },
+          {
+            id: "B",
+            texto: "'Por favor, deitem todos no chão agora!'",
+            correta: false,
+            feedback: "Isso dificulta saber quem tem lesões leves e pode se auto-evacuar."
+          },
+          {
+            id: "C",
+            texto: "'Quem consegue andar, vá para aquela praça!'",
+            correta: true,
+            feedback: "O primeiro passo do START é a triagem visual global. Quem anda recebe prioridade Verde (leve) e limpa a zona quente."
+          },
+          {
+            id: "D",
+            texto: "'Todos fechem os olhos para não ver o sangue.'",
+            correta: false,
+            feedback: "Reduzir o estado de alerta das vítimas conscientes aumenta os riscos de choque psicológico e físico no local."
+          }
+        ]
+      },
+      {
+        id: "etapa_3",
+        pergunta: "Duas pessoas se levantam e saem mancando (Verdes). Restam duas vítimas no chão. Você vai até a Vítima 1. Ela está inconsciente. Você abre a via aérea levantando o queixo, mas ela NÃO respira. Qual a classificação no método START?",
+        tag_visual_detalhe: "estado_caida_inconsciente",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Imediato (Vermelho), inicie RCP sem parar.",
+            correta: false,
+            feedback: "Em IVM, paciente em PCR é classificado como óbito, não se faz RCP para não desassistir quem pode ser salvo."
+          },
+          {
+            id: "B",
+            texto: "Fica classificada como Óbito (Preto/Cinza).",
+            correta: true,
+            feedback: "No protocolo START de múltiplas vítimas, se após o reposicionamento da via aérea o paciente não respira, classifica-se como óbito/expectante."
+          },
+          {
+            id: "C",
+            texto: "Urgente (Amarelo), deve-se dar oxigênio.",
+            correta: false,
+            feedback: "Sem respiração não há urgência que possa ser estabilizada na zona de triagem; é insustentável sem suporte."
+          },
+          {
+            id: "D",
+            texto: "Verde, pois ela está dormindo pelo choque.",
+            correta: false,
+            feedback: "Avaliação negligente e perigosa. Ausência de respiração significa parada sistêmica."
+          }
+        ]
+      },
+      {
+        id: "etapa_4",
+        pergunta: "Você abandona a Vítima 1 (Preta) e vai para a Vítima 2. Ela está inconsciente, mas respira muito rápido (mais de 30 vezes por minuto). Qual é a classificação dela?",
+        tag_visual_detalhe: "estado_angustia_respiratoria",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Prioridade Imediata (Vermelho).",
+            correta: true,
+            feedback: "No START, respiração > 30 RPM indica choque severo. Paciente é crítico (Vermelho)."
+          },
+          {
+            id: "B",
+            texto: "Prioridade Secundária (Amarelo).",
+            correta: false,
+            feedback: "Amarelo é quem respira normal, tem pulso, mas não consegue andar. Ela respira rápido."
+          },
+          {
+            id: "C",
+            texto: "Prioridade Leve (Verde).",
+            correta: false,
+            feedback: "A frequência respiratória elevada indica falha cardiovascular ou choque, não sendo uma situação leve."
+          },
+          {
+            id: "D",
+            texto: "Óbito (Preto).",
+            correta: false,
+            feedback: "Paciente com movimento ventilatório não pode ser classificado como morto."
+          }
+        ]
+      },
+      {
+        id: "etapa_5",
+        pergunta: "De repente (Twist), você escuta um barulho e o motor do carro batido começa a pegar fogo com muita fumaça tóxica indo na direção das vítimas no chão. O que você faz?",
+        tag_visual_detalhe: "risco_incendio",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Grita para elas segurarem a respiração.",
+            correta: false,
+            feedback: "Instrução inútil para pacientes críticos e fumaça de combustível é corrosiva."
+          },
+          {
+            id: "B",
+            texto: "Joga água limpa com as mãos no motor.",
+            correta: false,
+            feedback: "Água em combustíveis inflamáveis espalha o fogo e o incêndio cresce rapidamente."
+          },
+          {
+            id: "C",
+            texto: "Arraste as vítimas vivas para longe e seguro.",
+            correta: true,
+            feedback: "A segurança se sobrepõe ao risco de lesão cervical. Extricação de emergência (arraste pelas roupas) é justificada."
+          },
+          {
+            id: "D",
+            texto: "Começa a abanar a fumaça para o lado contrário.",
+            correta: false,
+            feedback: "Abanar alimenta as chamas com oxigênio e você aspira gás tóxico."
+          }
+        ]
+      },
+      {
+        id: "etapa_6",
+        pergunta: "Ao afastar a Vítima 2, você percebe que havia uma terceira vítima (Vítima 3) sob a placa de ônibus caída. Ela está consciente, mas sua perna esguicha sangue vermelho brilhante rítmicamente. É hemorragia arterial extrema. O que você prioriza?",
+        tag_visual_detalhe: "estado_hemorragia_ativa",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Lavar com soro para não infeccionar.",
+            correta: false,
+            feedback: "Infecção mata em dias; hemorragia arterial exanguinante mata em minutos."
+          },
+          {
+            id: "B",
+            texto: "Aplicar compressão direta ou torniquete.",
+            correta: true,
+            feedback: "O protocolo do Stop the Bleed orienta pressão direta firme e, se ineficaz em extremidades, aplicar torniquete."
+          },
+          {
+            id: "C",
+            texto: "Elevar a perna no ar e fazer massagem.",
+            correta: false,
+            feedback: "A elevação sozinha não interrompe fluxo de grande calibre e massagear estimula sangramento."
+          },
+          {
+            id: "D",
+            texto: "Cobrir com pano leve para ele não ver.",
+            correta: false,
+            feedback: "Apenas esconder a ferida não trata a perda massiva de sangue (choque hipovolêmico)."
+          }
+        ]
+      },
+      {
+        id: "etapa_7",
+        pergunta: "Você decide aplicar um torniquete improvisado (ou comercial, se alguém tiver). Como ele deve ser posicionado na perna para eficácia máxima em hemorragia severa sem identificação do local exato da ruptura na confusão?",
+        tag_visual_detalhe: "acao_torniquete",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Folgado e em cima do joelho.",
+            correta: false,
+            feedback: "Torniquetes em articulações comprimem sobre osso irregular, vazando sangue. Devem ficar apertados."
+          },
+          {
+            id: "B",
+            texto: "Alto e apertado na coxa (High and Tight).",
+            correta: true,
+            feedback: "Sob estresse extremo, o 'High and Tight' (mais alto possível no membro e muito apertado) garante a oclusão arterial profunda."
+          },
+          {
+            id: "C",
+            texto: "Logo abaixo de onde sai o sangue.",
+            correta: false,
+            feedback: "Torniquete abaixo da lesão represa sangue venoso, mas não impede a chegada arterial que mata."
+          },
+          {
+            id: "D",
+            texto: "Exatamente na canela, amarrado frouxo.",
+            correta: false,
+            feedback: "A tibiofibular não é ocluível fácil por tecidos finos e deixá-lo frouxo induz o membro à necrose isquêmica parcial."
+          }
+        ]
+      },
+      {
+        id: "etapa_8",
+        pergunta: "O sangramento parou. A Vítima 3 está suando frio, muito pálida e confusa. O que este quadro geral sinaliza após uma grande perda de sangue?",
+        tag_visual_detalhe: "estado_choque_palidez",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Choque Hipovolêmico (falta de sangue).",
+            correta: true,
+            feedback: "Palidez, sudorese, pele fria e confusão são sinais cardinais de que o sistema entrou em choque por vazio circulatório."
+          },
+          {
+            id: "B",
+            texto: "Infarto do Miocárdio (ataque cardíaco).",
+            correta: false,
+            feedback: "Não há relação direta inicial, a perda aguda justifica o déficit circulatório geral."
+          },
+          {
+            id: "C",
+            texto: "Crise alérgica pelo pólen da rua.",
+            correta: false,
+            feedback: "Anafilaxia causa edema respiratório e vermelhidão, diferente do quadro pálido úmido do trauma grave."
+          },
+          {
+            id: "D",
+            texto: "Convulsão silenciosa por ansiedade.",
+            correta: false,
+            feedback: "Condição não caracterizada; os sinais de pele indicam o desvio imediato do sangue para os órgãos vitais."
+          }
+        ]
+      },
+      {
+        id: "etapa_9",
+        pergunta: "As viaturas dos Bombeiros (ABTR) e as Ambulâncias do SAMU chegam ao mesmo tempo (Siren sounds). Qual a melhor forma de você ajudar no momento da chegada?",
+        tag_visual_detalhe: "desfecho_chegada_socorro",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Sair do local em silêncio antes que falem algo.",
+            correta: false,
+            feedback: "A omissão da sua triagem atrasa a reavaliação inicial das vítimas graves."
+          },
+          {
+            id: "B",
+            texto: "Apresentar as vítimas Vermelhas ao socorrista.",
+            correta: true,
+            feedback: "Reportar ao chefe das guarnições as vítimas já triadas como críticas garante que os esforços avancem rapidamente."
+          },
+          {
+            id: "C",
+            texto: "Mandar eles atenderem a vítima que morreu.",
+            correta: false,
+            feedback: "Vítimas inviáveis não ganham prioridade nas diretrizes de triagem em acidentes com múltiplas vítimas."
+          },
+          {
+            id: "D",
+            texto: "Pedir materiais e continuar atuando sozinho.",
+            correta: false,
+            feedback: "Ao chegar equipe especializada, o leigo deve passar o comando e se afastar para o serviço."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cenario_90",
+    titulo: "Choque na Tempestade",
+    tag_visual_cenario: "cenario_acidente_eletrico",
+    descricao_inicial: "Tarde de temporal forte e ventos. Você está na calçada quando um transformador estoura. Um cabo de alta tensão se rompe e cai em cima de um carro estacionado. O motorista se apavora, abre a porta e, ao pisar na rua molhada, recebe uma descarga elétrica fulminante. Ele cai rígido próximo ao pneu.",
+    etapas: [
+      {
+        id: "etapa_1",
+        pergunta: "O motorista está caído inerte no chão com parte do corpo sobre a poça d'água próxima ao carro energizado. Qual é a sua ação primária absoluta?",
+        tag_visual_detalhe: "risco_eletrico_letal",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Correr para retirá-lo da poça com as mãos neles.",
+            correta: false,
+            feedback: "Água conduz eletricidade perfeitamente. Tocar no paciente úmido garantirá a morte simultânea do resgatista."
+          },
+          {
+            id: "B",
+            texto: "Manter grande distância de segurança isolando o local.",
+            correta: true,
+            feedback: "A regra de ouro do acidente elétrico é isolamento e distância (tensão de passo). A zona quente é letal."
+          },
+          {
+            id: "C",
+            texto: "Puxar o fio energizado com um galho fino da árvore.",
+            correta: false,
+            feedback: "Galhos molhados pela chuva conduzem eletricidade. Alta tensão 'pula' até o socorrista em galhos improvisados."
+          },
+          {
+            id: "D",
+            texto: "Entrar no carro dele para protegê-lo da chuva forte.",
+            correta: false,
+            feedback: "Entrar ou encostar num carro blindado de alta voltagem gerará o arco para terra pelo seu próprio corpo."
+          }
+        ]
+      },
+      {
+        id: "etapa_2",
+        pergunta: "Você fica distante. Um homem grita: 'É meu irmão!' e tenta correr na direção da área energizada. O que você deve fazer para evitar uma nova tragédia (Twist)?",
+        tag_visual_detalhe: "acao_manter_distancia",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Abraçá-lo e chorar enquanto observam.",
+            correta: false,
+            feedback: "Isso não controla a atitude irracional da pessoa, podendo levar ambos a morrerem abraçados."
+          },
+          {
+            id: "B",
+            texto: "Filmar o desespero do homem para depois relatar.",
+            correta: false,
+            feedback: "Não se envolver ativamente no gerenciamento de riscos adicionais é negligência no papel de segurança da cena."
+          },
+          {
+            id: "C",
+            texto: "Contê-lo fisicamente alertando do perigo de morte.",
+            correta: true,
+            feedback: "Você deve usar autoridade verbal e contenção razoável para evitar a entrada de mais indivíduos que irão se eletrocutar."
+          },
+          {
+            id: "D",
+            texto: "Correr junto para que ele não vá sozinho.",
+            correta: false,
+            feedback: "Solidariedade suicida não resolve cenários complexos; criaria um evento de três cadáveres."
+          }
+        ]
+      },
+      {
+        id: "etapa_3",
+        pergunta: "A cena está contida sob seu comando verbal. Quem são as duas entidades que devem ser contatadas urgentemente nesta exata ordem?",
+        tag_visual_detalhe: "acao_ligando_emergencia",
+        opcoes: [
+          {
+            id: "A",
+            texto: "O prefeito e a Polícia Civil 197.",
+            correta: false,
+            feedback: "As instituições políticas ou de investigação atrasam o tempo crítico em salvamento de alto risco técnico."
+          },
+          {
+            id: "B",
+            texto: "O SAMU 192 e o parente próximo da vítima.",
+            correta: false,
+            feedback: "Chamar o parente sem antes avisar a empresa desativa não resolve o choque que continua fluindo."
+          },
+          {
+            id: "C",
+            texto: "A companhia de energia e os Bombeiros 193.",
+            correta: true,
+            feedback: "O Corpo de Bombeiros atua em riscos com energias perigosas. A concessionária precisa desligar a chave matriz do bairro."
+          },
+          {
+            id: "D",
+            texto: "A seguradora do carro e a Guarda de Trânsito.",
+            correta: false,
+            feedback: "Instituições não treinadas ou focadas em danos materiais são ineficazes durante a janela de risco da vida e da cena."
+          }
+        ]
+      },
+      {
+        id: "etapa_4",
+        pergunta: "De longe, esperando as viaturas, você foca na avaliação do paciente deitado sobre a água. Como se faz essa 'avaliação remota' em vítimas isoladas?",
+        tag_visual_detalhe: "estado_caida_inconsciente",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Grita perguntando a placa do carro.",
+            correta: false,
+            feedback: "Perguntas complexas são para análise cognitiva posterior, não para checagem rápida de urgência a distância."
+          },
+          {
+            id: "B",
+            texto: "Atira pedras e objetos para ele acordar.",
+            correta: false,
+            feedback: "Atirar itens desrespeita a estabilidade da vítima e não ajuda a avaliação clínica objetiva."
+          },
+          {
+            id: "C",
+            texto: "Foca o olhar apenas na respiração (tórax expandindo).",
+            correta: true,
+            feedback: "Apenas observar se há esforço ventilatório constante é suficiente. Pacientes elétricos podem desdobrar para Paradas Respiratórias ou Fibrilação Ventricular."
+          },
+          {
+            id: "D",
+            texto: "Pede para que o homem ao lado se aproxime devagar.",
+            correta: false,
+            feedback: "Qualquer ordem mandando alguém ir devagar é negligente; tensões de passo eletrocutam antes da vítima principal."
+          }
+        ]
+      },
+      {
+        id: "etapa_5",
+        pergunta: "Pela fiação solta do carro, um início de foco de incêndio estala gerando centelhas perigosas (Twist 2). O que fazer com o perímetro de curiosos em volta?",
+        tag_visual_detalhe: "acao_evacuacao_extrema",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Ampliar o recuo e evacuar as pessoas em 10 metros.",
+            correta: true,
+            feedback: "A progressão para princípios de incêndio em equipamentos com alta tensão e água expande os perigos colaterais de forma geométrica."
+          },
+          {
+            id: "B",
+            texto: "Pegar um extintor de água comum do comércio próximo.",
+            correta: false,
+            feedback: "Água em fio de alta tensão gera eletrochoque que sobe pelo jato atingindo o aplicador fulminantemente."
+          },
+          {
+            id: "C",
+            texto: "Rezar perto do corpo pedindo piedade divina em massa.",
+            correta: false,
+            feedback: "Agrupamento sem controle piora os acidentes, pois aumenta os ferimentos por quedas em pânico secundário."
+          },
+          {
+            id: "D",
+            texto: "Entregar vassouras plásticas aos populares para ajudarem.",
+            correta: false,
+            feedback: "Plástico seco isola a baixa tensão em casa, mas em tempestade ele não barra a condução perigosa dos postes de rede."
+          }
+        ]
+      },
+      {
+        id: "etapa_6",
+        pergunta: "Após 8 agonizantes minutos, as viaturas de emergência e o caminhão da concessionária de energia isolam a malha inteira. Um engenheiro grita 'REDE DESENERGIZADA E SEGURA'. Qual a próxima ação?",
+        tag_visual_detalhe: "acao_controle_cena",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Procurar os advogados para a apólice da vítima desmaiada.",
+            correta: false,
+            feedback: "Atitude distante e sem sentido na prioridade clínica em cadeia de sobrevivência básica."
+          },
+          {
+            id: "B",
+            texto: "Checar responsividade encostando os ombros da vítima e gritando.",
+            correta: true,
+            feedback: "Completamente livre do risco elétrico, inicia-se imediatamente o protocolo da AHA verificando o status do paciente prostrado."
+          },
+          {
+            id: "C",
+            texto: "Limpar o carro e avaliar amasso do teto do condutor.",
+            correta: false,
+            feedback: "Investigação de patrimônio em tempo de trauma desvia da assistência direta com urgência máxima."
+          },
+          {
+            id: "D",
+            texto: "Fugir sem relatar que ajudou no distanciamento das mortes.",
+            correta: false,
+            feedback: "Obrigatoriedade de se repassar a cinemática de alta voltagem garante diagnóstico da arritmia pelo socorro avançado."
+          }
+        ]
+      },
+      {
+        id: "etapa_7",
+        pergunta: "Ele não reage aos tapinhas nos ombros e chamados e possui uma marca enegrecida profunda (queimadura de saída de corrente) em seu braço. Qual avaliação é priorizada?",
+        tag_visual_detalhe: "estado_lesao_pele",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Colocar pomada dental anestésica no ferimento enegrecido dele.",
+            correta: false,
+            feedback: "Nunca aplique substâncias estranhas. A queimadura elétrica causa dano nos nervos profundos, não sendo o foco letal principal."
+          },
+          {
+            id: "B",
+            texto: "Tirar o relógio que conduz o resto da eletricidade dele no corpo.",
+            correta: false,
+            feedback: "A energia foi cortada. A retirada de roupas fundidas não toma tempo. Priorize sempre Avaliar Sinais de Vida e Ventilação."
+          },
+          {
+            id: "C",
+            texto: "Verificar se ocorre elevação do peito confirmando se ele respira.",
+            correta: true,
+            feedback: "Choques intensos que atravessam o miocárdio despolarizam a musculatura cardíaca levando o indivíduo a asfixia em Parada Cardíaca (PCR)."
+          },
+          {
+            id: "D",
+            texto: "Dobrar pernas do acidentado na base do abdômen relaxando corpo.",
+            correta: false,
+            feedback: "Sem indicativo; movimentar pessoas com inconsciência traumática secundária desrespeita o alinhamento da coluna vital."
+          }
+        ]
+      },
+      {
+        id: "etapa_8",
+        pergunta: "O homem está totalmente parado, com a pele pálida-azulada, sem expansão no peito, sem movimentos ou tosse por 10 segundos ininterruptos. A arritmia do choque gerou Parada. Como posicionar e agir no peito do paciente?",
+        tag_visual_detalhe: "acao_posicionamento",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Iniciar ventilações em sequência pela boca até tossir forte e engolir.",
+            correta: false,
+            feedback: "Ventilações de resgate (boca-a-boca) sem a RCP cardíaca combinada não impulsionam oxigênio inerte do pulmão para o cérebro afetado."
+          },
+          {
+            id: "B",
+            texto: "Expor região torácica e iniciar 30 compressões no meio da linha mamilar.",
+            correta: true,
+            feedback: "O protocolo C-A-B universal prega compressões fortes no terço médio inferior do esterno ininterruptamente."
+          },
+          {
+            id: "C",
+            texto: "Pressionar lateralmente os braços contra as costelas do acidentado pálido.",
+            correta: false,
+            feedback: "Método ineficaz retirado desde as revisões antigas de salvamento. Peito para cima exige compressão vertical com peso do resgatista."
+          },
+          {
+            id: "D",
+            texto: "Bater levemente de lado sem afundar muito os dedos na pele frouxa dele.",
+            correta: false,
+            feedback: "Pressões digitais são rasas; a deformação da caixa exige descida até cerca de 5 centímetros cravados em velocidade constante."
+          }
+        ]
+      },
+      {
+        id: "etapa_9",
+        pergunta: "Você afunda o centro do peito dele, mantendo braços esticados na linha dos seus ombros. Como se aplica técnica de retorno da caixa do tórax entre os impulsos de Compressão (RCP) a cada ciclo rítmico que faz?",
+        tag_visual_detalhe: "acao_rcp_adulto",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Empurra devagar sem recuar suas mãos até a próxima batida profunda.",
+            correta: false,
+            feedback: "Deixar o esterno amassado (pressão contínua) impede que as válvulas internas relaxem e recolham o sangue aspirado da veia e oxigenado."
+          },
+          {
+            id: "B",
+            texto: "Tira as mãos balançando-as do peito pra respirar fundo a cada passada.",
+            correta: false,
+            feedback: "Perder contato da pele atrasa e desalinha o ponto exato das compressões durante o ciclo acelerado contínuo no esterno firme."
+          },
+          {
+            id: "C",
+            texto: "Permite a volta (recoil) total do tórax antes do próximo peso sobre si.",
+            correta: true,
+            feedback: "A técnica perfeita do How-to AHA/PHTLS orienta liberação de peso, permitindo o reenchimento ventricular sem pular as mãos e perdendo foco."
+          },
+          {
+            id: "D",
+            texto: "Flexiona cotovelos deixando seu peso frouxo e leve pra não amassar costelas.",
+            correta: false,
+            feedback: "Braços flexíveis absorvem a carga necessária que deveria fluir reta para o bloqueio de sangue, perdendo força útil em exaustão no músculo do triceps."
+          }
+        ]
+      },
+      {
+        id: "etapa_10",
+        pergunta: "A equipe do Suporte Avançado de Vida (Médico SAMU 192) aproxima o maca de prancha e o Desfibrilador na cena segura enquanto você não para suas manobras extenuantes na chuva. Qual o comando médico final na entrega do resgate do desmaio pelo choque?",
+        tag_visual_detalhe: "desfecho_chegada_socorro",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Grita com os enfermeiros por não correrem e larga as costas.",
+            correta: false,
+            feedback: "Alterações emocionais prejudicam a transição de comandos da equipe profissional."
+          },
+          {
+            id: "B",
+            texto: "Tira fotos antes das ampolas de adrenalinas serem mostradas pra todos ali.",
+            correta: false,
+            feedback: "Exposição comética do resgate é invasiva, atrasa tempo porta-monitoramento crítico em eventos avançados e criminoso por expor feridos."
+          },
+          {
+            id: "C",
+            texto: "Só para de comprimir ao comando firme do profissional: 'Pode soltar, nós assumimos!'",
+            correta: true,
+            feedback: "A continuidade da sobrevida recai na regra de que o voluntário atua interligado sem pausar até o socorro físico real tomar posse dos pacientes iminentes em paradas com ritmos irregulares pelo choque ambiental grave."
+          },
+          {
+            id: "D",
+            texto: "Começa a tentar injetar ele mesmo as ampolas do socorrista experiente na área da mão direita.",
+            correta: false,
+            feedback: "Trabalhos de linha invasiva venosa com medicação pertencem apenas ao Corpo Médico. Não invada limites de socorro leigo e presteça de primeira linha e base universal (Basic Life Support)."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cenario_91",
+    titulo: "Susto no Jantar em Família",
+    tag_visual_cenario: "cenario_interno_comum",
+    descricao_inicial: "Você está em um jantar de família quando seu tio de 55 anos subitamente para de falar, leva a mão ao peito e desmaia, caindo da cadeira. O ambiente está agitado e as pessoas começam a gritar.",
+    etapas: [
+      {
+        id: "etapa_1",
+        pergunta: "Qual é a sua primeira ação ao chegar ao lado da vítima?",
+        tag_visual_detalhe: "estado_caida_inconsciente",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Checar se a cena está segura.",
+            correta: true,
+            feedback: "Correto. Antes de qualquer toque na vítima, o socorrista deve garantir que não há riscos ao redor."
+          },
+          {
+            id: "B",
+            texto: "Gritar por ajuda imediatamente.",
+            correta: false,
+            feedback: "Incorreto. A segurança da cena precede o acionamento, pois você pode se tornar uma nova vítima."
+          },
+          {
+            id: "C",
+            texto: "Iniciar massagem cardíaca.",
+            correta: false,
+            feedback: "Prematuro. Você ainda não avaliou a responsividade ou a necessidade de RCP."
+          },
+          {
+            id: "D",
+            texto: "Jogar água fria no rosto dele.",
+            correta: false,
+            feedback: "Incorreto. Isso não faz parte de protocolos de primeiros socorros e pode causar aspiração."
+          }
+        ]
+      },
+      {
+        id: "etapa_2",
+        pergunta: "A cena está segura. Como você avalia a responsividade da vítima?",
+        tag_visual_detalhe: "estado_caida_inconsciente",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Dando tapas leves no rosto.",
+            correta: false,
+            feedback: "Incorreto. A técnica correta envolve tocar os ombros e falar em voz alta."
+          },
+          {
+            id: "B",
+            texto: "Batendo nos ombros e chamando.",
+            correta: true,
+            feedback: "Correto. Deve-se bater firmemente nos ombros e chamar a pessoa em voz alta."
+          },
+          {
+            id: "C",
+            texto: "Apertando o mamilo da vítima.",
+            correta: false,
+            feedback: "Incorreto. Estímulos dolorosos agressivos não são recomendados para leigos na avaliação inicial."
+          },
+          {
+            id: "D",
+            texto: "Verificando o pulso femoral.",
+            correta: false,
+            feedback: "Incorreto. Leigos não devem perder tempo procurando pulsos; foque na consciência e respiração."
+          }
+        ]
+      },
+      {
+        id: "etapa_3",
+        pergunta: "Ele não responde e não respira normalmente (apenas suspiros ocasionais). O que fazer?",
+        tag_visual_detalhe: "estado_caida_inconsciente",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Pedir que liguem 192 e tragam DEA.",
+            correta: true,
+            feedback: "Correto. Em caso de inconsciência e ausência de respiração, o socorro deve ser acionado imediatamente."
+          },
+          {
+            id: "B",
+            texto: "Aguardar 2 minutos para ver se volta.",
+            correta: false,
+            feedback: "Fatal. A cada minuto sem intervenção na PCR, a chance de sobrevivência cai drasticamente."
+          },
+          {
+            id: "C",
+            texto: "Colocar as pernas dele para cima.",
+            correta: false,
+            feedback: "Incorreto. Isso é para desmaios simples (síncope) onde há respiração normal, não para parada cardíaca."
+          },
+          {
+            id: "D",
+            texto: "Procurar por documentos médicos.",
+            correta: false,
+            feedback: "Incorreto. A prioridade é a manutenção da vida através do acionamento e RCP."
+          }
+        ]
+      },
+      {
+        id: "etapa_4",
+        pergunta: "Socorro acionado. Onde você posiciona as mãos para iniciar as compressões?",
+        tag_visual_detalhe: "acao_rcp_adulto",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Sobre a barriga, abaixo das costelas.",
+            correta: false,
+            feedback: "Incorreto. Isso pode causar lesões em órgãos internos e não comprime o coração."
+          },
+          {
+            id: "B",
+            texto: "No centro do peito, metade inferior.",
+            correta: true,
+            feedback: "Correto. As compressões devem ser feitas na metade inferior do osso esterno, no centro do tórax."
+          },
+          {
+            id: "C",
+            texto: "Do lado esquerdo, sobre o coração.",
+            correta: false,
+            feedback: "Incorreto. Apesar do coração estar à esquerda, a compressão eficaz é feita no centro do esterno."
+          },
+          {
+            id: "D",
+            texto: "No topo do peito, perto do pescoço.",
+            correta: false,
+            feedback: "Incorreto. Esta posição não permite a ejeção de sangue adequada pelo músculo cardíaco."
+          }
+        ]
+      },
+      {
+        id: "etapa_5",
+        pergunta: "Qual a frequência e profundidade correta das compressões?",
+        tag_visual_detalhe: "acao_rcp_adulto",
+        opcoes: [
+          {
+            id: "A",
+            texto: "50/min, profundidade de 2 cm.",
+            correta: false,
+            feedback: "Incorreto. Frequência muito lenta e profundidade insuficiente para circular o sangue."
+          },
+          {
+            id: "B",
+            texto: "100-120/min, 5 a 6 cm de profundidade.",
+            correta: true,
+            feedback: "Correto. As diretrizes da AHA recomendam 100 a 120 compressões por minuto e profundidade de 5-6 cm."
+          },
+          {
+            id: "C",
+            texto: "O mais rápido que conseguir, 8 cm.",
+            correta: false,
+            feedback: "Incorreto. Rapidez excessiva impede o retorno do tórax e 8 cm é uma profundidade perigosa."
+          },
+          {
+            id: "D",
+            texto: "80/min, permitindo retorno parcial.",
+            correta: false,
+            feedback: "Incorreto. Deve-se permitir o retorno TOTAL do tórax entre as compressões."
+          }
+        ]
+      },
+      {
+        id: "etapa_6",
+        pergunta: "Após alguns minutos, ele tosse e abre os olhos. Como você deve proceder?",
+        tag_visual_detalhe: "estado_recuperacao_consciencia",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Sentá-lo e dar água com açúcar.",
+            correta: false,
+            feedback: "Incorreto. Vítimas que recuperam a consciência podem vomitar; nunca ofereça líquidos."
+          },
+          {
+            id: "B",
+            texto: "Colocar em Posição Lateral de Segurança.",
+            correta: true,
+            feedback: "Correto. A posição lateral protege a via aérea contra aspiração de vômito se a vítima estiver inconsciente mas respirando."
+          },
+          {
+            id: "C",
+            texto: "Deixá-lo de barriga para cima.",
+            correta: false,
+            feedback: "Incorreto. Risco de queda da base da língua ou aspiração de secreções se houver vômito."
+          },
+          {
+            id: "D",
+            texto: "Pedir que ele tente caminhar um pouco.",
+            correta: false,
+            feedback: "Incorreto. O esforço físico pode agravar uma possível condição cardíaca subjacente."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cenario_92",
+    titulo: "Queda na Escadaria",
+    tag_visual_cenario: "cenario_publico_aberto",
+    descricao_inicial: "Uma jovem de 19 anos tropeça no topo de uma escadaria de pedra e rola até a base. Você a encontra caída, com o pescoço em uma posição estranha e um corte na testa.",
+    etapas: [
+      {
+        id: "etapa_1",
+        pergunta: "Qual é a sua prioridade técnica ao abordar esta vítima de trauma?",
+        tag_visual_detalhe: "estado_caida_inconsciente",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Estabilizar a coluna cervical manualmente.",
+            correta: true,
+            feedback: "Correto. Em traumas com mecanismo de queda, a estabilização cervical evita lesões medulares secundárias."
+          },
+          {
+            id: "B",
+            texto: "Limpar o sangue da testa dela.",
+            correta: false,
+            feedback: "Incorreto. O ferimento na testa é secundário à proteção da coluna e avaliação de consciência."
+          },
+          {
+            id: "C",
+            texto: "Retirar o sapato para checar pulsos.",
+            correta: false,
+            feedback: "Incorreto. Manobras desnecessárias podem causar movimentação da coluna vertebral."
+          },
+          {
+            id: "D",
+            texto: "Virar a cabeça para o lado.",
+            correta: false,
+            feedback: "Incorreto. Girar o pescoço em suspeita de trauma cervical é extremamente perigoso."
+          }
+        ]
+      },
+      {
+        id: "etapa_2",
+        pergunta: "Você estabiliza a cabeça. Ela geme ao ser chamada, mas não abre os olhos. Como classificar a responsividade?",
+        tag_visual_detalhe: "estado_caida_inconsciente",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Responsiva a estímulo verbal.",
+            correta: true,
+            feedback: "Correto. Se a vítima emite sons ou reage ao chamado, ela é considerada responsiva ao som (Escala AVDI)."
+          },
+          {
+            id: "B",
+            texto: "Completamente consciente.",
+            correta: false,
+            feedback: "Incorreto. Uma pessoa consciente deve abrir os olhos e interagir de forma lógica."
+          },
+          {
+            id: "C",
+            texto: "Inconsciente (Irresponsiva).",
+            correta: false,
+            feedback: "Incorreto. O gemido indica que há algum nível de resposta ao estímulo externo."
+          },
+          {
+            id: "D",
+            texto: "Responsiva apenas à dor.",
+            correta: false,
+            feedback: "Incorreto. O chamado verbal já gerou uma resposta (o gemido), não sendo necessário estímulo doloroso."
+          }
+        ]
+      },
+      {
+        id: "etapa_3",
+        pergunta: "Ela começa a vomitar enquanto está deitada de costas. O que você deve fazer mantendo a segurança cervical?",
+        tag_visual_detalhe: "estado_vomito_ativo",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Aspirar o vômito com os dedos.",
+            correta: false,
+            feedback: "Incorreta. Risco de mordedura e não limpa a via aérea de forma eficaz."
+          },
+          {
+            id: "B",
+            texto: "Virar apenas a cabeça dela.",
+            correta: false,
+            feedback: "Incorreto. Isso causa rotação cervical, o que deve ser evitado no trauma."
+          },
+          {
+            id: "C",
+            texto: "Rolamento em bloco com ajuda.",
+            correta: true,
+            feedback: "Correto. O rolamento em bloco mantém o alinhamento cabeça-pescoço-tronco para limpar a via aérea."
+          },
+          {
+            id: "D",
+            texto: "Tapar a boca dela rapidamente.",
+            correta: false,
+            feedback: "Incorreto. Isso causaria aspiração pulmonar do vômito, levando a asfixia ou pneumonia."
+          }
+        ]
+      },
+      {
+        id: "etapa_4",
+        pergunta: "Como você realiza a abertura das vias aéreas se ela parar de respirar, suspeitando de trauma?",
+        tag_visual_detalhe: "acao_manobra_mandibular",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Inclinação da cabeça (Head-tilt).",
+            correta: false,
+            feedback: "Incorreto. Essa manobra estende o pescoço e pode agravar lesões cervicais."
+          },
+          {
+            id: "B",
+            texto: "Empurre mandibular (Jaw-thrust).",
+            correta: true,
+            feedback: "Correto. O empurre mandibular projeta a mandíbula para frente sem movimentar a coluna cervical."
+          },
+          {
+            id: "C",
+            texto: "Puxar a língua para fora.",
+            correta: false,
+            feedback: "Incorreto. Além de ineficaz, é perigoso para o socorrista e para a vítima."
+          },
+          {
+            id: "D",
+            texto: "Colocar um travesseiro alto.",
+            correta: false,
+            feedback: "Incorreto. Isso flete o pescoço e pode obstruir ainda mais a passagem do ar."
+          }
+        ]
+      },
+      {
+        id: "etapa_5",
+        pergunta: "Você nota que a pele dela está ficando muito pálida e fria. Qual o provável sinal?",
+        tag_visual_detalhe: "estado_choque_palidez",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Hipotermia por causa do chão.",
+            correta: false,
+            feedback: "Incorreto. Embora possível, palidez e frialdade pós-trauma são sinais clássicos de choque."
+          },
+          {
+            id: "B",
+            texto: "Estado de choque (Hipovolemia).",
+            correta: true,
+            feedback: "Correto. A palidez e sudorese fria indicam má perfusão tecidual, característica do choque."
+          },
+          {
+            id: "C",
+            texto: "Apenas medo do acidente.",
+            correta: false,
+            feedback: "Incorreto. No trauma, sinais físicos devem ser tratados como emergências fisiológicas, não apenas emocionais."
+          },
+          {
+            id: "D",
+            texto: "Início de uma febre alta.",
+            correta: false,
+            feedback: "Incorreto. Febre deixaria a pele quente e avermelhada, não fria e pálida."
+          }
+        ]
+      },
+      {
+        id: "etapa_6",
+        pergunta: "O que o leigo pode fazer para ajudar no estado de choque identificado?",
+        tag_visual_detalhe: "acao_posicionamento",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Dar água para hidratar.",
+            correta: false,
+            feedback: "Incorreto. Vítimas de trauma nunca devem ingerir nada pelo risco de cirurgia imediata ou vômito."
+          },
+          {
+            id: "B",
+            texto: "Cobrir a vítima para manter o calor.",
+            correta: true,
+            feedback: "Correto. Prevenir a perda de calor é fundamental no manejo do choque."
+          },
+          {
+            id: "C",
+            texto: "Fazer massagem nas pernas.",
+            correta: false,
+            feedback: "Incorreto. Isso não ajuda na circulação central e pode deslocar coágulos ou piorar fraturas."
+          },
+          {
+            id: "D",
+            texto: "Dar um comprimido de sal.",
+            correta: false,
+            feedback: "Incorreto. Uso de medicamentos ou substâncias via oral é proibido em primeiros socorros."
+          }
+        ]
+      },
+      {
+        id: "etapa_7",
+        pergunta: "A ambulância do SAMU (192) chega. Qual a informação mais importante para passar?",
+        tag_visual_detalhe: "desfecho_chegada_socorro",
+        opcoes: [
+          {
+            id: "A",
+            texto: "A cor da roupa da vítima.",
+            correta: false,
+            feedback: "Irrelevante. Foque em dados clínicos e no mecanismo do trauma."
+          },
+          {
+            id: "B",
+            texto: "Mecanismo da queda e nível de consciência.",
+            correta: true,
+            feedback: "Correto. Informar como ela caiu e como respondeu aos estímulos ajuda na triagem médica."
+          },
+          {
+            id: "C",
+            texto: "Que você não tem culpa do acidente.",
+            correta: false,
+            feedback: "Irrelevante. O foco deve ser exclusivamente no estado da vítima."
+          },
+          {
+            id: "D",
+            texto: "O nome de todos os curiosos.",
+            correta: false,
+            feedback: "Irrelevante. Isso apenas atrapalha a transferência de cuidado rápida."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cenario_93",
+    titulo: "Engasgo no Restaurante",
+    tag_visual_cenario: "cenario_publico_fechado",
+    descricao_inicial: "Um homem na mesa ao lado levanta-se bruscamente, agarra o pescoço com as duas mãos e não consegue tossir nem falar. O rosto dele está ficando roxo.",
+    etapas: [
+      {
+        id: "etapa_1",
+        pergunta: "Qual sinal indica uma obstrução grave da via aérea (engasgo total)?",
+        tag_visual_detalhe: "estado_engasgo_adulto",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Tosse forte e barulhenta.",
+            correta: false,
+            feedback: "Incorreto. Tosse eficaz indica obstrução parcial; incentive a vítima a continuar tossindo."
+          },
+          {
+            id: "B",
+            texto: "Incapacidade de falar ou tossir.",
+            correta: true,
+            feedback: "Correto. O sinal universal de engasgo e a ausência de som indicam obstrução total."
+          },
+          {
+            id: "C",
+            texto: "A vítima pedindo ajuda em voz alta.",
+            correta: false,
+            feedback: "Incorreto. Se ela fala, o ar está passando; a obstrução não é total."
+          },
+          {
+            id: "D",
+            texto: "Espirros repetitivos.",
+            correta: false,
+            feedback: "Incorreto. Espirros não são sinais de obstrução de via aérea inferior ou glote."
+          }
+        ]
+      },
+      {
+        id: "etapa_2",
+        pergunta: "A vítima está consciente e não consegue respirar. Qual manobra deve ser aplicada?",
+        tag_visual_detalhe: "acao_manobra_heimlich",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Manobra de Heimlich (Compressão abdominal).",
+            correta: true,
+            feedback: "Correto. É a manobra recomendada para desobstrução de via aérea em adultos conscientes."
+          },
+          {
+            id: "B",
+            texto: "5 tapas fortes nas costas apenas.",
+            correta: false,
+            feedback: "Incorreto. Em adultos, a compressão abdominal é prioritária e mais eficaz que apenas tapas."
+          },
+          {
+            id: "C",
+            texto: "Massagem cardíaca (RCP).",
+            correta: false,
+            feedback: "Incorreto. RCP é para vítimas inconscientes e sem pulso/respiração."
+          },
+          {
+            id: "D",
+            texto: "Oferecer um copo de água.",
+            correta: false,
+            feedback: "Perigoso. A água pode empurrar o objeto mais profundamente ou causar aspiração."
+          }
+        ]
+      },
+      {
+        id: "etapa_3",
+        pergunta: "Onde você posiciona as mãos para realizar a manobra de Heimlich?",
+        tag_visual_detalhe: "acao_manobra_heimlich",
+        opcoes: [
+          {
+            id: "A",
+            texto: "No meio do peito (osso esterno).",
+            correta: false,
+            feedback: "Incorreto. Esta posição é usada apenas em gestantes ou obesos onde o braço não alcança o abdômen."
+          },
+          {
+            id: "B",
+            texto: "Acima do umbigo, abaixo do esterno.",
+            correta: true,
+            feedback: "Correto. O punho deve ser colocado entre o umbigo e o apêndice xifoide."
+          },
+          {
+            id: "C",
+            texto: "Diretamente sobre o umbigo.",
+            correta: false,
+            feedback: "Incorreto. A pressão deve ser aplicada na região epigástrica para elevar o diafragma."
+          },
+          {
+            id: "D",
+            texto: "Nas costas, entre as escápulas.",
+            correta: false,
+            feedback: "Incorreto. Tapas nas costas são auxiliares, mas a manobra principal é a compressão abdominal."
+          }
+        ]
+      },
+      {
+        id: "etapa_4",
+        pergunta: "Qual o movimento correto da manobra de Heimlich?",
+        tag_visual_detalhe: "acao_manobra_heimlich",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Para baixo, em direção ao chão.",
+            correta: false,
+            feedback: "Incorreto. Este movimento não cria a pressão necessária para expulsar o objeto."
+          },
+          {
+            id: "B",
+            texto: "Para dentro e para cima (em 'J').",
+            correta: true,
+            feedback: "Correto. [cite_start]O movimento em 'J' simula uma tosse artificial ao comprimir o diafragma[cite: 2280]."
+          },
+          {
+            id: "C",
+            texto: "Apenas apertar as costelas.",
+            correta: false,
+            feedback: "Incorreto. Apertar as costelas pode causar fraturas sem desobstruir a via aérea."
+          },
+          {
+            id: "D",
+            texto: "Puxar a vítima para trás.",
+            correta: false,
+            feedback: "Incorreto. O foco é a compressão abdominal, não o deslocamento do corpo da vítima."
+          }
+        ]
+      },
+      {
+        id: "etapa_5",
+        pergunta: "Reviravolta: A vítima desfalece nos seus braços e fica inconsciente. Qual a primeira conduta agora?",
+        tag_visual_detalhe: "estado_caida_inconsciente",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Tentar Heimlich com ela deitada.",
+            correta: false,
+            feedback: "Incorreto. Diretrizes atuais recomendam iniciar RCP em vítimas de engasgo que perdem a consciência."
+          },
+          {
+            id: "B",
+            texto: "Amparar ao chão e iniciar RCP.",
+            correta: true,
+            feedback: "Correto. Ao desfalecer, a prioridade muda para RCP; a compressão torácica ajuda a desobstruir."
+          },
+          {
+            id: "C",
+            texto: "Ficar de joelhos e bater nas costas.",
+            correta: false,
+            feedback: "Incorreto. Ineficaz para uma vítima inconsciente."
+          },
+          {
+            id: "D",
+            texto: "Procurar o objeto com o dedo.",
+            correta: false,
+            feedback: "Perigoso. A varredura às cegas pode empurrar o objeto mais para baixo."
+          }
+        ]
+      },
+      {
+        id: "etapa_6",
+        pergunta: "Durante as compressões da RCP, você olha a boca e vê o pedaço de carne solto. O que fazer?",
+        tag_visual_detalhe: "acao_rcp_adulto",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Retirar apenas se estiver visível.",
+            correta: true,
+            feedback: "Correto. Só realize a remoção se o objeto estiver visível e fácil de alcançar."
+          },
+          {
+            id: "B",
+            texto: "Empurrar para ver se ele engole.",
+            correta: false,
+            feedback: "Fatal. O objeto deve sair da via aérea, não ser empurrado para o esôfago ou pulmão."
+          },
+          {
+            id: "C",
+            texto: "Continuar a RCP ignorando o objeto.",
+            correta: false,
+            feedback: "Incorreto. Se o objeto saiu, a via aérea está livre; cheque se a vítima voltou a respirar."
+          },
+          {
+            id: "D",
+            texto: "Pinçar com uma caneta.",
+            correta: false,
+            feedback: "Incorreto. Nunca use objetos improvisados na boca de uma vítima; risco de lesão e engasgo maior."
+          }
+        ]
+      },
+      {
+        id: "etapa_7",
+        pergunta: "Ele volta a respirar, mas está confuso. Você deve cancelar a chamada de emergência?",
+        tag_visual_detalhe: "estado_recuperacao_consciencia",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Sim, ele já está bem.",
+            correta: false,
+            feedback: "Incorreto. A manobra de Heimlich e a falta de oxigênio podem causar lesões internas que exigem avaliação médica."
+          },
+          {
+            id: "B",
+            texto: "Não, ele precisa de avaliação médica.",
+            correta: true,
+            feedback: "Correto. Toda vítima que sofreu engasgo grave e manobras de desobstrução deve ser avaliada por profissionais."
+          },
+          {
+            id: "C",
+            texto: "Apenas se ele começar a chorar.",
+            correta: false,
+            feedback: "Irrelevante. O choro é uma reação emocional, não um indicador de saúde física estável."
+          },
+          {
+            id: "D",
+            texto: "Sim, para não ocupar o sistema.",
+            correta: false,
+            feedback: "Incorreto. Este é um caso legítimo de uso do sistema de emergência."
+          }
+        ]
+      },
+      {
+        id: "etapa_8",
+        pergunta: "Qual o número correto para chamar a ambulância especializada em casos clínicos no Brasil?",
+        tag_visual_detalhe: "acao_ligando_emergencia",
+        opcoes: [
+          {
+            id: "A",
+            texto: "190.",
+            correta: false,
+            feedback: "Incorreto. 190 é a Polícia Militar."
+          },
+          {
+            id: "B",
+            texto: "192.",
+            correta: true,
+            feedback: "Correto. 192 é o SAMU, responsável por emergências clínicas e suporte à vida."
+          },
+          {
+            id: "C",
+            texto: "193.",
+            correta: false,
+            feedback: "Incorreto. 193 são os Bombeiros (foco em trauma e resgate)."
+          },
+          {
+            id: "D",
+            texto: "199.",
+            correta: false,
+            feedback: "Incorreto. 199 é a Defesa Civil."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cenario_94",
+    titulo: "Engavetamento na Rodovia",
+    tag_visual_cenario: "cenario_via_transito",
+    descricao_inicial: "Você presencia um engavetamento com 3 carros. Há fumaça saindo de um motor, pessoas gritando e várias vítimas espalhadas. Você é o único socorrista no local no momento.",
+    etapas: [
+      {
+        id: "etapa_1",
+        pergunta: "Qual a sua primeira medida de segurança em uma rodovia?",
+        tag_visual_detalhe: "acao_controle_cena",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Sinalizar a via a uma distância segura.",
+            correta: true,
+            feedback: "Correto. [cite_start]Use triângulos, galhos ou o pisca-alerta para evitar novos acidentes[cite: 2130]."
+          },
+          {
+            id: "B",
+            texto: "Correr para o carro com mais fumaça.",
+            correta: false,
+            feedback: "Perigoso. Sem sinalizar, você pode ser atropelado enquanto tenta ajudar."
+          },
+          {
+            id: "C",
+            texto: "Tirar fotos para a perícia.",
+            correta: false,
+            feedback: "Incorreto. A prioridade é a segurança e a vida, não o registro do acidente."
+          },
+          {
+            id: "D",
+            texto: "Tentar apagar o fogo com sua camisa.",
+            correta: false,
+            feedback: "Ineficaz e perigoso. Chamas em motores exigem extintores ou ação dos bombeiros."
+          }
+        ]
+      },
+      {
+        id: "etapa_2",
+        pergunta: "Você precisa acionar o socorro. Quais informações são cruciais?",
+        tag_visual_detalhe: "acao_ligando_emergencia",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Localização, tipo de evento e nº de vítimas.",
+            correta: true,
+            feedback: "Correto. Isso permite que a central envie o número adequado de ambulâncias."
+          },
+          {
+            id: "B",
+            texto: "A marca e modelo de todos os carros.",
+            correta: false,
+            feedback: "Irrelevante para o atendimento médico inicial."
+          },
+          {
+            id: "C",
+            texto: "Quem parece ser o culpado.",
+            correta: false,
+            feedback: "Irrelevante. O foco do socorrista leigo é puramente assistencial."
+          },
+          {
+            id: "D",
+            texto: "O seu nome e CPF primeiro.",
+            correta: false,
+            feedback: "Incorreto. A localização e a gravidade da cena são as informações prioritárias."
+          }
+        ]
+      },
+      {
+        id: "etapa_3",
+        pergunta: "Aplique o método START leigo: Qual vítima você atende primeiro?",
+        tag_visual_detalhe: "acao_triagem_start",
+        opcoes: [
+          {
+            id: "A",
+            texto: "A que está gritando muito por dor.",
+            correta: false,
+            feedback: "Incorreto. Quem grita está respirando e consciente. Não é a prioridade máxima."
+          },
+          {
+            id: "B",
+            texto: "A que está em silêncio e imóvel.",
+            correta: true,
+            feedback: "Correto. No sistema de triagem, vítimas silenciosas e inconscientes são prioridade para avaliação de vida."
+          },
+          {
+            id: "C",
+            texto: "A que está tentando sair do carro.",
+            correta: false,
+            feedback: "Incorreto. Esta vítima é considerada 'verde' (ferido leve) e pode aguardar."
+          },
+          {
+            id: "D",
+            texto: "A que está chorando abraçada a alguém.",
+            correta: false,
+            feedback: "Incorreto. Reações emocionais não definem a gravidade fisiológica imediata."
+          }
+        ]
+      },
+      {
+        id: "etapa_4",
+        pergunta: "Vítima 1: Inconsciente, com hemorragia intensa na perna 'esguichando' sangue. O que fazer?",
+        tag_visual_detalhe: "estado_hemorragia_ativa",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Elevar a perna para parar o sangue.",
+            correta: false,
+            feedback: "Ineficaz. Hemorragias arteriais (em esguicho) exigem pressão direta ou torniquete."
+          },
+          {
+            id: "B",
+            texto: "Aplicar compressão direta forte.",
+            correta: true,
+            feedback: "Correto. O primeiro passo no controle de hemorragias graves é a compressão direta sobre o ferimento."
+          },
+          {
+            id: "C",
+            texto: "Lavar o ferimento com água mineral.",
+            correta: false,
+            feedback: "Incorreto. A prioridade é estancar o sangue (X do XABCDE), não a limpeza."
+          },
+          {
+            id: "D",
+            texto: "Esperar a ambulância para não sujar as mãos.",
+            correta: false,
+            feedback: "Fatal. Uma hemorragia arterial pode levar à morte em poucos minutos."
+          }
+        ]
+      },
+      {
+        id: "etapa_5",
+        pergunta: "A compressão direta com pano limpo não está parando o sangue. Qual o próximo passo?",
+        tag_visual_detalhe: "acao_curativo_adicional",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Retirar o pano e colocar um novo.",
+            correta: false,
+            feedback: "Incorreto. Nunca remova o primeiro pano, pois você destrói o coágulo que está se formando."
+          },
+          {
+            id: "B",
+            texto: "Colocar mais panos por cima e apertar.",
+            correta: true,
+            feedback: "Correto. Adicione camadas de curativo sem remover as anteriores para manter a pressão."
+          },
+          {
+            id: "C",
+            texto: "Desistir e ir para a próxima vítima.",
+            correta: false,
+            feedback: "Incorreto. Você deve tentar controlar a ameaça à vida antes de prosseguir se for a única ajuda."
+          },
+          {
+            id: "D",
+            texto: "Passar álcool gel no corte.",
+            correta: false,
+            feedback: "Incorreto. Álcool causa dor extrema e não ajuda na coagulação sanguínea."
+          }
+        ]
+      },
+      {
+        id: "etapa_6",
+        pergunta: "Vítima 2: Presa nas ferragens, consciente, mas o carro começa a pegar fogo. O que fazer?",
+        tag_visual_detalhe: "risco_incendio",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Aguardar os bombeiros com extintor.",
+            correta: false,
+            feedback: "Risco. Se o fogo é iminente e ameaça a vida, a evacuação de emergência é necessária."
+          },
+          {
+            id: "B",
+            texto: "Extração de emergência imediata.",
+            correta: true,
+            feedback: "Correto. Em risco iminente de explosão ou incêndio, a prioridade é retirar a vítima da zona de perigo."
+          },
+          {
+            id: "C",
+            texto: "Tentar apagar o fogo com terra.",
+            correta: false,
+            feedback: "Ineficaz. O tempo gasto tentando apagar o fogo poderia ser usado na retirada da vítima."
+          },
+          {
+            id: "D",
+            texto: "Pedir para a vítima se acalmar e rezar.",
+            correta: false,
+            feedback: "Incorreto. É necessária uma ação física de resgate diante do perigo de vida."
+          }
+        ]
+      },
+      {
+        id: "etapa_7",
+        pergunta: "Reviravolta: Um curioso tenta puxar a vítima pelo pescoço sem cuidado. Como agir?",
+        tag_visual_detalhe: "risco_interferencia_terceiros",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Deixar, pois toda ajuda é bem-vinda.",
+            correta: false,
+            feedback: "Incorreto. Ajuda tecnicamente errada pode causar paralisia permanente na vítima."
+          },
+          {
+            id: "B",
+            texto: "Orientar o controle cervical e ajudar.",
+            correta: true,
+            feedback: "Correto. Coordene a ação para que a cabeça e o pescoço sejam protegidos durante a retirada."
+          },
+          {
+            id: "C",
+            texto: "Empurrar o curioso para longe.",
+            correta: false,
+            feedback: "Incorreto. Evite conflitos físicos; foque na orientação e segurança da vítima."
+          },
+          {
+            id: "D",
+            texto: "Sair de perto para não se envolver.",
+            correta: false,
+            feedback: "Incorreto. Você é o socorrista capacitado; sua liderança na cena é fundamental."
+          }
+        ]
+      },
+      {
+        id: "etapa_8",
+        pergunta: "Após retirar a vítima do fogo, qual a posição ideal de espera?",
+        tag_visual_detalhe: "acao_posicionamento",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Sentada para respirar melhor.",
+            correta: false,
+            feedback: "Incorreto. Vítimas de trauma devem ser mantidas deitadas e imóveis até a chegada do socorro."
+          },
+          {
+            id: "B",
+            texto: "Deitada com alinhamento da coluna.",
+            correta: true,
+            feedback: "Correto. Manter a vítima deitada previne agravamento de lesões internas e cervicais."
+          },
+          {
+            id: "C",
+            texto: "De bruços para proteger as costas.",
+            correta: false,
+            feedback: "Incorreto. Dificulta a respiração e a avaliação contínua da face e tórax."
+          },
+          {
+            id: "D",
+            texto: "Em pé, para testar se consegue andar.",
+            correta: false,
+            feedback: "Perigoso. Pode haver fraturas ocultas ou lesões na coluna que se agravam com o peso."
+          }
+        ]
+      },
+      {
+        id: "etapa_9",
+        pergunta: "Qual o telefone da Polícia Rodoviária Federal para acidentes em rodovias federais?",
+        tag_visual_detalhe: "acao_ligando_emergencia",
+        opcoes: [
+          {
+            id: "A",
+            texto: "191.",
+            correta: true,
+            feedback: "Correto. 191 é o número de emergência da PRF para rodovias federais."
+          },
+          {
+            id: "B",
+            texto: "193.",
+            correta: false,
+            feedback: "Incorreto. 193 é o Corpo de Bombeiros."
+          },
+          {
+            id: "C",
+            texto: "190.",
+            correta: false,
+            feedback: "Incorreto. 190 é a Polícia Militar."
+          },
+          {
+            id: "D",
+            texto: "198.",
+            correta: false,
+            feedback: "Incorreto. 198 é a Polícia Militar Rodoviária (vias estaduais)."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cenario_95",
+    titulo: "Acidente com Fio de Alta Tensão",
+    tag_visual_cenario: "cenario_acidente_eletrico",
+    descricao_inicial: "Após uma tempestade, um fio de alta tensão cai sobre um pedestre em uma calçada molhada. A vítima está caída e o fio ainda está sobre o corpo dela emitindo faíscas.",
+    etapas: [
+      {
+        id: "etapa_1",
+        pergunta: "Qual a sua atitude imediata ao ver o fio sobre a vítima?",
+        tag_visual_detalhe: "acao_manter_distancia",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Tentar puxar a vítima pelos pés.",
+            correta: false,
+            feedback: "Fatal. O solo molhado e o corpo da vítima estarão energizados; você será eletrocutado."
+          },
+          {
+            id: "B",
+            texto: "Manter distância e isolar a área.",
+            correta: true,
+            feedback: "Correto. Em acidentes elétricos, a segurança do socorrista depende de não entrar no campo energizado."
+          },
+          {
+            id: "C",
+            texto: "Usar um pedaço de pau seco para tirar o fio.",
+            correta: false,
+            feedback: "Incorreto. Em alta tensão, mesmo madeira seca pode conduzir eletricidade; deixe para profissionais."
+          },
+          {
+            id: "D",
+            texto: "Chutar o fio para longe da calçada.",
+            correta: false,
+            feedback: "Fatal. Contato direto ou indireto com alta tensão é extremamente perigoso."
+          }
+        ]
+      },
+      {
+        id: "etapa_2",
+        pergunta: "Quem deve ser acionado prioritariamente neste cenário?",
+        tag_visual_detalhe: "acao_ligando_emergencia",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Apenas a ambulância do SAMU (192).",
+            correta: false,
+            feedback: "Incompleto. O SAMU não pode resgatar a vítima enquanto a rede estiver ligada."
+          },
+          {
+            id: "B",
+            texto: "Bombeiros (193) e Cia de Energia.",
+            correta: true,
+            feedback: "Correto. Os bombeiros têm equipamentos de isolamento e a Cia de Energia precisa desligar a rede."
+          },
+          {
+            id: "C",
+            texto: "O eletricista do bairro.",
+            correta: false,
+            feedback: "Incorreto. O gerenciamento de rede pública exige a operadora oficial e órgãos de socorro."
+          },
+          {
+            id: "D",
+            texto: "A Polícia Civil (197).",
+            correta: false,
+            feedback: "Incorreto. Não é uma emergência de investigação criminal imediata."
+          }
+        ]
+      },
+      {
+        id: "etapa_3",
+        pergunta: "A energia foi desligada e os bombeiros autorizaram seu acesso. A vítima está inconsciente e com queimaduras. O que avaliar primeiro?",
+        tag_visual_detalhe: "estado_caida_inconsciente",
+        opcoes: [
+          {
+            id: "A",
+            texto: "A profundidade das queimaduras.",
+            correta: false,
+            feedback: "Incorreto. Queimaduras são secundárias à avaliação de respiração e batimentos cardíacos."
+          },
+          {
+            id: "B",
+            texto: "Responsividade e presença de respiração.",
+            correta: true,
+            feedback: "Correto. Choques elétricos frequentemente causam Parada Cardiorrespiratória por arritmia."
+          },
+          {
+            id: "C",
+            texto: "Se as roupas estão queimadas.",
+            correta: false,
+            feedback: "Irrelevante. Foque nos sinais vitais básicos."
+          },
+          {
+            id: "D",
+            texto: "Se ele perdeu algum dente.",
+            correta: false,
+            feedback: "Irrelevante na avaliação primária de vida."
+          }
+        ]
+      },
+      {
+        id: "etapa_4",
+        pergunta: "Ela não respira e não tem movimentos. Você inicia a RCP. Por que a RCP é vital aqui?",
+        tag_visual_detalhe: "acao_rcp_adulto",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Para resfriar o corpo queimado.",
+            correta: false,
+            feedback: "Incorreto. RCP serve para manter a perfusão cerebral e cardíaca."
+          },
+          {
+            id: "B",
+            texto: "Para reverter uma possível fibrilação.",
+            correta: true,
+            feedback: "Correto. O choque elétrico interrompe o ritmo normal do coração; a RCP mantém a vida até o DEA chegar."
+          },
+          {
+            id: "C",
+            texto: "Para acordar a vítima do susto.",
+            correta: false,
+            feedback: "Incorreto. Inconsciência e ausência de respiração indicam uma emergência médica real, não susto."
+          },
+          {
+            id: "D",
+            texto: "Para evitar que ela sinta dor.",
+            correta: false,
+            feedback: "Incorreto. Uma pessoa em PCR não processa dor; o objetivo é a sobrevivência."
+          }
+        ]
+      },
+      {
+        id: "etapa_5",
+        pergunta: "Um DEA (Desfibrilador) chega ao local. Qual o cuidado especial com a vítima no chão molhado?",
+        tag_visual_detalhe: "acao_uso_dea",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Usar o DEA normalmente na poça d'água.",
+            correta: false,
+            feedback: "Perigoso. A água conduz a descarga para o socorrista e dispersa a energia."
+          },
+          {
+            id: "B",
+            texto: "Secar o tórax e afastar a vítima da poça.",
+            correta: true,
+            feedback: "Correto. O tórax deve estar seco para as pás aderirem e a vítima deve estar fora da água para o choque ser seguro."
+          },
+          {
+            id: "C",
+            texto: "Não usar o DEA, apenas compressões.",
+            correta: false,
+            feedback: "Incorreto. O DEA é o único tratamento para ritmos de choque causados por eletricidade."
+          },
+          {
+            id: "D",
+            texto: "Colocar as pás sobre a roupa molhada.",
+            correta: false,
+            feedback: "Incorreto. As pás devem ter contato direto com a pele seca do tórax."
+          }
+        ]
+      },
+      {
+        id: "etapa_6",
+        pergunta: "O DEA analisa e recomenda choque. O que você deve fazer antes de apertar o botão?",
+        tag_visual_detalhe: "acao_uso_dea",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Segurar a mão da vítima para dar apoio.",
+            correta: false,
+            feedback: "Fatal. Você receberá o choque junto com a vítima."
+          },
+          {
+            id: "B",
+            texto: "Gritar 'Afastem-se' e checar visualmente.",
+            correta: true,
+            feedback: "Correto. Ninguém pode tocar na vítima durante a descarga elétrica do DEA."
+          },
+          {
+            id: "C",
+            texto: "Continuar as compressões durante o choque.",
+            correta: false,
+            feedback: "Perigoso. O toque durante o choque é contraindicado por segurança."
+          },
+          {
+            id: "D",
+            texto: "Fechar os olhos e apertar o botão.",
+            correta: false,
+            feedback: "Incorreto. Você deve monitorar a cena para garantir que ninguém toque na vítima."
+          }
+        ]
+      },
+      {
+        id: "etapa_7",
+        pergunta: "Após o choque, a vítima volta a respirar mas tem queimaduras graves nos braços. Como tratar?",
+        tag_visual_detalhe: "estado_lesao_pele",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Passar creme dental ou manteiga.",
+            correta: false,
+            feedback: "Incorreto. Substâncias caseiras retêm calor e aumentam o risco de infecção."
+          },
+          {
+            id: "B",
+            texto: "Lavar com água corrente em temperatura ambiente.",
+            correta: true,
+            feedback: "Correto. O resfriamento com água limpa ajuda a interromper o processo de queima dos tecidos."
+          },
+          {
+            id: "C",
+            texto: "Colocar gelo direto sobre a ferida.",
+            correta: false,
+            feedback: "Incorreto. O gelo pode causar queimaduras por frio (geladura) e agravar a lesão."
+          },
+          {
+            id: "D",
+            texto: "Estourar as bolhas que aparecerem.",
+            correta: false,
+            feedback: "Incorreto. As bolhas protegem a pele nova; estourá-las abre porta para bactérias."
+          }
+        ]
+      },
+      {
+        id: "etapa_8",
+        pergunta: "Como cobrir a queimadura enquanto aguarda a ambulância?",
+        tag_visual_detalhe: "acao_curativo_limpo",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Com algodão bem apertado.",
+            correta: false,
+            feedback: "Incorreto. As fibras do algodão grudam na ferida e causam dor e infecção na retirada."
+          },
+          {
+            id: "B",
+            texto: "Com gpano limpo ou gaze úmida.",
+            correta: true,
+            feedback: "Correto. Coberturas que não grudam protegem a ferida sem causar danos adicionais."
+          },
+          {
+            id: "C",
+            texto: "Deixar exposto ao sol para secar.",
+            correta: false,
+            feedback: "Incorreto. A exposição aumenta a dor e o risco de contaminação ambiental."
+          },
+          {
+            id: "D",
+            texto: "Passar uma faixa bem apertada.",
+            correta: false,
+            feedback: "Incorreto. O inchaço da queimadura sob uma faixa apertada pode interromper a circulação."
+          }
+        ]
+      },
+      {
+        id: "etapa_9",
+        pergunta: "Reviravolta: A vítima começa a ter uma convulsão após recuperar os sentidos. O que fazer?",
+        tag_visual_detalhe: "estado_espasmo_muscular",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Colocar uma colher na boca dela.",
+            correta: false,
+            feedback: "Perigoso. Pode quebrar os dentes ou sufocar a vítima; ninguém enrola a língua."
+          },
+          {
+            id: "B",
+            texto: "Proteger a cabeça e afastar objetos.",
+            correta: true,
+            feedback: "Correto. O objetivo na convulsão é evitar que a vítima se machuque durante os espasmos."
+          },
+          {
+            id: "C",
+            texto: "Segurar os braços com força para parar.",
+            correta: false,
+            feedback: "Incorreto. Tentar conter os movimentos pode causar fraturas ou luxações na vítima."
+          },
+          {
+            id: "D",
+            texto: "Dar um tapa para ela 'acordar'.",
+            correta: false,
+            feedback: "Incorreto. A convulsão é um evento neurológico que não responde a estímulos físicos externos."
+          }
+        ]
+      },
+      {
+        id: "etapa_10",
+        pergunta: "Qual o telefone da Defesa Civil para relatar fios caídos e riscos estruturais após chuvas?",
+        tag_visual_detalhe: "acao_ligando_emergencia",
+        opcoes: [
+          {
+            id: "A",
+            texto: "192.",
+            correta: false,
+            feedback: "Incorreto. 192 é o SAMU."
+          },
+          {
+            id: "B",
+            texto: "199.",
+            correta: true,
+            feedback: "Correto. 199 é o número da Defesa Civil no Brasil."
+          },
+          {
+            id: "C",
+            texto: "193.",
+            correta: false,
+            feedback: "Incorreto. 193 são os Bombeiros."
+          },
+          {
+            id: "D",
+            texto: "190.",
+            correta: false,
+            feedback: "Incorreto. 190 é a Polícia Militar."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cenario_96",
+    titulo: "Crise na Praça de Alimentação",
+    tag_visual_cenario: "cenario_publico_fechado",
+    descricao_inicial: "Sábado à tarde no shopping. Um homem de 40 anos cai subitamente da cadeira, derrubando a bandeja. Ele apresenta movimentos bruscos de braços e pernas, além de salivação excessiva.",
+    etapas: [
+      {
+        id: "etapa_1",
+        pergunta: "Muitas pessoas começam a rodear o homem. Qual sua primeira atitude de segurança?",
+        tag_visual_detalhe: "acao_controle_cena",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Pedir espaço e afastar objetos.",
+            correta: true,
+            feedback: "Priorize a segurança da cena e evite que a vítima se machuque em móveis."
+          },
+          {
+            id: "B",
+            texto: "Segurar os braços dele com força.",
+            correta: false,
+            feedback: "Tentar conter os movimentos pode causar fraturas ou luxações no paciente."
+          },
+          {
+            id: "C",
+            texto: "Colocar um pano entre os dentes.",
+            correta: false,
+            feedback: "Objetos na boca podem causar asfixia ou quebra de dentes durante os espasmos."
+          },
+          {
+            id: "D",
+            texto: "Virar a cabeça dele para trás logo.",
+            correta: false,
+            feedback: "Hiperextender o pescoço durante a crise não é indicado e pode causar lesão."
+          }
+        ]
+      },
+      {
+        id: "etapa_2",
+        pergunta: "O homem está batendo a cabeça repetidamente contra o chão. Como protegê-lo?",
+        tag_visual_detalhe: "estado_espasmo_muscular",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Imobilizar o pescoço com as mãos.",
+            correta: false,
+            feedback: "A força da contração muscular impede a imobilização manual segura agora."
+          },
+          {
+            id: "B",
+            texto: "Amparar a cabeça com algo macio.",
+            correta: true,
+            feedback: "Use as mãos, um casaco ou almofada para evitar o traumatismo craniano direto."
+          },
+          {
+            id: "C",
+            texto: "Levantar os ombros da vítima.",
+            correta: false,
+            feedback: "Elevar o tronco pode dificultar a respiração ou favorecer a aspiração de saliva."
+          },
+          {
+            id: "D",
+            texto: "Gritar o nome dele para acordar.",
+            correta: false,
+            feedback: "A vítima está inconsciente e não responderá a estímulos verbais no momento."
+          }
+        ]
+      },
+      {
+        id: "etapa_3",
+        pergunta: "A boca dele está roxa (cianose) e ele parece não respirar durante os espasmos. Conduta?",
+        tag_visual_detalhe: "estado_asfixia_traumatica",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Tentar puxar a língua para fora.",
+            correta: false,
+            feedback: "A língua não enrola; ela relaxa. Puxá-la pode causar mordeduras graves em você."
+          },
+          {
+            id: "B",
+            texto: "Iniciar compressões cardíacas já.",
+            correta: false,
+            feedback: "A apneia e cianose são comuns durante a fase tônica da crise convulsiva."
+          },
+          {
+            id: "C",
+            texto: "Apenas observar e cronometrar.",
+            correta: true,
+            feedback: "Aguarde o fim da crise. Cronometrar ajuda o médico a decidir a medicação."
+          },
+          {
+            id: "D",
+            texto: "Fazer ventilação boca-a-boca.",
+            correta: false,
+            feedback: "Não se faz respiração artificial em vítimas convulsionando; há risco de trauma."
+          }
+        ]
+      },
+      {
+        id: "etapa_4",
+        pergunta: "A crise parou após 2 minutos. Ele está relaxado, mas desacordado e com saliva. Ação?",
+        tag_visual_detalhe: "acao_posicao_lateral",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Virar o corpo dele de lado.",
+            correta: true,
+            feedback: "A posição lateral de segurança evita que ele se sufoque com a saliva ou vômito."
+          },
+          {
+            id: "B",
+            texto: "Sentar ele para ele tossir.",
+            correta: false,
+            feedback: "Vítimas inconscientes não mantêm o tônus e podem cair, sofrendo novo trauma."
+          },
+          {
+            id: "C",
+            texto: "Dar água gelada com açúcar.",
+            correta: false,
+            feedback: "Nunca ofereça líquidos a quem não está consciente (risco de broncoaspiração)."
+          },
+          {
+            id: "D",
+            texto: "Deixar de barriga para cima.",
+            correta: false,
+            feedback: "Nesta posição, a língua ou secreções podem obstruir totalmente a passagem do ar."
+          }
+        ]
+      },
+      {
+        id: "etapa_5",
+        pergunta: "Técnica: como posicionar membros para manter a estabilidade lateral?",
+        tag_visual_detalhe: "acao_posicionamento",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Braço esticado e perna reta.",
+            correta: false,
+            feedback: "Sem pontos de apoio, o corpo da vítima voltará para a posição de barriga para cima."
+          },
+          {
+            id: "B",
+            texto: "Dobrar o joelho e apoiar a mão.",
+            correta: true,
+            feedback: "O joelho dobrado cria uma alavanca e a mão sob o rosto apoia a cabeça."
+          },
+          {
+            id: "C",
+            texto: "Cruzar as pernas e braços dele.",
+            correta: false,
+            feedback: "Cruzar membros não oferece estabilidade lateral e pode prender a circulação."
+          },
+          {
+            id: "D",
+            texto: "Amarrar as mãos com um cinto.",
+            correta: false,
+            feedback: "Contenção física é proibida em primeiros socorros clínicos sem treinamento."
+          }
+        ]
+      },
+      {
+        id: "etapa_6",
+        pergunta: "Ele começa a despertar confuso. Qual o número para o serviço clínico de emergência?",
+        tag_visual_detalhe: "acao_ligando_emergencia",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Ligar para o número 193.",
+            correta: false,
+            feedback: "193 é Bombeiros (trauma/fogo). 192 (SAMU) é a prioridade clínica."
+          },
+          {
+            id: "B",
+            texto: "Ligar para o número 190.",
+            correta: false,
+            feedback: "190 é a Polícia Militar, usada para segurança pública e crimes."
+          },
+          {
+            id: "C",
+            texto: "Ligar para o número 192.",
+            correta: true,
+            feedback: "O SAMU (192) é o serviço ideal para emergências clínicas como esta."
+          },
+          {
+            id: "D",
+            texto: "Ligar para o número 199.",
+            correta: false,
+            feedback: "199 é a Defesa Civil, para desastres naturais e riscos estruturais."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cenario_97",
+    titulo: "Reforma Perigosa",
+    tag_visual_cenario: "cenario_externo_servico",
+    descricao_inicial: "Um pedreiro caiu de uma escada de 3 metros de altura. Ele está caído no chão, imóvel, sobre entulhos. Você ouve o barulho da queda e corre para ajudar.",
+    etapas: [
+      {
+        id: "etapa_1",
+        pergunta: "Ao chegar perto da vítima, qual a sua prioridade técnica imediata?",
+        tag_visual_detalhe: "acao_estabilizacao_cervical",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Remover ele dos entulhos logo.",
+            correta: false,
+            feedback: "Movimentar a vítima sem estabilização pode causar lesão medular permanente."
+          },
+          {
+            id: "B",
+            texto: "Estabilizar a cabeça e pescoço.",
+            correta: true,
+            feedback: "Em quedas de altura, a suspeita de lesão na coluna cervical é obrigatória."
+          },
+          {
+            id: "C",
+            texto: "Verificar se ele está com sede.",
+            correta: false,
+            feedback: "Não se deve dar água para vítimas de trauma grave por risco de cirurgia."
+          },
+          {
+            id: "D",
+            texto: "Tirar as botas dele agora.",
+            correta: false,
+            feedback: "Remover calçados causa movimentos desnecessários na coluna da vítima."
+          }
+        ]
+      },
+      {
+        id: "etapa_2",
+        pergunta: "Você chama: 'Senhor, consegue me ouvir?'. Ele apenas geme e não abre os olhos. Estado?",
+        tag_visual_detalhe: "estado_caida_inconsciente",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Vítima consciente e estável.",
+            correta: false,
+            feedback: "Gemidos e falta de abertura ocular indicam nível de consciência alterado."
+          },
+          {
+            id: "B",
+            texto: "Inconsciente e estado grave.",
+            correta: true,
+            feedback: "A incapacidade de responder verbalmente indica um trauma craniano (TCE)."
+          },
+          {
+            id: "C",
+            texto: "Vítima em parada cardíaca.",
+            correta: false,
+            feedback: "Ainda não avaliamos respiração. Gemidos indicam que ele ainda respira."
+          },
+          {
+            id: "D",
+            texto: "Vítima apenas fingindo dor.",
+            correta: false,
+            feedback: "Nunca subestime o mecanismo; uma queda de 3m é sempre crítica."
+          }
+        ]
+      },
+      {
+        id: "etapa_3",
+        pergunta: "Técnica: como posicionar mãos para manter a cervical protegida com segurança?",
+        tag_visual_detalhe: "acao_posicionamento",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Mãos nas laterais da cabeça.",
+            correta: true,
+            feedback: "Apoie os cotovelos no chão e segure as laterais, impedindo rotações."
+          },
+          {
+            id: "B",
+            texto: "Uma mão nuca e outra testa.",
+            correta: false,
+            feedback: "Esta posição não impede a inclinação lateral, perigosa para a coluna."
+          },
+          {
+            id: "C",
+            texto: "Segurar firme pelo queixo.",
+            correta: false,
+            feedback: "Segurar pelo queixo pode obstruir as vias aéreas do paciente."
+          },
+          {
+            id: "D",
+            texto: "Usar os pés para travar.",
+            correta: false,
+            feedback: "Os pés não têm a precisão necessária para a estabilização cervical."
+          }
+        ]
+      },
+      {
+        id: "etapa_4",
+        pergunta: "Você nota um líquido claro com sangue saindo pelo ouvido dele. O que isso indica?",
+        tag_visual_detalhe: "estado_asfixia_traumatica",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Apenas um corte na orelha.",
+            correta: false,
+            feedback: "Líquido claro (líquor) pelo ouvido sugere fratura de base de crânio."
+          },
+          {
+            id: "B",
+            texto: "Fratura grave no crânio.",
+            correta: true,
+            feedback: "A saída de líquor é um sinal crítico de traumatismo cranioencefálico."
+          },
+          {
+            id: "C",
+            texto: "Sinal de infecção de ouvido.",
+            correta: false,
+            feedback: "No trauma de altura, a fratura é a hipótese principal, não infecção."
+          },
+          {
+            id: "D",
+            texto: "Vítima com pressão alta.",
+            correta: false,
+            feedback: "Sangramento no ouvido após trauma é sinal de lesão óssea craniana."
+          }
+        ]
+      },
+      {
+        id: "etapa_5",
+        pergunta: "**REVIRAVOLTA:** A vítima começa a vomitar ativamente deitada de costas. Conduta?",
+        tag_visual_detalhe: "estado_vomito_ativo",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Manter ele de costas parado.",
+            correta: false,
+            feedback: "Se ficar de costas, ele irá aspirar o vômito para os pulmões (asfixia)."
+          },
+          {
+            id: "B",
+            texto: "Virar em bloco com ajuda.",
+            correta: true,
+            feedback: "Gire o corpo todo ao mesmo tempo, mantendo cabeça e tronco alinhados."
+          },
+          {
+            id: "C",
+            texto: "Limpar a boca com os dedos.",
+            correta: false,
+            feedback: "Dedos na boca de quem tem TCE pode resultar em mordida por reflexo."
+          },
+          {
+            id: "D",
+            texto: "Virar apenas a cabeça dele.",
+            correta: false,
+            feedback: "Virar apenas a cabeça torce a cervical, podendo agravar lesão medular."
+          }
+        ]
+      },
+      {
+        id: "etapa_6",
+        pergunta: "Ao acionar o 192, qual informação sobre o mecanismo é prioritária?",
+        tag_visual_detalhe: "acao_ligando_emergencia",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Dizer a cor da escada dele.",
+            correta: false,
+            feedback: "Detalhes estéticos não alteram o protocolo de atendimento médico."
+          },
+          {
+            id: "B",
+            texto: "Informar a altura da queda.",
+            correta: true,
+            feedback: "A altura determina a energia do impacto e a gravidade das lesões."
+          },
+          {
+            id: "C",
+            texto: "Informar o nome da empresa.",
+            correta: false,
+            feedback: "O nome da empresa é secundário à condição clínica da vítima."
+          },
+          {
+            id: "D",
+            texto: "Dizer que ele tomou café.",
+            correta: false,
+            feedback: "A altura da queda e o nível de consciência são os dados mais urgentes."
+          }
+        ]
+      },
+      {
+        id: "etapa_7",
+        pergunta: "Ele está pálido e frio. Como protegê-lo até a chegada do socorro?",
+        tag_visual_detalhe: "desfecho_chegada_socorro",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Jogar água fria no rosto.",
+            correta: false,
+            feedback: "O resfriamento piora o estado de choque; a vítima deve manter calor."
+          },
+          {
+            id: "B",
+            texto: "Cobrir com uma manta limpa.",
+            correta: true,
+            feedback: "Prevenir a hipotermia é essencial no tratamento do trauma e do choque."
+          },
+          {
+            id: "C",
+            texto: "Fazer massagem nas pernas.",
+            correta: false,
+            feedback: "Massagens podem deslocar coágulos ou agravar fraturas ocultas."
+          },
+          {
+            id: "D",
+            texto: "Deixar exposto ao sol logo.",
+            correta: false,
+            feedback: "A exposição direta ao sol pode causar queimaduras, agravando o quadro."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cenario_98",
+    titulo: "Colapso na Esteira",
+    tag_visual_cenario: "cenario_interno_comum",
+    descricao_inicial: "Um jovem de 25 anos para de correr, leva a mão ao peito e desmaia ao lado da esteira. Ele está caído de bruços e o ambiente está barulhento.",
+    etapas: [
+      {
+        id: "etapa_1",
+        pergunta: "Você vira a vítima. Como verificar se ele está em Parada Cardiorrespiratória (PCR)?",
+        tag_visual_detalhe: "estado_caida_inconsciente",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Ver se responde e respira.",
+            correta: true,
+            feedback: "Chame a vítima e observe o tórax por 10s. Sem resposta/respiração = PCR."
+          },
+          {
+            id: "B",
+            texto: "Sentir o pulso no punho.",
+            correta: false,
+            feedback: "Leigos não devem perder tempo com pulso; respiração é o melhor sinal."
+          },
+          {
+            id: "C",
+            texto: "Colocar espelho no nariz.",
+            correta: false,
+            feedback: "Técnica ultrapassada que atrasa o início da reanimação necessária."
+          },
+          {
+            id: "D",
+            texto: "Ver se a pupila dilatou.",
+            correta: false,
+            feedback: "Exame de pupilas não diagnostica parada cardíaca no suporte básico."
+          }
+        ]
+      },
+      {
+        id: "etapa_2",
+        pergunta: "Ele não responde e faz um ruído de 'peixe fora d'água' (gasping). O que fazer?",
+        tag_visual_detalhe: "estado_angustia_respiratoria",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Aguardar o ar voltar.",
+            correta: false,
+            feedback: "Gasping não é respiração eficaz; é sinal de parada cardíaca iminente."
+          },
+          {
+            id: "B",
+            texto: "Tratar como Parada Cardíaca.",
+            correta: true,
+            feedback: "O gasping é sinal clássico de PCR. Inicie compressões imediatamente."
+          },
+          {
+            id: "C",
+            texto: "Dar tapinhas no rosto dele.",
+            correta: false,
+            feedback: "Estímulos físicos dolorosos não revertem uma parada cardíaca."
+          },
+          {
+            id: "D",
+            texto: "Levantar pernas da vítima.",
+            correta: false,
+            feedback: "Em PCR, o foco absoluto deve ser a compressão eficaz do peito."
+          }
+        ]
+      },
+      {
+        id: "etapa_3",
+        pergunta: "Qual a sequência correta de acionamento para salvar este jovem?",
+        tag_visual_detalhe: "acao_ligando_emergencia",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Ligar 192 e buscar um DEA.",
+            correta: true,
+            feedback: "Ligar para o SAMU e conseguir um Desfibrilador são os passos críticos."
+          },
+          {
+            id: "B",
+            texto: "Ligar para os pais dele já.",
+            correta: false,
+            feedback: "Avisar familiares é importante, mas só após o socorro ser chamado."
+          },
+          {
+            id: "C",
+            texto: "Chamar gerente da academia.",
+            correta: false,
+            feedback: "O foco é o 192 e o equipamento de desfibrilação disponível."
+          },
+          {
+            id: "D",
+            texto: "Ligar 190 e esperar rádio.",
+            correta: false,
+            feedback: "A polícia não é o serviço primário para atendimento de parada cardíaca."
+          }
+        ]
+      },
+      {
+        id: "etapa_4",
+        pergunta: "Técnica: onde exatamente você deve posicionar suas mãos para as compressões?",
+        tag_visual_detalhe: "acao_rcp_adulto",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Lado esquerdo do peito.",
+            correta: false,
+            feedback: "Comprima o centro, sobre o osso esterno, contra a coluna vertebral."
+          },
+          {
+            id: "B",
+            texto: "Centro do peito (esterno).",
+            correta: true,
+            feedback: "A metade inferior do osso esterno, no centro do tórax, é o local correto."
+          },
+          {
+            id: "C",
+            texto: "Na boca do estômago.",
+            correta: false,
+            feedback: "Comprimir o abdômen pode causar lesões em órgãos e não circula sangue."
+          },
+          {
+            id: "D",
+            texto: "Em cima das costelas.",
+            correta: false,
+            feedback: "Comprimir costelas causa fraturas e não gera pressão sanguínea efetiva."
+          }
+        ]
+      },
+      {
+        id: "etapa_5",
+        pergunta: "Técnica: qual a profundidade e o ritmo das compressões em um adulto?",
+        tag_visual_detalhe: "acao_rcp_adulto",
+        opcoes: [
+          {
+            id: "A",
+            texto: "2 cm e ritmo bem lento.",
+            correta: false,
+            feedback: "Compressões rasas e lentas não fazem o sangue chegar ao cérebro."
+          },
+          {
+            id: "B",
+            texto: "5 a 6 cm e 100 a 120/min.",
+            correta: true,
+            feedback: "Recomendação AHA para garantir fluxo sanguíneo eficiente (Stayin' Alive)."
+          },
+          {
+            id: "C",
+            texto: "10 cm e o mais rápido.",
+            correta: false,
+            feedback: "Mais de 6cm causa lesões e ritmo excessivo impede o coração de encher."
+          },
+          {
+            id: "D",
+            texto: "Até sentir a costela quebrar.",
+            correta: false,
+            feedback: "O objetivo é comprimir o coração, não quebrar ossos propositalmente."
+          }
+        ]
+      },
+      {
+        id: "etapa_6",
+        pergunta: "Técnica: por que permitir o retorno total do tórax entre as compressões?",
+        tag_visual_detalhe: "acao_rcp_adulto",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Para você poder descansar.",
+            correta: false,
+            feedback: "O retorno do tórax serve para a função cardíaca mecânica, não descanso."
+          },
+          {
+            id: "B",
+            texto: "Para o coração encher.",
+            correta: true,
+            feedback: "Se não soltar o peito totalmente, o coração não recebe sangue para bombear."
+          },
+          {
+            id: "C",
+            texto: "Para o pulmão esvaziar.",
+            correta: false,
+            feedback: "O foco principal da compressão é o sistema circulatório nesta fase."
+          },
+          {
+            id: "D",
+            texto: "Para evitar quebrar a pele.",
+            correta: false,
+            feedback: "O retorno total não tem relação com a integridade da pele da vítima."
+          }
+        ]
+      },
+      {
+        id: "etapa_7",
+        pergunta: "O DEA chegou. Qual a primeira coisa a fazer ao abrir a caixa do aparelho?",
+        tag_visual_detalhe: "acao_uso_dea",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Colocar as pás no peito.",
+            correta: false,
+            feedback: "Antes de colocar as pás, você deve ligar o aparelho para ouvir os comandos."
+          },
+          {
+            id: "B",
+            texto: "Ligar o botão do aparelho.",
+            correta: true,
+            feedback: "Ligar o DEA é o primeiro passo para que ele te guie por voz."
+          },
+          {
+            id: "C",
+            texto: "Secar o chão da academia.",
+            correta: false,
+            feedback: "A menos que haja poça sob a vítima, ligar o aparelho é a prioridade."
+          },
+          {
+            id: "D",
+            texto: "Raspar todos os pelos já.",
+            correta: false,
+            feedback: "Ligue o aparelho primeiro; o tempo é precioso na desfibrilação."
+          }
+        ]
+      },
+      {
+        id: "etapa_8",
+        pergunta: "O DEA diz 'Choque recomendado. Afaste-se'. O que garantir agora?",
+        tag_visual_detalhe: "desfecho_chegada_socorro",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Segurar a mão da vítima.",
+            correta: false,
+            feedback: "Se tocar na vítima, o choque passará para você (risco de PCR secundária)."
+          },
+          {
+            id: "B",
+            texto: "Ninguém tocando na vítima.",
+            correta: true,
+            feedback: "Garanta visualmente que ninguém está em contato antes de apertar o botão."
+          },
+          {
+            id: "C",
+            texto: "Desligar as luzes da sala.",
+            correta: false,
+            feedback: "A luminosidade não interfere na segurança ou eficácia do choque."
+          },
+          {
+            id: "D",
+            texto: "Gritar 'Vou te salvar!'.",
+            correta: false,
+            feedback: "A comunicação deve ser clara para afastar as pessoas da cena."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cenario_99",
+    titulo: "Caos na Rodovia BR-101",
+    tag_visual_cenario: "cenario_via_transito",
+    descricao_inicial: "Um micro-ônibus colidiu com a mureta. Há fumaça e pelo menos 5 pessoas caídas na pista. Você é o primeiro a parar no local seguro.",
+    etapas: [
+      {
+        id: "etapa_1",
+        pergunta: "Técnica: como deve ser feita a sinalização da via antes do socorro?",
+        tag_visual_detalhe: "risco_transito_perigo",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Parar o carro ao lado.",
+            correta: false,
+            feedback: "Pare antes do acidente para proteger a cena de novos engavetamentos."
+          },
+          {
+            id: "B",
+            texto: "Sinalizar a longa distância.",
+            correta: true,
+            feedback: "Use triângulos/galhos a uma distância que permita aos motoristas pararem."
+          },
+          {
+            id: "C",
+            texto: "Ligar para a imprensa.",
+            correta: false,
+            feedback: "Sua prioridade é a segurança e o acionamento dos órgãos de resgate."
+          },
+          {
+            id: "D",
+            texto: "Correr com extintor.",
+            correta: false,
+            feedback: "Sinalizar a via protege você de atropelamentos, que são riscos fatais."
+          }
+        ]
+      },
+      {
+        id: "etapa_2",
+        pergunta: "Triagem START: qual o primeiro comando que você deve gritar?",
+        tag_visual_detalhe: "acao_triagem_start",
+        opcoes: [
+          {
+            id: "A",
+            texto: "'Quem anda, venha aqui'.",
+            correta: true,
+            feedback: "Vítimas que andam são 'Verdes' e liberam você para as graves."
+          },
+          {
+            id: "B",
+            texto: "'Quem está morrendo, grite'.",
+            correta: false,
+            feedback: "Vítimas críticas muitas vezes não conseguem gritar; comando ineficaz."
+          },
+          {
+            id: "C",
+            texto: "'Fiquem todos parados'.",
+            correta: false,
+            feedback: "Manter feridos leves no local perigoso aumenta o risco e o número de vítimas."
+          },
+          {
+            id: "D",
+            texto: "'Vou ajudar as crianças'.",
+            correta: false,
+            feedback: "No START, a gravidade clínica precede a idade ou o gênero."
+          }
+        ]
+      },
+      {
+        id: "etapa_3",
+        pergunta: "Você encontra alguém com perna amputada e sangue em jato. Ação?",
+        tag_visual_detalhe: "acao_torniquete",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Fazer curativo com gaze.",
+            correta: false,
+            feedback: "Gaze não para sangramento arterial massivo em amputações."
+          },
+          {
+            id: "B",
+            texto: "Aplicar um torniquete.",
+            correta: true,
+            feedback: "Em hemorragias massivas (X do XABCDE), o torniquete salva vidas."
+          },
+          {
+            id: "C",
+            texto: "Apenas elevar a perna.",
+            correta: false,
+            feedback: "Elevação não interrompe sangramentos arteriais graves de amputação."
+          },
+          {
+            id: "D",
+            texto: "Lavar a ferida agora.",
+            correta: false,
+            feedback: "Lavar causaria perda de tempo e poderia remover coágulos essenciais."
+          }
+        ]
+      },
+      {
+        id: "etapa_4",
+        pergunta: "Técnica: como aplicar um torniquete improvisado eficaz?",
+        tag_visual_detalhe: "acao_torniquete",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Usar um barbante fino.",
+            correta: false,
+            feedback: "Materiais finos cortam a pele sem interromper o fluxo sanguíneo profundo."
+          },
+          {
+            id: "B",
+            texto: "Pano largo e um bastão.",
+            correta: true,
+            feedback: "Pano largo distribui pressão e o bastão permite apertar até o sangue parar."
+          },
+          {
+            id: "C",
+            texto: "Três nós com um cinto.",
+            correta: false,
+            feedback: "Cintos comuns escorregam e não permitem o aperto necessário sem molinete."
+          },
+          {
+            id: "D",
+            texto: "Amarrar abaixo do joelho.",
+            correta: false,
+            feedback: "Deve ser colocado entre o tronco e o ferimento, na parte única do osso."
+          }
+        ]
+      },
+      {
+        id: "etapa_5",
+        pergunta: "Uma mulher não respira. Você abre as vias aéreas e ela volta. Cor START?",
+        tag_visual_detalhe: "acao_triagem_start",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Vermelho (Prioridade 1).",
+            correta: true,
+            feedback: "Se a respiração volta após manobra, ela é uma vítima crítica prioritária."
+          },
+          {
+            id: "B",
+            texto: "Preto (Morto).",
+            correta: false,
+            feedback: "Se ela voltou a respirar, ela não está morta. Vítimas pretas não respiram."
+          },
+          {
+            id: "C",
+            texto: "Verde (Leve).",
+            correta: false,
+            feedback: "Ela estava em parada respiratória; isso é o oposto de lesão leve."
+          },
+          {
+            id: "D",
+            texto: "Amarelo (Urgente).",
+            correta: false,
+            feedback: "Problemas respiratórios imediatos são sempre classificados como Vermelhos."
+          }
+        ]
+      },
+      {
+        id: "etapa_6",
+        pergunta: "Você liga para o 193. Quais as três informações principais?",
+        tag_visual_detalhe: "acao_ligando_emergencia",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Local, vítimas e riscos.",
+            correta: true,
+            feedback: "Permite enviar o número correto de ambulâncias e caminhões de combate."
+          },
+          {
+            id: "B",
+            texto: "Nomes e placas.",
+            correta: false,
+            feedback: "Nomes são irrelevantes no acionamento inicial; foque na logística."
+          },
+          {
+            id: "C",
+            texto: "Sua idade e CPF.",
+            correta: false,
+            feedback: "Dados pessoais não devem atrasar o envio de recursos para o acidente."
+          },
+          {
+            id: "D",
+            texto: "Causa e culpados.",
+            correta: false,
+            feedback: "O foco dos Bombeiros é o socorro, não a investigação policial do evento."
+          }
+        ]
+      },
+      {
+        id: "etapa_7",
+        pergunta: "Técnica: um curioso tenta remover o capacete de um motociclista. Conduta?",
+        tag_visual_detalhe: "risco_interferencia_terceiros",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Ajudar a puxar.",
+            correta: false,
+            feedback: "Remover sem técnica pode causar lesão medular fatal ou paralisia."
+          },
+          {
+            id: "B",
+            texto: "Impedir e explicar risco.",
+            correta: true,
+            feedback: "Capacete só sai com profissional ou em obstrução total de via aérea."
+          },
+          {
+            id: "C",
+            texto: "Deixar ele fazer logo.",
+            correta: false,
+            feedback: "A menos que assuma responsabilidade técnica, a regra é não remover."
+          },
+          {
+            id: "D",
+            texto: "Sugerir usar uma faca.",
+            correta: false,
+            feedback: "Usar ferramentas cortantes perto do pescoço aumenta o risco de morte."
+          }
+        ]
+      },
+      {
+        id: "etapa_8",
+        pergunta: "Vítima consciente diz que não sente as pernas. Como agir?",
+        tag_visual_detalhe: "estado_caida_inconsciente",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Pedir para levantar.",
+            correta: false,
+            feedback: "Forçar movimento pode tornar uma lesão parcial em lesão total da medula."
+          },
+          {
+            id: "B",
+            texto: "Manter imobilização.",
+            correta: true,
+            feedback: "Perda de sensibilidade é sinal de trauma raquimedular. Não mova a vítima."
+          },
+          {
+            id: "C",
+            texto: "Dar beliscão no pé.",
+            correta: false,
+            feedback: "Testes agressivos não são indicados para leigos em cena de trauma."
+          },
+          {
+            id: "D",
+            texto: "Dizer que é susto.",
+            correta: false,
+            feedback: "Subestimar sintomas neurológicos atrasa o tratamento adequado necessário."
+          }
+        ]
+      },
+      {
+        id: "etapa_9",
+        pergunta: "As viaturas chegam. Como passar as informações para a equipe?",
+        tag_visual_detalhe: "desfecho_chegada_socorro",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Sair correndo logo.",
+            correta: false,
+            feedback: "Sua passagem de informações (como o uso do torniquete) é vital."
+          },
+          {
+            id: "B",
+            texto: "Relatar condutas e estado.",
+            correta: true,
+            feedback: "Informe onde estão os graves e quais intervenções você realizou."
+          },
+          {
+            id: "C",
+            texto: "Discutir culpados.",
+            correta: false,
+            feedback: "O foco da equipe de saúde é o paciente, não a investigação criminal."
+          },
+          {
+            id: "D",
+            texto: "Pedir para ver a viatura.",
+            correta: false,
+            feedback: "Não atrapalhe a equipe com curiosidades; seja objetivo no relato."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: "cenario_100",
+    titulo: "Perigo Invisível no Quintal",
+    tag_visual_cenario: "cenario_acidente_eletrico",
+    descricao_inicial: "Um fio de alta tensão caiu sobre a cerca. Um morador tentou abrir o portão e ficou 'preso' pelo choque, caindo desacordado.",
+    etapas: [
+      {
+        id: "etapa_1",
+        pergunta: "Você vê a vítima encostada no portão. Qual sua primeira ação?",
+        tag_visual_detalhe: "acao_manter_distancia",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Puxar pelas roupas.",
+            correta: false,
+            feedback: "Se a roupa estiver úmida ou voltagem alta, você também será eletrocutado."
+          },
+          {
+            id: "B",
+            texto: "Distância e avaliação.",
+            correta: true,
+            feedback: "Choques são perigosos. Garanta que a energia está desligada primeiro."
+          },
+          {
+            id: "C",
+            texto: "Cabo de vassoura úmido.",
+            correta: false,
+            feedback: "Madeira úmida conduz eletricidade. Use apenas isolantes secos."
+          },
+          {
+            id: "D",
+            texto: "Chutar o pé da vítima.",
+            correta: false,
+            feedback: "O contato direto com vítima energizada fará de você a segunda vítima."
+          }
+        ]
+      },
+      {
+        id: "etapa_2",
+        pergunta: "Técnica: como garantir que a cena está segura para o toque?",
+        tag_visual_detalhe: "acao_controle_cena",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Ver se parou de faiscar.",
+            correta: false,
+            feedback: "Fios podem estar energizados mesmo sem faíscas ou ruídos visíveis."
+          },
+          {
+            id: "B",
+            texto: "Desligar a chave geral.",
+            correta: true,
+            feedback: "Interromper a fonte de energia na raiz é a única forma segura de agir."
+          },
+          {
+            id: "C",
+            texto: "Jogar areia sobre o fio.",
+            correta: false,
+            feedback: "Areia não isola cabos de alta tensão e não protege contra o 'passo'."
+          },
+          {
+            id: "D",
+            texto: "Luvas de borracha comuns.",
+            correta: false,
+            feedback: "Luvas domésticas não têm isolamento para altas voltagens industriais."
+          }
+        ]
+      },
+      {
+        id: "etapa_3",
+        pergunta: "Energia desligada. Você toca e ela não responde. O que avaliar agora?",
+        tag_visual_detalhe: "estado_caida_inconsciente",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Procurar marcas de queima.",
+            correta: false,
+            feedback: "Queimaduras são secundárias. Prioridade é avaliar parada cardíaca."
+          },
+          {
+            id: "B",
+            texto: "Verificar respiração.",
+            correta: true,
+            feedback: "O choque causa arritmias fatais ou parada respiratória imediata."
+          },
+          {
+            id: "C",
+            texto: "Ver se quebrou dentes.",
+            correta: false,
+            feedback: "Traumas dentais não matam; a falta de circulação sanguínea sim."
+          },
+          {
+            id: "D",
+            texto: "Retirar as joias dela.",
+            correta: false,
+            feedback: "Remover metais ajuda depois, mas a avaliação vital é prioritária."
+          }
+        ]
+      },
+      {
+        id: "etapa_4",
+        pergunta: "A vítima está em PCR. Por que o DEA é crucial no choque elétrico?",
+        tag_visual_detalhe: "acao_uso_dea",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Choque anula o outro.",
+            correta: false,
+            feedback: "Não se trata de anular, mas de reorganizar o ritmo elétrico cardíaco."
+          },
+          {
+            id: "B",
+            texto: "Trata a fibrilação.",
+            correta: true,
+            feedback: "O choque causa fibrilação. O DEA é extremamente eficaz nestes casos."
+          },
+          {
+            id: "C",
+            texto: "Resfria o peito da vítima.",
+            correta: false,
+            feedback: "O DEA não tem função térmica; ele é um equipamento de choque controlado."
+          },
+          {
+            id: "D",
+            texto: "Aperta o peito sozinho.",
+            correta: false,
+            feedback: "O DEA não faz compressões; ele apenas analisa o ritmo e choca."
+          }
+        ]
+      },
+      {
+        id: "etapa_5",
+        pergunta: "Técnica: queimaduras profundas nas mãos e pés. Como tratá-las?",
+        tag_visual_detalhe: "estado_lesao_pele",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Passar creme dental.",
+            correta: false,
+            feedback: "Produtos caseiros contaminam e dificultam o tratamento médico."
+          },
+          {
+            id: "B",
+            texto: "Pano limpo e seco.",
+            correta: true,
+            feedback: "Queimaduras elétricas são internas. Proteja contra infecção apenas."
+          },
+          {
+            id: "C",
+            texto: "Estourar as bolhas.",
+            correta: false,
+            feedback: "Bolhas são proteção; rompê-las abre porta para infecções graves."
+          },
+          {
+            id: "D",
+            texto: "Esfregar gelo direto.",
+            correta: false,
+            feedback: "Gelo causa queimadura por frio e agrava a lesão tecidual prévia."
+          }
+        ]
+      },
+      {
+        id: "etapa_6",
+        pergunta: "**REVIRAVOLTA:** Início de incêndio na cerca por curto-circuito. Conduta?",
+        tag_visual_detalhe: "risco_incendio",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Jogar balde de água.",
+            correta: false,
+            feedback: "Água em fogo elétrico causa explosões e conduz eletricidade até você."
+          },
+          {
+            id: "B",
+            texto: "Mover a vítima da área.",
+            correta: true,
+            feedback: "Se a cena tornou-se insegura, mova a vítima para local seguro e continue."
+          },
+          {
+            id: "C",
+            texto: "Abafar com as mãos.",
+            correta: false,
+            feedback: "Isso resultará em queimaduras graves em você, impedindo a ajuda."
+          },
+          {
+            id: "D",
+            texto: "Ignorar e continuar.",
+            correta: false,
+            feedback: "A fumaça tóxica e o calor podem incapacitar o socorrista rapidamente."
+          }
+        ]
+      },
+      {
+        id: "etapa_7",
+        pergunta: "Técnica: como mover a vítima em emergência extrema (arrasto)?",
+        tag_visual_detalhe: "acao_evacuacao_extrema",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Puxar pelos pés.",
+            correta: false,
+            feedback: "Puxar pelos pés deixa a cabeça solta para bater em obstáculos."
+          },
+          {
+            id: "B",
+            texto: "Puxar pelas axilas.",
+            correta: true,
+            feedback: "Segure por trás, sob axilas, apoiando a cabeça no seu peito ao arrastar."
+          },
+          {
+            id: "C",
+            texto: "Rolar como tronco.",
+            correta: false,
+            feedback: "Rolar não é eficiente para distâncias e oferece pouco controle cervical."
+          },
+          {
+            id: "D",
+            texto: "Carregar no colo.",
+            correta: false,
+            feedback: "O peso de um adulto torna isso lento e perigoso para sua coluna."
+          }
+        ]
+      },
+      {
+        id: "etapa_8",
+        pergunta: "Em choque elétrico, qual o maior risco interno invisível?",
+        tag_visual_detalhe: "estado_choque_palidez",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Ossos magnetizados.",
+            correta: false,
+            feedback: "Magnetismo ósseo não existe. O risco é fisiológico e sistêmico."
+          },
+          {
+            id: "B",
+            texto: "Lesões nos rins.",
+            correta: true,
+            feedback: "A corrente destrói músculos, o que pode causar falência renal rápida."
+          },
+          {
+            id: "C",
+            texto: "Sangue virar água.",
+            correta: false,
+            feedback: "A composição química não muda dessa forma no choque elétrico."
+          },
+          {
+            id: "D",
+            texto: "Perda de memória.",
+            correta: false,
+            feedback: "A falência orgânica interna é o risco de morte principal neste cenário."
+          }
+        ]
+      },
+      {
+        id: "etapa_9",
+        pergunta: "RCP retomada em local seguro. Qual o número para os Bombeiros?",
+        tag_visual_detalhe: "acao_ligando_emergencia",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Ligar para o 190.",
+            correta: false,
+            feedback: "190 é polícia. Bombeiros (193) atendem incêndios e resgates técnicos."
+          },
+          {
+            id: "B",
+            texto: "Ligar para o 193.",
+            correta: true,
+            feedback: "O 193 deve ser acionado para combater o fogo e ajudar no resgate."
+          },
+          {
+            id: "C",
+            texto: "Ligar para o 192.",
+            correta: false,
+            feedback: "O 192 é para a vítima, mas o 193 é necessário para o risco de incêndio."
+          },
+          {
+            id: "D",
+            texto: "Ligar para o 191.",
+            correta: false,
+            feedback: "191 é a PRF, não atua em incêndios residenciais ou urbanos."
+          }
+        ]
+      },
+      {
+        id: "etapa_10",
+        pergunta: "Equipes chegam. Qual a sua última tarefa no local?",
+        tag_visual_detalhe: "desfecho_chegada_socorro",
+        opcoes: [
+          {
+            id: "A",
+            texto: "Tirar fotos da cena.",
+            correta: false,
+            feedback: "Respeite a privacidade da vítima e não atrapalhe o fluxo profissional."
+          },
+          {
+            id: "B",
+            texto: "Relatar tempo de RCP.",
+            correta: true,
+            feedback: "Informar o tempo de massagem ajuda o médico a definir o prognóstico."
+          },
+          {
+            id: "C",
+            texto: "Pedir um autógrafo.",
+            correta: false,
+            feedback: "Mantenha a seriedade até a conclusão total da ocorrência de emergência."
+          },
+          {
+            id: "D",
+            texto: "Ir embora sem falar.",
+            correta: false,
+            feedback: "O relato do primeiro socorrista é fundamental na continuidade do cuidado."
+          }
+        ]
+      }
+    ]
   }
-]; 
+];
